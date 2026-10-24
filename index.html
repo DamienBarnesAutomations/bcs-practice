@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BCS Business Analysis practice</title>
+  <meta name="description" content="Unofficial practice questions for the BCS Foundation Certificate in Business Analysis.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">BCS Foundation Certificate in Business Analysis</p>
+      <h1 id="home-title">Practice questions</h1>
+      <p class="lede">Work through one chapter or mix all of them. Every question draws four options from a pool of six, and the feedback explains both the right and wrong answers.</p>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section id="screen-home" class="screen" aria-label="Home">
+      <p id="bank-loading" class="loading" role="status">Loading question bank&hellip;</p>
+
+      <div id="bank-error" class="notice notice-error" role="alert" hidden>
+        <div>
+          <p id="bank-error-text"></p>
+          <p class="notice-hint">The app needs <code>./questions.json</code> next to <code>index.html</code>. If you opened this page as a file, serve the folder over HTTP instead.</p>
+        </div>
+        <button id="retry-bank" class="btn" type="button">Retry</button>
+      </div>
+
+      <div id="bank-warning" class="notice notice-warn" role="status" hidden>
+        <p id="bank-warning-text"></p>
+      </div>
+
+      <div id="store-warning" class="notice notice-warn" role="status" hidden>
+        <p>Saved progress could not be read, so it is being ignored. New answers will start a fresh record. Export the stored data first if you want to inspect it.</p>
+      </div>
+
+      <div id="home-body" hidden>
+        <dl class="stats-strip">
+          <div class="stat">
+            <dt class="stat-label">Questions answered</dt>
+            <dd id="stat-total" class="stat-value">0</dd>
+          </div>
+          <div class="stat">
+            <dt class="stat-label">Overall accuracy</dt>
+            <dd id="stat-accuracy" class="stat-value">&mdash;</dd>
+          </div>
+          <div class="stat">
+            <dt class="stat-label">Questions seen</dt>
+            <dd id="stat-seen" class="stat-value">0</dd>
+          </div>
+        </dl>
+
+        <h2 class="section-title">Choose a session</h2>
+        <p class="section-hint">Chapters become available once the bank has questions for them. Mixed practice needs at least 8 questions in total.</p>
+        <div id="chapter-grid" class="card-grid"></div>
+
+        <h2 class="section-title">Your progress</h2>
+        <p class="section-hint">Progress is stored in this browser only. Export it to keep a copy or move it to another machine.</p>
+        <div class="progress-tools">
+          <button id="export-progress" class="btn" type="button">Export progress</button>
+          <button id="import-progress" class="btn" type="button">Import progress</button>
+          <button id="reset-progress" class="btn btn-danger" type="button">Reset progress</button>
+          <input id="import-file" type="file" accept=".json,application/json" hidden>
+        </div>
+        <p id="import-status" class="inline-status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="screen-setup" class="screen" aria-label="Session setup" hidden>
+      <button id="setup-back" class="btn btn-quiet" type="button">&larr; Back to home</button>
+      <h2 id="setup-title" class="section-title"></h2>
+      <p id="setup-sub" class="section-hint"></p>
+
+      <fieldset class="setup-fieldset">
+        <legend>How many questions?</legend>
+        <div id="count-choices" class="count-choices"></div>
+      </fieldset>
+
+      <p id="setup-hint" class="section-hint"></p>
+      <button id="start-session" class="btn btn-primary btn-large" type="button">Start session</button>
+    </section>
+
+    <section id="screen-quiz" class="screen" aria-label="Question" hidden>
+      <div class="quiz-meta">
+        <p id="quiz-context"></p>
+        <p id="question-counter" aria-live="polite"></p>
+        <p id="quiz-score"></p>
+        <p class="timer"><span class="sr-only">Elapsed time </span><span id="timer-value">00:00</span></p>
+      </div>
+
+      <div class="progress-track" aria-hidden="true"><div id="quiz-progress" class="progress-fill"></div></div>
+
+      <h2 id="question-stem" class="stem"></h2>
+      <ul id="option-list" class="options"></ul>
+
+      <div id="feedback" class="feedback" aria-live="polite"></div>
+
+      <p class="keyboard-hint">Keys 1&ndash;4 or A&ndash;D choose an answer. Enter or Space moves on once you have answered.</p>
+      <div class="quiz-actions">
+        <button id="next-question" class="btn btn-primary btn-large" type="button" hidden>Next question</button>
+      </div>
+    </section>
+
+    <section id="screen-summary" class="screen" aria-label="Session summary" hidden>
+      <h2 id="summary-title" class="section-title">Session summary</h2>
+
+      <div class="summary-hero">
+        <p class="summary-percent" id="summary-percent">0%</p>
+        <p class="summary-score">Score <strong id="summary-score">0 / 0</strong></p>
+      </div>
+
+      <dl class="summary-facts">
+        <div class="stat">
+          <dt class="stat-label">Total time</dt>
+          <dd id="summary-time" class="stat-value">00:00</dd>
+        </div>
+        <div class="stat">
+          <dt class="stat-label">Average per question</dt>
+          <dd id="summary-avg" class="stat-value">0.0 s</dd>
+        </div>
+      </dl>
+
+      <h3>By learning outcome</h3>
+      <p class="section-hint">Worst accuracy first.</p>
+      <div class="table-wrap">
+        <table class="lo-table">
+          <caption class="sr-only">Accuracy by learning outcome</caption>
+          <thead>
+            <tr>
+              <th scope="col">LO</th>
+              <th scope="col" class="num">Answered</th>
+              <th scope="col" class="num">Correct</th>
+              <th scope="col" class="num">Accuracy</th>
+            </tr>
+          </thead>
+          <tbody id="lo-table-body"></tbody>
+        </table>
+      </div>
+
+      <h3>Questions you missed</h3>
+      <div id="missed-list" class="missed-list"></div>
+
+      <div class="summary-actions">
+        <button id="practise-again" class="btn btn-primary btn-large" type="button">Practise again</button>
+        <button id="summary-home" class="btn btn-large" type="button">Back to home</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Unofficial study aid. Not affiliated with or endorsed by BCS, The Chartered Institute for IT. Syllabus structure (c) BCS.</p>
+      <p id="bank-versions" class="versions"></p>
+    </div>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

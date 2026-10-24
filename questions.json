@@ -1,0 +1,1056 @@
+{
+  "bankVersion": "0.1.0",
+  "syllabusVersion": "4.1",
+  "generatedFrom": "bank/ch01.md",
+  "builtAt": "2026-10-24T21:52:43Z",
+  "optionsPerQuestion": 6,
+  "optionsShown": 4,
+  "chapters": [
+    {
+      "n": 1,
+      "title": "What is Business Analysis?",
+      "bookPages": "1-24",
+      "weightPct": 5
+    },
+    {
+      "n": 2,
+      "title": "The Competencies of a Business Analyst",
+      "bookPages": "25-47",
+      "weightPct": 2.5
+    },
+    {
+      "n": 3,
+      "title": "The Strategic Context for Business Analysis",
+      "bookPages": "48-70",
+      "weightPct": 7.5
+    },
+    {
+      "n": 4,
+      "title": "The Business Analysis Service Framework",
+      "bookPages": "71-100",
+      "weightPct": 2.5
+    },
+    {
+      "n": 5,
+      "title": "Investigating the Business Situation",
+      "bookPages": "101-140",
+      "weightPct": 12.5
+    },
+    {
+      "n": 6,
+      "title": "Analysing and Managing Stakeholders",
+      "bookPages": "141-166",
+      "weightPct": 10
+    },
+    {
+      "n": 7,
+      "title": "Improving Business Services and Processes",
+      "bookPages": "167-206",
+      "weightPct": 12.5
+    },
+    {
+      "n": 8,
+      "title": "Defining the Solution",
+      "bookPages": "207-232",
+      "weightPct": 7.5
+    },
+    {
+      "n": 9,
+      "title": "Making the Business Case",
+      "bookPages": "233-262",
+      "weightPct": 5
+    },
+    {
+      "n": 10,
+      "title": "Establishing the Requirements",
+      "bookPages": "263-292",
+      "weightPct": 10
+    },
+    {
+      "n": 11,
+      "title": "Documenting and Modelling Requirements",
+      "bookPages": "293-330",
+      "weightPct": 10
+    },
+    {
+      "n": 12,
+      "title": "Validating and Managing Requirements",
+      "bookPages": "331-352",
+      "weightPct": 5
+    },
+    {
+      "n": 13,
+      "title": "Delivering the Requirements",
+      "bookPages": "353-374",
+      "weightPct": 5
+    },
+    {
+      "n": 14,
+      "title": "Delivering the Business Solution",
+      "bookPages": "375-398",
+      "weightPct": 5
+    }
+  ],
+  "questions": [
+    {
+      "id": "ch1-1.1-01",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.1",
+      "stem": "A retailer's board has approved a new strategy and a regulator has issued guidance that changes what the business must do. Before any change initiative is scoped, a business analyst is asked to check that the proposed changes fit this wider context. Which stage of the business change lifecycle is this?",
+      "options": [
+        {
+          "text": "Alignment",
+          "correct": true,
+          "note": "Alignment fits change initiatives to the external business environment, the enterprise architecture and the business strategy."
+        },
+        {
+          "text": "Definition",
+          "correct": false,
+          "note": "Definition follows alignment and analyses the business situation and requirements."
+        },
+        {
+          "text": "Design",
+          "correct": false,
+          "note": "Design follows definition and produces the design specification, development and testing."
+        },
+        {
+          "text": "Implementation",
+          "correct": false,
+          "note": "Implementation is the deployment of the agreed solution."
+        },
+        {
+          "text": "Realisation",
+          "correct": false,
+          "note": "Realisation is the post-implementation review of benefits."
+        },
+        {
+          "text": "Business case",
+          "correct": false,
+          "note": "The business case sits at the centre of the lifecycle rather than being one of its stages."
+        }
+      ],
+      "explanation": "Alignment is the stage that lines up proposed change with the external environment, the enterprise architecture and business strategy. Definition only begins once that context is set."
+    },
+    {
+      "id": "ch1-1.1-02",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.1",
+      "stem": "A business analyst is examining how a claims team works today and what the business needs from a new way of working, so that efficiency and effectiveness improve. Which lifecycle stage is this?",
+      "options": [
+        {
+          "text": "Definition",
+          "correct": true,
+          "note": "Definition analyses the business situation and the requirements in order to determine new ways of working that improve efficiency and effectiveness."
+        },
+        {
+          "text": "Alignment",
+          "correct": false,
+          "note": "Alignment comes earlier and concerns the external environment, enterprise architecture and business strategy."
+        },
+        {
+          "text": "Design",
+          "correct": false,
+          "note": "Design turns agreed requirements into a design specification."
+        },
+        {
+          "text": "Implementation",
+          "correct": false,
+          "note": "Implementation is the deployment of the agreed solution."
+        },
+        {
+          "text": "Realisation",
+          "correct": false,
+          "note": "Realisation is the review of benefits after deployment."
+        },
+        {
+          "text": "Feasibility assessment",
+          "correct": false,
+          "note": "Feasibility assessment is part of business case work, not a stage of the lifecycle."
+        }
+      ],
+      "explanation": "Analysing the current situation and shaping requirements into new ways of working is definition. Alignment has already set the strategic context by this point."
+    },
+    {
+      "id": "ch1-1.1-03",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.1",
+      "stem": "A bank has agreed its requirements. Work now moves to producing the design specification and then building the solution against it. Which lifecycle stage is under way?",
+      "options": [
+        {
+          "text": "Design",
+          "correct": true,
+          "note": "Design covers change design and development: the design specification and the build of the solution."
+        },
+        {
+          "text": "Definition",
+          "correct": false,
+          "note": "Definition produced the requirements and is complete before design begins."
+        },
+        {
+          "text": "Implementation",
+          "correct": false,
+          "note": "Implementation follows design and deploys the solution."
+        },
+        {
+          "text": "Realisation",
+          "correct": false,
+          "note": "Realisation follows deployment and reviews whether benefits were delivered."
+        },
+        {
+          "text": "Alignment",
+          "correct": false,
+          "note": "Alignment is the earliest stage and sets the strategic context."
+        },
+        {
+          "text": "Business case",
+          "correct": false,
+          "note": "The business case is the element at the centre of the lifecycle, not a stage."
+        }
+      ],
+      "explanation": "The design stage produces the design specification and covers development of the solution. Definition produced the requirements and is complete before design begins."
+    },
+    {
+      "id": "ch1-1.1-04",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.1",
+      "stem": "The new system has passed acceptance testing and is being rolled out branch by branch, with staff trained and customer records migrated as each branch goes live. Which lifecycle stage is this?",
+      "options": [
+        {
+          "text": "Implementation",
+          "correct": true,
+          "note": "Implementation is the deployment of the agreed solution into the business."
+        },
+        {
+          "text": "Design",
+          "correct": false,
+          "note": "Design is finished before deployment starts, although it included acceptance testing."
+        },
+        {
+          "text": "Realisation",
+          "correct": false,
+          "note": "Realisation comes after deployment and reviews the benefits achieved."
+        },
+        {
+          "text": "Definition",
+          "correct": false,
+          "note": "Definition established the requirements much earlier."
+        },
+        {
+          "text": "Alignment",
+          "correct": false,
+          "note": "Alignment set the strategic context at the start of the lifecycle."
+        },
+        {
+          "text": "Feasibility assessment",
+          "correct": false,
+          "note": "Feasibility assessment belongs to business case work, not to deployment."
+        }
+      ],
+      "explanation": "Deployment, training and migration are implementation. Realisation is the tempting near-miss, but it starts once the solution is in operation and is about reviewing benefits."
+    },
+    {
+      "id": "ch1-1.1-05",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.1",
+      "stem": "Six months after go-live, the sponsor asks the analyst to check whether the expected reduction in processing time has actually materialised. Which lifecycle stage is this?",
+      "options": [
+        {
+          "text": "Realisation",
+          "correct": true,
+          "note": "Realisation covers the post-implementation review and the realisation of business benefits."
+        },
+        {
+          "text": "Implementation",
+          "correct": false,
+          "note": "Implementation ended when the solution was deployed and users were supported into live running."
+        },
+        {
+          "text": "Design",
+          "correct": false,
+          "note": "Design produced the specification and the tested solution."
+        },
+        {
+          "text": "Definition",
+          "correct": false,
+          "note": "Definition established the requirements for the change."
+        },
+        {
+          "text": "Alignment",
+          "correct": false,
+          "note": "Alignment confirmed that the change fitted the business strategy."
+        },
+        {
+          "text": "The business case",
+          "correct": false,
+          "note": "The business case is the central element that benefits are measured against, not a lifecycle stage."
+        }
+      ],
+      "explanation": "Benefits are reviewed in realisation once the solution is in operation. Checking the benefit makes the business case relevant, but the work being done is the realisation review."
+    },
+    {
+      "id": "ch1-1.1-06",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.1",
+      "stem": "In the business change lifecycle, which element sits at the centre and is linked to every stage?",
+      "options": [
+        {
+          "text": "The business case",
+          "correct": true,
+          "note": "The business case is shown at the centre of the lifecycle and connects to alignment, definition, design, implementation and realisation."
+        },
+        {
+          "text": "The design specification",
+          "correct": false,
+          "note": "A design specification is produced during the design stage and is an output of one stage."
+        },
+        {
+          "text": "The benefits plan",
+          "correct": false,
+          "note": "Benefits are reviewed in realisation, but the plan is not the hub around which the other stages turn."
+        },
+        {
+          "text": "The requirements catalogue",
+          "correct": false,
+          "note": "Requirements are established mainly during definition and then managed through later stages."
+        },
+        {
+          "text": "The enterprise architecture",
+          "correct": false,
+          "note": "Enterprise architecture is one of the inputs to alignment."
+        },
+        {
+          "text": "The stakeholder map",
+          "correct": false,
+          "note": "Stakeholder analysis supports the work at every stage but is not the central element of the model."
+        }
+      ],
+      "explanation": "The lifecycle diagram places the business case in the middle, with a connection to each of the five stages. Every stage is judged against whether the case for the change still stands."
+    },
+    {
+      "id": "ch1-1.1-07",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.1",
+      "stem": "Why does the business change lifecycle treat IT system development as one part of a change rather than the whole of it?",
+      "options": [
+        {
+          "text": "Because benefits usually depend on changes to processes, roles and skills as well as technology, so the change has to be aligned with business need.",
+          "correct": true,
+          "note": "The lifecycle reflects a broader view of business change, in which technology is only one of the aspects that has to change."
+        },
+        {
+          "text": "Because outsourced suppliers cannot be trusted to deliver to specification.",
+          "correct": false,
+          "note": "Outsourcing is one reason organisations value business representation, but it is not the reason the lifecycle is broader than IT development."
+        },
+        {
+          "text": "Because enterprise architecture rules out bespoke system development.",
+          "correct": false,
+          "note": "Enterprise architecture is an input to alignment; it does not remove system development from the lifecycle."
+        },
+        {
+          "text": "Because Agile methods have replaced linear development lifecycles.",
+          "correct": false,
+          "note": "Agile is one delivery approach among several and does not explain why the lifecycle spans business change."
+        },
+        {
+          "text": "Because regulators require benefits to be reported annually.",
+          "correct": false,
+          "note": "External reporting is not the rationale given for the shape of the lifecycle."
+        },
+        {
+          "text": "Because the business case is written only after deployment.",
+          "correct": false,
+          "note": "The business case sits at the centre of the lifecycle and is relevant from the start, not only after deployment."
+        }
+      ],
+      "explanation": "The lifecycle was developed because organisations recognised that focusing purely on the IT element misses the process, people and organisational changes that actually deliver the benefit."
+    },
+    {
+      "id": "ch1-1.2-01",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.2",
+      "stem": "A warehouse keeps reporting stock discrepancies, and the team asks for a better exception report. The analyst instead traces why stock movements are recorded late at every shift handover. Which principle is being applied?",
+      "options": [
+        {
+          "text": "Root causes, not symptoms",
+          "correct": true,
+          "note": "The report request is treated as a symptom, and the analyst investigates the underlying cause of the discrepancies."
+        },
+        {
+          "text": "Business improvement, not IT system change",
+          "correct": false,
+          "note": "This principle asks whether the proposed change improves the business at all, but it does not describe tracing a cause."
+        },
+        {
+          "text": "Options, not solutions",
+          "correct": false,
+          "note": "This principle is about evaluating alternative ways of meeting a need, not about diagnosing why a problem occurs."
+        },
+        {
+          "text": "Feasible, contributing requirements",
+          "correct": false,
+          "note": "This principle filters requests against constraints and objectives, which is a later activity."
+        },
+        {
+          "text": "The entire business change lifecycle",
+          "correct": false,
+          "note": "This principle concerns the span of BA involvement, not the depth of investigation."
+        },
+        {
+          "text": "Negotiation, not avoidance",
+          "correct": false,
+          "note": "This principle concerns resolving conflicting stakeholder views."
+        }
+      ],
+      "explanation": "The request for a report addresses the visible symptom. Checking how and when stock movements are captured looks for the root cause, which is what the first principle asks for."
+    },
+    {
+      "id": "ch1-1.2-02",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.2",
+      "stem": "A sponsor opens a change initiative by saying \"we are buying a workflow tool\". The analyst asks what business problem the tool is meant to solve and what improvement is expected. Which principle is being applied?",
+      "options": [
+        {
+          "text": "Business improvement, not IT system change",
+          "correct": true,
+          "note": "The analyst treats IT as an enabler of an agreed business improvement rather than as the purpose of the change."
+        },
+        {
+          "text": "Options, not solutions",
+          "correct": false,
+          "note": "Questioning the tool can look like comparing options, but here the analyst is reframing the goal, not evaluating alternatives."
+        },
+        {
+          "text": "Root causes, not symptoms",
+          "correct": false,
+          "note": "This principle is about diagnosing why a problem occurs, not about questioning the goal of a project."
+        },
+        {
+          "text": "Feasible, contributing requirements",
+          "correct": false,
+          "note": "This principle filters requirements against constraints once the goal is accepted."
+        },
+        {
+          "text": "The entire business change lifecycle",
+          "correct": false,
+          "note": "This principle concerns continuing BA involvement after requirements are defined."
+        },
+        {
+          "text": "Negotiation, not avoidance",
+          "correct": false,
+          "note": "This principle concerns handling conflicting stakeholder views."
+        }
+      ],
+      "explanation": "The principle says IT systems should enable a business opportunity or the resolution of a business problem. Asking what improvement is expected puts the business outcome ahead of the technology purchase."
+    },
+    {
+      "id": "ch1-1.2-03",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.2",
+      "stem": "The operations director has already selected a vendor product and asks the analyst to write requirements for it. The analyst first sets out and evaluates two other ways of meeting the need, including a process change that needs no software. Which principle is being applied?",
+      "options": [
+        {
+          "text": "Options, not solutions",
+          "correct": true,
+          "note": "The analyst challenges a predetermined solution and evaluates alternative options for meeting the business need."
+        },
+        {
+          "text": "Business improvement, not IT system change",
+          "correct": false,
+          "note": "This principle is close, but the specific behaviour here is the comparison of alternatives before committing."
+        },
+        {
+          "text": "Root causes, not symptoms",
+          "correct": false,
+          "note": "No investigation into the cause of a problem is described."
+        },
+        {
+          "text": "Feasible, contributing requirements",
+          "correct": false,
+          "note": "Requirements filtering happens after options are chosen, not instead of choosing between them."
+        },
+        {
+          "text": "The entire business change lifecycle",
+          "correct": false,
+          "note": "This principle concerns the span of involvement, not the choice between options."
+        },
+        {
+          "text": "Negotiation, not avoidance",
+          "correct": false,
+          "note": "No conflicting stakeholder positions are being resolved."
+        }
+      ],
+      "explanation": "The principle asks business analysts to challenge predetermined solutions and identify and evaluate options. The process-only alternative is what makes the challenge concrete."
+    },
+    {
+      "id": "ch1-1.2-04",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.2",
+      "stem": "Stakeholders present 40 requirements they all describe as mandatory. The analyst checks each one against the budget and delivery date, and removes those that add nothing towards the stated business objectives. Which principle is being applied?",
+      "options": [
+        {
+          "text": "Feasible, contributing requirements, not meeting all requests",
+          "correct": true,
+          "note": "The analyst weighs stated requirements against financial and timescale constraints and against business objectives."
+        },
+        {
+          "text": "Negotiation, not avoidance",
+          "correct": false,
+          "note": "Stakeholders may be disappointed, but no conflict between stakeholder views is being negotiated here."
+        },
+        {
+          "text": "Options, not solutions",
+          "correct": false,
+          "note": "This principle concerns choosing between ways of meeting the need, not filtering the requirements of one option."
+        },
+        {
+          "text": "Root causes, not symptoms",
+          "correct": false,
+          "note": "The analyst is not investigating why a problem occurs."
+        },
+        {
+          "text": "Business improvement, not IT system change",
+          "correct": false,
+          "note": "The analyst is not challenging whether IT is the answer."
+        },
+        {
+          "text": "The entire business change lifecycle",
+          "correct": false,
+          "note": "The work described sits within requirements definition."
+        }
+      ],
+      "explanation": "The principle accepts that not every request can be met and requires BAs to assess feasibility and contribution to business objectives."
+    },
+    {
+      "id": "ch1-1.2-05",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.2",
+      "stem": "Once the requirements have been signed off, a business analyst hands the pack to the project team and declines to help with design reviews, acceptance testing or the post-implementation review. Which principle is being breached?",
+      "options": [
+        {
+          "text": "The entire business change lifecycle, not just requirements definition",
+          "correct": true,
+          "note": "The principle expects the BA to support design, testing, deployment and post-implementation review, not only the requirements work."
+        },
+        {
+          "text": "Negotiation, not avoidance",
+          "correct": false,
+          "note": "No conflicting stakeholder views are described."
+        },
+        {
+          "text": "Root causes, not symptoms",
+          "correct": false,
+          "note": "The analyst is not being asked to diagnose a problem."
+        },
+        {
+          "text": "Options, not solutions",
+          "correct": false,
+          "note": "The options decision appears to have been taken already."
+        },
+        {
+          "text": "Feasible, contributing requirements",
+          "correct": false,
+          "note": "No requirements are being filtered in this scenario."
+        },
+        {
+          "text": "Business improvement, not IT system change",
+          "correct": false,
+          "note": "The scenario does not turn on the purpose of the technology."
+        }
+      ],
+      "explanation": "Requirements definition is one part of the lifecycle. The principle explicitly extends BA responsibility to the whole change, including support for testing, deployment and benefits review."
+    },
+    {
+      "id": "ch1-1.2-06",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.2",
+      "stem": "Sales wants a rule that blocks all discounting without approval; finance wants discounts approved case by case. Both groups have legitimate needs. The analyst brings them together and helps them agree a single rule that satisfies both. Which principle is being applied?",
+      "options": [
+        {
+          "text": "Negotiation, not avoidance",
+          "correct": true,
+          "note": "The analyst recognises the conflicting views and negotiates a resolution between the stakeholders."
+        },
+        {
+          "text": "Options, not solutions",
+          "correct": false,
+          "note": "A rule is one way of meeting the need, but the behaviour described is the resolution of a conflict."
+        },
+        {
+          "text": "Root causes, not symptoms",
+          "correct": false,
+          "note": "The disagreement is about policy, not about the cause of a problem."
+        },
+        {
+          "text": "Feasible, contributing requirements",
+          "correct": false,
+          "note": "This principle filters requirements against constraints rather than reconciling two stakeholders."
+        },
+        {
+          "text": "The entire business change lifecycle",
+          "correct": false,
+          "note": "This principle concerns when the BA is involved."
+        },
+        {
+          "text": "Business improvement, not IT system change",
+          "correct": false,
+          "note": "No technology decision is at issue."
+        }
+      ],
+      "explanation": "The principle sets out that business analysts should recognise conflicting stakeholder requirements and negotiate between them rather than record the conflict and move on."
+    },
+    {
+      "id": "ch1-1.2-07",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.2",
+      "stem": "The principles of business analysis are described as being underpinned by two approaches. Which pair?",
+      "options": [
+        {
+          "text": "The holistic approach and the Agile philosophy",
+          "correct": true,
+          "note": "These are the two approaches named as underpinning the principles."
+        },
+        {
+          "text": "The business change lifecycle and the BASF",
+          "correct": false,
+          "note": "These are a lifecycle and a service framework, not the pair that underpins the principles."
+        },
+        {
+          "text": "POPIT and the Business Analysis Maturity Model",
+          "correct": false,
+          "note": "POPIT is an analysis model and BAMM is a maturity model; neither is named as an underpinning approach."
+        },
+        {
+          "text": "Service thinking and the CMMI",
+          "correct": false,
+          "note": "Service thinking is a perspective on value and CMMI is a process maturity model."
+        },
+        {
+          "text": "PESTLE and VMOST",
+          "correct": false,
+          "note": "These are strategy analysis techniques from chapter 3."
+        },
+        {
+          "text": "The business case and benefits realisation",
+          "correct": false,
+          "note": "These belong to the lifecycle and to realisation, not to the principles."
+        }
+      ],
+      "explanation": "The book states that the principles are underpinned by the holistic approach and the Agile philosophy. The holistic approach supplies the breadth of view, and Agile supplies the flexibility in how requirements and solutions evolve."
+    },
+    {
+      "id": "ch1-1.2-08",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.2",
+      "stem": "A system is delivered on time and works as specified, but the process it supports is unchanged and staff have not been trained, so the expected benefit does not appear. Which of the following does this most clearly show the need for?",
+      "options": [
+        {
+          "text": "A holistic approach",
+          "correct": true,
+          "note": "The shortfall comes from ignoring parts of the business system beyond the software, which is what a holistic approach prevents."
+        },
+        {
+          "text": "Business improvement, not IT system change",
+          "correct": false,
+          "note": "The project did aim at a business improvement; the failure was in the other aspects of the change."
+        },
+        {
+          "text": "Root causes, not symptoms",
+          "correct": false,
+          "note": "The problem is not a misdiagnosed cause but an incomplete view of the change."
+        },
+        {
+          "text": "Options, not solutions",
+          "correct": false,
+          "note": "Alternative solutions are not at issue here."
+        },
+        {
+          "text": "Feasible, contributing requirements",
+          "correct": false,
+          "note": "The requirements were delivered as specified, so filtering is not the issue."
+        },
+        {
+          "text": "Negotiation, not avoidance",
+          "correct": false,
+          "note": "No stakeholder conflict is described."
+        }
+      ],
+      "explanation": "A holistic approach requires all aspects of the business system, including processes, roles and skills, to be considered together. A software-only view can deliver a working system and still miss the benefit."
+    },
+    {
+      "id": "ch1-1.3-01",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.3",
+      "stem": "A business analyst works with directors to understand which business situations need to improve, defines requirements from a business solution perspective, and models them with conceptual models such as business use case diagrams. Which variant of the role is this?",
+      "options": [
+        {
+          "text": "Enterprise business analyst",
+          "correct": true,
+          "note": "This variant works on business situations and requirements at a business solution level, often with senior stakeholders and conceptual models."
+        },
+        {
+          "text": "Technical business analyst",
+          "correct": false,
+          "note": "This variant analyses solution requirements and models system features, data and events."
+        },
+        {
+          "text": "Digital business analyst",
+          "correct": false,
+          "note": "This variant focuses on digital technology, customer experience and data-driven opportunity."
+        },
+        {
+          "text": "Project business analyst",
+          "correct": false,
+          "note": "This variant focuses on the software product, typically elaborating user stories."
+        },
+        {
+          "text": "Proxy product owner",
+          "correct": false,
+          "note": "This variant owns the product backlog and prioritisation decisions in an Agile team."
+        },
+        {
+          "text": "Business systems analyst",
+          "correct": false,
+          "note": "This is an alternative name for the technical or systems analysis variant."
+        }
+      ],
+      "explanation": "Senior stakeholder engagement plus business-level requirements and conceptual business use case models is the enterprise variant. The technical variant works at the level of system features and data."
+    },
+    {
+      "id": "ch1-1.3-02",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.3",
+      "stem": "A business analyst models required system behaviour with use case, class and state machine diagrams, and specifies the non-functional requirements that developers must meet. Which variant of the role is this?",
+      "options": [
+        {
+          "text": "Technical business analyst",
+          "correct": true,
+          "note": "This variant analyses solution requirements and supports software development with system, data and event models."
+        },
+        {
+          "text": "Enterprise business analyst",
+          "correct": false,
+          "note": "This variant works at business solution level with senior stakeholders, not at system feature level."
+        },
+        {
+          "text": "Digital business analyst",
+          "correct": false,
+          "note": "This variant concentrates on digital opportunity, customer experience and data insight."
+        },
+        {
+          "text": "Project business analyst",
+          "correct": false,
+          "note": "This variant elaborates user stories and business rules for the software product rather than modelling system features in detail."
+        },
+        {
+          "text": "Proxy product owner",
+          "correct": false,
+          "note": "This variant manages the backlog and feature priorities."
+        },
+        {
+          "text": "Strategic analyst",
+          "correct": false,
+          "note": "Strategy analysis and definition is normally senior management work, supported by consultants, and outside the BA remit."
+        }
+      ],
+      "explanation": "Detailed system models and non-functional specifications sit with the technical variant, also called the business systems analyst. The essential difference from business analysis is a software focus rather than a business outcome focus."
+    },
+    {
+      "id": "ch1-1.3-03",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.3",
+      "stem": "A business analyst is asked to improve how customers are recognised and served across web and mobile channels, drawing on customer data and analytics, and to challenge existing ways of working using new technology. Which variant of the role is this?",
+      "options": [
+        {
+          "text": "Digital business analyst",
+          "correct": true,
+          "note": "This variant exploits digital technologies, customer experience requirements and data insight, and extends beyond systems analysis."
+        },
+        {
+          "text": "Technical business analyst",
+          "correct": false,
+          "note": "Technology is involved, but this variant specifies system features and models rather than pursuing digital opportunity and customer experience."
+        },
+        {
+          "text": "Enterprise business analyst",
+          "correct": false,
+          "note": "This variant works on business situations and requirements with senior stakeholders across the enterprise."
+        },
+        {
+          "text": "Project business analyst",
+          "correct": false,
+          "note": "This variant works within a software project on user stories and business rules."
+        },
+        {
+          "text": "Proxy product owner",
+          "correct": false,
+          "note": "This variant owns backlog management and prioritisation."
+        },
+        {
+          "text": "IT systems analyst",
+          "correct": false,
+          "note": "This role analyses and specifies IT system requirements within a defined scope."
+        }
+      ],
+      "explanation": "Customer experience, personalisation, data and analytics, and challenging existing ways of working are the concerns of the digital variant. The digital role extends beyond systems analysis rather than replacing it."
+    },
+    {
+      "id": "ch1-1.3-04",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.3",
+      "stem": "In an Agile team, a business analyst writes user stories with business staff and product developers, and elaborates the business rules and non-functional requirements that apply to the software product. Which variant of the role is this?",
+      "options": [
+        {
+          "text": "Project business analyst",
+          "correct": true,
+          "note": "This variant focuses on developing the software product, typically elaborating user stories with business staff and developers."
+        },
+        {
+          "text": "Technical business analyst",
+          "correct": false,
+          "note": "This variant is close, but it models system features with use case, class and event diagrams rather than elaborating user stories."
+        },
+        {
+          "text": "Enterprise business analyst",
+          "correct": false,
+          "note": "This variant works at business solution level with senior stakeholders."
+        },
+        {
+          "text": "Digital business analyst",
+          "correct": false,
+          "note": "This variant focuses on digital opportunity and customer experience across channels."
+        },
+        {
+          "text": "Proxy product owner",
+          "correct": false,
+          "note": "This variant holds responsibility for the backlog and its priorities."
+        },
+        {
+          "text": "Business systems analyst",
+          "correct": false,
+          "note": "This is another name for the technical variant, not the user story role."
+        }
+      ],
+      "explanation": "Elaborating user stories and business rules for a software product is the project variant. The technical variant is the near-miss, but its defining work is system and data modelling."
+    },
+    {
+      "id": "ch1-1.3-05",
+      "chapter": 1,
+      "topic": 1,
+      "lo": "1.3",
+      "stem": "In an Agile software development environment, a business analyst maintains and orders the product backlog and is empowered to decide which features take priority on the organisation's behalf. Which variant of the role is this?",
+      "options": [
+        {
+          "text": "Proxy product owner",
+          "correct": true,
+          "note": "Where a BA takes on the product owner's backlog and prioritisation duties, the role is described as the proxy product owner."
+        },
+        {
+          "text": "Product owner",
+          "correct": false,
+          "note": "The product owner is the business role being represented; the BA acting in it is the proxy."
+        },
+        {
+          "text": "Project business analyst",
+          "correct": false,
+          "note": "This variant elaborates user stories but does not hold decision rights over feature priority."
+        },
+        {
+          "text": "Enterprise business analyst",
+          "correct": false,
+          "note": "This variant works at business solution level, not on a product backlog."
+        },
+        {
+          "text": "Technical business analyst",
+          "correct": false,
+          "note": "This variant specifies system features and non-functional requirements."
+        },
+        {
+          "text": "Digital business analyst",
+          "correct": false,
+          "note": "This variant pursues digital opportunity and customer experience."
+        }
+      ],
+      "explanation": "The proxy product owner variant exists because the BA represents the business during product development and is empowered to make decisions about feature priority on its behalf."
+    },
+    {
+      "id": "ch1-3.6-01",
+      "chapter": 1,
+      "topic": 3,
+      "lo": "3.6",
+      "stem": "The POPIT model is used to structure the analysis of a business system. Which four areas does it cover?",
+      "options": [
+        {
+          "text": "People; organisation; processes; information and technology",
+          "correct": true,
+          "note": "These are the four views shown in the POPIT triangle, with information and technology treated as one band."
+        },
+        {
+          "text": "People; processes; technology; strategy",
+          "correct": false,
+          "note": "Strategy is not a POPIT view; it sets the context in which POPIT analysis happens."
+        },
+        {
+          "text": "Organisation; culture; processes; data",
+          "correct": false,
+          "note": "Culture and data are aspects considered within POPIT, but they are not two of its four named views."
+        },
+        {
+          "text": "People; information; customers; suppliers",
+          "correct": false,
+          "note": "Customers and suppliers are stakeholder categories, not POPIT views."
+        },
+        {
+          "text": "Strategy; processes; information; organisation",
+          "correct": false,
+          "note": "Strategy is absent from POPIT and people is missing from this list."
+        },
+        {
+          "text": "People; organisation; products; IT systems",
+          "correct": false,
+          "note": "Products are not a POPIT view, and information is missing."
+        }
+      ],
+      "explanation": "POPIT stands for People, Organisation, Processes, Information and Technology. The model is used to check that every view of the business system, and the links between them, has been considered."
+    },
+    {
+      "id": "ch1-3.6-02",
+      "chapter": 1,
+      "topic": 3,
+      "lo": "3.6",
+      "stem": "A review finds that processes are efficient, the software is adequate and staff are skilled and motivated, but nobody is clear who is accountable for what, managers do not encourage cross-functional working, and there is no supportive management style. Which POPIT area is deficient?",
+      "options": [
+        {
+          "text": "Organisation",
+          "correct": true,
+          "note": "Roles, responsibilities, management style and cross-functional collaboration are the organisational questions in POPIT."
+        },
+        {
+          "text": "People",
+          "correct": false,
+          "note": "Skills and motivation are the people questions, and the review says both are satisfactory."
+        },
+        {
+          "text": "Processes",
+          "correct": false,
+          "note": "The review says the processes are efficient and well defined."
+        },
+        {
+          "text": "Information and technology",
+          "correct": false,
+          "note": "The software is described as adequate and no information problem is reported."
+        },
+        {
+          "text": "Business case",
+          "correct": false,
+          "note": "The business case is the central element of the change lifecycle, not a POPIT view."
+        },
+        {
+          "text": "Enterprise architecture",
+          "correct": false,
+          "note": "Enterprise architecture is an input to alignment, not one of the four POPIT areas."
+        }
+      ],
+      "explanation": "POPIT asks whether roles and responsibilities are well defined, whether management style is supportive and whether cross-functional working is encouraged. All three failures point to organisation, not to the people themselves."
+    },
+    {
+      "id": "ch1-4.1-01",
+      "chapter": 1,
+      "topic": 4,
+      "lo": "4.1",
+      "stem": "A business analyst is asked to establish whether a proposed self-service portal is viable and to pull together the costs, benefits and risks so that the board can decide whether to fund it. Which BASF service is this?",
+      "options": [
+        {
+          "text": "Feasibility assessment and business case development",
+          "correct": true,
+          "note": "The service tests viability and assembles the case on which a funding decision is taken."
+        },
+        {
+          "text": "Situation investigation and problem analysis",
+          "correct": false,
+          "note": "This service investigates the business situation and defines the problem before options are assessed."
+        },
+        {
+          "text": "Business process improvement",
+          "correct": false,
+          "note": "This service redesigns or improves processes rather than appraising an investment."
+        },
+        {
+          "text": "Requirements definition",
+          "correct": false,
+          "note": "This service elicits and specifies what the solution must do, after the decision to proceed."
+        },
+        {
+          "text": "Business acceptance testing",
+          "correct": false,
+          "note": "This service confirms that the delivered solution meets business needs."
+        },
+        {
+          "text": "Business change deployment",
+          "correct": false,
+          "note": "This service supports the rollout and take-up of the solution."
+        }
+      ],
+      "explanation": "Viability plus costs, benefits and risks for a funding decision is feasibility assessment and business case development. Situation investigation is the tempting near-miss, but that work establishes the problem rather than appraising the investment."
+    },
+    {
+      "id": "ch1-4.1-02",
+      "chapter": 1,
+      "topic": 4,
+      "lo": "4.1",
+      "stem": "Before go-live, a business analyst plans and supports structured tests in which business staff confirm that the solution supports their work and meets the defined business needs. Which BASF service is this?",
+      "options": [
+        {
+          "text": "Business acceptance testing",
+          "correct": true,
+          "note": "The service confirms, with business staff, that the solution is fit for the business before it is deployed."
+        },
+        {
+          "text": "Business change deployment",
+          "correct": false,
+          "note": "Deployment follows acceptance and covers the rollout and take-up of the change."
+        },
+        {
+          "text": "Requirements definition",
+          "correct": false,
+          "note": "Requirements were defined earlier and are the baseline the tests are measured against."
+        },
+        {
+          "text": "Feasibility assessment and business case development",
+          "correct": false,
+          "note": "This service appraises the investment, not the delivered solution."
+        },
+        {
+          "text": "Business process improvement",
+          "correct": false,
+          "note": "This service changes the process rather than testing a solution against it."
+        },
+        {
+          "text": "Situation investigation and problem analysis",
+          "correct": false,
+          "note": "This service establishes the problem at the start of the work."
+        }
+      ],
+      "explanation": "Business acceptance testing is the service in which the business confirms the solution meets its needs. Deployment is the tempting near-miss, but it starts after acceptance has been given."
+    }
+  ]
+}
