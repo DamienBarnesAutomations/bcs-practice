@@ -1,8 +1,8 @@
 {
   "bankVersion": "0.1.0",
   "syllabusVersion": "4.1",
-  "generatedFrom": "bank/ch01.md, bank/ch02.md, bank/ch03.md, bank/ch04.md, bank/ch05.md, bank/ch06.md, bank/ch07.md, bank/ch08.md, bank/ch09.md, bank/ch10.md",
-  "builtAt": "2026-10-25T11:39:10Z",
+  "generatedFrom": "bank/ch01.md, bank/ch02.md, bank/ch03.md, bank/ch04.md, bank/ch05.md, bank/ch06.md, bank/ch07.md, bank/ch08.md, bank/ch09.md, bank/ch10.md, bank/ch11.md, bank/ch12.md, bank/ch13.md, bank/ch14.md",
+  "builtAt": "2026-10-25T11:55:14Z",
   "optionsPerQuestion": 6,
   "optionsShown": 4,
   "chapters": [
@@ -5220,7 +5220,7 @@
       "stem": "A finance director takes a moderate interest in a project and has real power over whether resources are released to it. Which strategy does the grid recommend?",
       "options": [
         {
-          "text": "Keep satisfied, so that they do not take a more direct and obstructive interest",
+          "text": "Keep satisfied",
           "correct": true,
           "note": "The chapter describes this cell and adds that encouraging positive involvement can turn such a stakeholder into a force for success."
         },
@@ -6460,7 +6460,7 @@
       "stem": "An analyst is analysing a task at actor-task level and records that calls must be completed within five minutes, averaging three minutes. Which analysis area is being recorded?",
       "options": [
         {
-          "text": "Performance measures, covering accuracy and timeliness",
+          "text": "Performance measures",
           "correct": true,
           "note": "The chapter defines performance measures at task level as those concerned with accuracy and timeliness."
         },
@@ -6540,7 +6540,7 @@
       "stem": "A task description shows a numbered sequence in which step two branches depending on whether the customer passes an identity check. What is being described?",
       "options": [
         {
-          "text": "Steps, with business rules determining the outcome of the decision within the task",
+          "text": "Steps",
           "correct": true,
           "note": "Steps are the individual actions within a task, and the actor may need to apply business rules when performing them."
         },
@@ -10251,6 +10251,3526 @@
         }
       ],
       "explanation": "The two business rule categories are constraints and operational guidance. Constraints set what is allowed; operational guidance sets how a transaction, decision or calculation is carried out."
+    },
+    {
+      "id": "ch11-11.1-01",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.1",
+      "stem": "Which grouping of documentation styles does the chapter give?",
+      "options": [
+        {
+          "text": "Text-based: requirements catalogue and user story. Diagrammatic: data model, use case model and business process model",
+          "correct": true,
+          "note": "Those are the two groups and the five styles."
+        },
+        {
+          "text": "Text-based: requirements catalogue and data model. Diagrammatic: user story and use case model",
+          "correct": false,
+          "note": "Data models are not text-based."
+        },
+        {
+          "text": "Narrative: business case and PID. Diagrammatic: use case and class model",
+          "correct": false,
+          "note": "The business case and PID are not requirements documentation styles."
+        },
+        {
+          "text": "Structured: catalogue and backlog. Unstructured: user story and epic",
+          "correct": false,
+          "note": "Epics are a user story variant, not a documentation style."
+        },
+        {
+          "text": "Formal: BRD. Informal: prototype and wireframe",
+          "correct": false,
+          "note": "Prototypes are elicitation artefacts, not documentation styles in this list."
+        },
+        {
+          "text": "Written: specification. Modelled: everything with a diagram",
+          "correct": false,
+          "note": "This loses the distinction the chapter actually draws."
+        }
+      ],
+      "explanation": "The chapter splits documentation into text-based and diagrammatic, and names the five styles inside those groups. The exam expects the grouping, not just the individual names."
+    },
+    {
+      "id": "ch11-11.1-02",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.1",
+      "stem": "How does the chapter contrast documentation in linear and Agile lifecycles?",
+      "options": [
+        {
+          "text": "Linear baselines a complete, agreed requirements set before development, while Agile evolves requirements during development",
+          "correct": true,
+          "note": "The chapter states that linear documents before development and Agile produces documentation when necessary and to the appropriate level of detail."
+        },
+        {
+          "text": "Linear documents after development, while Agile documents before it",
+          "correct": false,
+          "note": "The order is the other way round."
+        },
+        {
+          "text": "Both produce the same documentation, only at different times",
+          "correct": false,
+          "note": "The style and depth differ as well as the timing."
+        },
+        {
+          "text": "Linear produces user stories, while Agile produces requirements catalogues",
+          "correct": false,
+          "note": "Catalogues suit linear work and stories suit Agile."
+        },
+        {
+          "text": "Neither approach documents requirements, only designs",
+          "correct": false,
+          "note": "Requirements documentation is required in both."
+        },
+        {
+          "text": "Agile requires no documentation at all",
+          "correct": false,
+          "note": "The chapter explicitly rejects that reading of the manifesto."
+        }
+      ],
+      "explanation": "The trade is between certainty and change. Baselining everything early buys consistency and costs rework when requirements move; evolving them buys speed and risks inconsistency and scope creep."
+    },
+    {
+      "id": "ch11-11.1-03",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.1",
+      "stem": "What does the chapter say are the drawbacks of the Agile approach to requirements documentation?",
+      "options": [
+        {
+          "text": "Possible inconsistencies and scope creep, compromised traceability, and future maintenance problems if documentation is too thin",
+          "correct": true,
+          "note": "Those are the three drawbacks the chapter lists."
+        },
+        {
+          "text": "Excessive documentation and slow delivery",
+          "correct": false,
+          "note": "Those are criticisms of the linear approach."
+        },
+        {
+          "text": "Higher cost of change control",
+          "correct": false,
+          "note": "Change control cost is not the stated drawback."
+        },
+        {
+          "text": "Loss of stakeholder involvement",
+          "correct": false,
+          "note": "Agile increases collaboration rather than reducing it."
+        },
+        {
+          "text": "Inability to use models",
+          "correct": false,
+          "note": "Models are still used, just selectively."
+        },
+        {
+          "text": "Requirements cannot be prioritised",
+          "correct": false,
+          "note": "Prioritisation is central to Agile."
+        }
+      ],
+      "explanation": "The chapter is even-handed: Agile reduces documentation overhead and avoids specifying what will change, but focus on individual requirements can lose the vision, and thin documentation hurts whoever maintains the system later."
+    },
+    {
+      "id": "ch11-11.1-04",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.1",
+      "stem": "Why does the chapter say a model is worth using even though it shows only one view of a solution?",
+      "options": [
+        {
+          "text": "Because it shows that view unambiguously, and building it raises questions that expose gaps in understanding",
+          "correct": true,
+          "note": "The chapter makes both points about models."
+        },
+        {
+          "text": "Because one view is enough to specify the whole solution",
+          "correct": false,
+          "note": "The chapter says models must be cross-checked for that reason."
+        },
+        {
+          "text": "Because models replace the need for textual requirements",
+          "correct": false,
+          "note": "Text and models supplement each other."
+        },
+        {
+          "text": "Because models are easier for developers than for business staff",
+          "correct": false,
+          "note": "Understandability varies by model type."
+        },
+        {
+          "text": "Because a model can never be wrong",
+          "correct": false,
+          "note": "A model can be wrong; its clarity exposes the error."
+        },
+        {
+          "text": "Because models are quicker to draw than to write",
+          "correct": false,
+          "note": "Speed is not the argument given."
+        }
+      ],
+      "explanation": "A model forces every box and line to say something definite, so the gaps become visible while you are drawing. That is the same reason the chapter recommends cross-checking different models against each other."
+    },
+    {
+      "id": "ch11-11.2-01",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.2",
+      "stem": "Which structure does the chapter recommend for a requirement description in a requirements catalogue?",
+      "options": [
+        {
+          "text": "Actor or the solution, then a verb phrase using shall, then the object",
+          "correct": true,
+          "note": "The chapter gives this three part structure and prefers shall over must or should."
+        },
+        {
+          "text": "A user role, a feature and a reason, in the as a I want so that form",
+          "correct": false,
+          "note": "That is the user story format."
+        },
+        {
+          "text": "A number, a name and a priority",
+          "correct": false,
+          "note": "Those are separate catalogue fields, not the description structure."
+        },
+        {
+          "text": "A trigger, a precondition and a post-condition",
+          "correct": false,
+          "note": "Those are elements of a fully described use case."
+        },
+        {
+          "text": "A test case, an expected result and an acceptance criterion",
+          "correct": false,
+          "note": "Those belong to testing rather than description."
+        },
+        {
+          "text": "A business area, a stakeholder and an owner",
+          "correct": false,
+          "note": "Those are catalogue characteristics rather than the sentence structure."
+        }
+      ],
+      "explanation": "Shall is chosen deliberately: must and should collide with priority levels in MoSCoW. The structure also makes the statement testable, because actor, verb and object can each be checked."
+    },
+    {
+      "id": "ch11-11.2-02",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.2",
+      "stem": "In a requirements catalogue, what is the difference between the source and the owner of a requirement?",
+      "options": [
+        {
+          "text": "The source is where the requirement originated, while the owner is the business stakeholder with authority to approve it",
+          "correct": true,
+          "note": "Origin and decision authority are the two distinct roles."
+        },
+        {
+          "text": "The source is the analyst who wrote it, while the owner is the department it belongs to",
+          "correct": false,
+          "note": "The analyst is the author, and the department is the business area."
+        },
+        {
+          "text": "The source is the system it affects, while the owner is the tester",
+          "correct": false,
+          "note": "Neither mapping is correct."
+        },
+        {
+          "text": "The source is the business case, while the owner is the sponsor in every case",
+          "correct": false,
+          "note": "A document can be a source, but the owner need not be the sponsor."
+        },
+        {
+          "text": "They are the same person recorded twice for audit",
+          "correct": false,
+          "note": "The chapter treats them as different characteristics."
+        },
+        {
+          "text": "The source is the priority level, while the owner is the resolution",
+          "correct": false,
+          "note": "These are unrelated fields."
+        }
+      ],
+      "explanation": "The distinction matters at change time: the source tells you who to ask what they meant, and the owner tells you who can agree the change. Confusing them is how requirements get approved by the wrong person."
+    },
+    {
+      "id": "ch11-11.2-03",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.2",
+      "stem": "What does the chapter say the resolution field of a requirements catalogue entry records?",
+      "options": [
+        {
+          "text": "The outcome of the requirement and when the decision was made, whether implemented, deferred, merged or dropped",
+          "correct": true,
+          "note": "The chapter defines resolution in those terms and as a traceability aid."
+        },
+        {
+          "text": "The technical solution chosen to deliver the requirement",
+          "correct": false,
+          "note": "That is design, not resolution."
+        },
+        {
+          "text": "The priority the requirement was given",
+          "correct": false,
+          "note": "Priority is its own field."
+        },
+        {
+          "text": "The name of the stakeholder who approved it",
+          "correct": false,
+          "note": "That is the owner field."
+        },
+        {
+          "text": "The test results confirming delivery",
+          "correct": false,
+          "note": "Acceptance criteria and testing sit elsewhere."
+        },
+        {
+          "text": "The version number of the requirement",
+          "correct": false,
+          "note": "That belongs to version history."
+        }
+      ],
+      "explanation": "Resolution answers the question a business representative will ask later: what happened to this requirement, and when was that decided. Without it, dropped requirements look like forgotten ones."
+    },
+    {
+      "id": "ch11-11.2-04",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.2",
+      "stem": "A requirements catalogue entry is being written after detailed analysis, but the requirement has not yet been scheduled or built. Which fields does the chapter say are needed at that point?",
+      "options": [
+        {
+          "text": "Owner and priority become relevant after analysis, while resolution is recorded once a decision is made and version history only when it changes",
+          "correct": true,
+          "note": "The chapter describes this progression of fields."
+        },
+        {
+          "text": "All fields in the template must be completed before the requirement is accepted",
+          "correct": false,
+          "note": "The chapter explicitly warns against completing every field."
+        },
+        {
+          "text": "Only the identifier and name are ever needed",
+          "correct": false,
+          "note": "Early fields are a starting point, not the whole set."
+        },
+        {
+          "text": "Resolution must be recorded before priority can be set",
+          "correct": false,
+          "note": "Resolution follows a decision, which follows priority."
+        },
+        {
+          "text": "Version history is required for every new requirement",
+          "correct": false,
+          "note": "It is required only when the requirement changes."
+        },
+        {
+          "text": "Stakeholders and related documents are recorded first",
+          "correct": false,
+          "note": "They come later in the analysis."
+        }
+      ],
+      "explanation": "The catalogue is built progressively. Attempting a complete definition up front produces the errors, inventions and rework the chapter warns about, and wastes effort on requirements that may be deferred."
+    },
+    {
+      "id": "ch11-11.2-05",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.2",
+      "stem": "A catalogue entry reads: 'The solution shall provide a customer database.' What does the chapter say is wrong with it?",
+      "options": [
+        {
+          "text": "It defines how the requirement will be met rather than what is needed, which is solution territory",
+          "correct": true,
+          "note": "The chapter uses the customer database example to make exactly this point."
+        },
+        {
+          "text": "It does not name the actor, so it cannot be tested",
+          "correct": false,
+          "note": "The actor here is the solution, which the structure allows."
+        },
+        {
+          "text": "It is too detailed for a catalogue entry",
+          "correct": false,
+          "note": "The fault is the wrong kind of detail, not too much."
+        },
+        {
+          "text": "It uses shall where must is required",
+          "correct": false,
+          "note": "Shall is the recommended verb."
+        },
+        {
+          "text": "It does not record the priority",
+          "correct": false,
+          "note": "Priority is a separate field."
+        },
+        {
+          "text": "It belongs in the BRD glossary instead",
+          "correct": false,
+          "note": "A glossary defines terms, not requirements."
+        }
+      ],
+      "explanation": "A requirement that names the artefact has already chosen the solution and shut out alternatives. The underlying need might be met by a process change, a report or an external service."
+    },
+    {
+      "id": "ch11-11.2-06",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.2",
+      "stem": "Why does the chapter say a requirements catalogue entry does not need to contain every detail of a requirement?",
+      "options": [
+        {
+          "text": "Because attempting full specification early causes errors and rework, and detail is better explored through modelling or prototyping",
+          "correct": true,
+          "note": "That is the chapter's warning about over-specifying at an early stage."
+        },
+        {
+          "text": "Because business staff are incapable of providing detail",
+          "correct": false,
+          "note": "The chapter rejects that criticism explicitly."
+        },
+        {
+          "text": "Because catalogues are only used for non-functional requirements",
+          "correct": false,
+          "note": "They cover all requirement types."
+        },
+        {
+          "text": "Because detail is recorded in the version history",
+          "correct": false,
+          "note": "Version history records changes, not content."
+        },
+        {
+          "text": "Because the acceptance criteria carry the detail",
+          "correct": false,
+          "note": "Criteria test the requirement rather than define it."
+        },
+        {
+          "text": "Because the catalogue is a temporary document",
+          "correct": false,
+          "note": "It is a central repository throughout the project."
+        }
+      ],
+      "explanation": "The catalogue's job is to say what is required and why, not to pre-empt design. Pushing detail in early produces invented requirements that then have to be changed, which is the cost the chapter is trying to avoid."
+    },
+    {
+      "id": "ch11-11.2-07",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.2",
+      "stem": "Which catalogue characteristic captures the business justification for a requirement?",
+      "options": [
+        {
+          "text": "Rationale, which may be cross-referenced to specific benefits in the business case",
+          "correct": true,
+          "note": "The chapter defines rationale in exactly those terms."
+        },
+        {
+          "text": "Comments, which record questions to resolve",
+          "correct": false,
+          "note": "Comments record working notes."
+        },
+        {
+          "text": "Related requirements, which record identifiers of connected requirements",
+          "correct": false,
+          "note": "Those are links, not justification."
+        },
+        {
+          "text": "Resolution, which records the outcome",
+          "correct": false,
+          "note": "Outcome is what happened, not why it was wanted."
+        },
+        {
+          "text": "Business area, which records the function or department",
+          "correct": false,
+          "note": "That locates the requirement rather than justifying it."
+        },
+        {
+          "text": "Stakeholders, which record who has an interest",
+          "correct": false,
+          "note": "Interest is not justification."
+        }
+      ],
+      "explanation": "Rationale is what lets a later reader decide whether a requirement still matters. If the business case benefit it supports has gone, the requirement is a candidate for change control."
+    },
+    {
+      "id": "ch11-11.3-01",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.3",
+      "stem": "Which user story format does the chapter give?",
+      "options": [
+        {
+          "text": "As a user role, I want a feature, so that I can a reason",
+          "correct": true,
+          "note": "The format answers who, what and why in that order."
+        },
+        {
+          "text": "Given a context, when an event, then an outcome",
+          "correct": false,
+          "note": "That is a scenario or acceptance criteria format."
+        },
+        {
+          "text": "The solution shall do something for a role",
+          "correct": false,
+          "note": "That is the requirements catalogue description structure."
+        },
+        {
+          "text": "A role must be able to do something because of a benefit",
+          "correct": false,
+          "note": "Close in meaning but not the prescribed wording."
+        },
+        {
+          "text": "When a role does something, the system responds",
+          "correct": false,
+          "note": "That describes an interaction, not a user story."
+        },
+        {
+          "text": "A role, a feature and a priority on a card",
+          "correct": false,
+          "note": "Priority is recorded on the card, not in the sentence."
+        }
+      ],
+      "explanation": "The three parts map to who benefits, what they need and why it matters. The reason clause is what allows the story to be prioritised and its value judged, so dropping it damages the technique."
+    },
+    {
+      "id": "ch11-11.3-02",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.3",
+      "stem": "What are the three Cs that underpin user story development?",
+      "options": [
+        {
+          "text": "Card, conversation and confirmation",
+          "correct": true,
+          "note": "The card limits information, the conversation explores it, and confirmation is the acceptance criteria check."
+        },
+        {
+          "text": "Card, cost and commitment",
+          "correct": false,
+          "note": "Cost and commitment are estimating concerns."
+        },
+        {
+          "text": "Capture, clarify and confirm",
+          "correct": false,
+          "note": "Capture and clarify describe elicitation work generally."
+        },
+        {
+          "text": "Context, criteria and constraint",
+          "correct": false,
+          "note": "These are requirement filters and testing terms."
+        },
+        {
+          "text": "Character, capability and cause",
+          "correct": false,
+          "note": "These restate the three parts of the sentence rather than the principles."
+        },
+        {
+          "text": "Create, check and close",
+          "correct": false,
+          "note": "These are work item states."
+        }
+      ],
+      "explanation": "The three Cs explain why a short statement is sufficient: the card is deliberately incomplete, the conversation supplies the detail, and confirmation stops the story being declared done without evidence."
+    },
+    {
+      "id": "ch11-11.3-03",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.3",
+      "stem": "A user story has grown to cover a whole business process and is too large to prioritise or deliver. What does the chapter call it, and what should happen?",
+      "options": [
+        {
+          "text": "An epic, which should be decomposed into several individual user stories",
+          "correct": true,
+          "note": "The chapter names epics and recommends decomposition so they can be prioritised, analysed and developed."
+        },
+        {
+          "text": "A theme, which should be split across several releases",
+          "correct": false,
+          "note": "Theme is not the chapter's term for this."
+        },
+        {
+          "text": "A scenario, which should be documented as a use case",
+          "correct": false,
+          "note": "Scenarios describe pathways through a use case."
+        },
+        {
+          "text": "A feature, which should be moved to the product backlog",
+          "correct": false,
+          "note": "Backlog items are the destination, not the fix."
+        },
+        {
+          "text": "A spike, which should be investigated before estimating",
+          "correct": false,
+          "note": "A spike is investigation work, not a large story."
+        },
+        {
+          "text": "An increment, which should be released in parts",
+          "correct": false,
+          "note": "An increment is a releasable partial product."
+        }
+      ],
+      "explanation": "Epics often reflect a business use case rather than a system use case, so decomposing them also makes the POPIT impact visible. Achievement of an epic can change roles and processes, not just software."
+    },
+    {
+      "id": "ch11-11.3-04",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.3",
+      "stem": "How does the chapter say the effort for a user story is estimated?",
+      "options": [
+        {
+          "text": "Using story points, sized by comparison with user stories already delivered",
+          "correct": true,
+          "note": "The chapter describes relative sizing against completed stories."
+        },
+        {
+          "text": "Using hours, estimated by the developer who will build it",
+          "correct": false,
+          "note": "The technique is relative rather than absolute."
+        },
+        {
+          "text": "Using the number of acceptance criteria on the card",
+          "correct": false,
+          "note": "Criteria count does not measure effort."
+        },
+        {
+          "text": "Using the priority level assigned in the backlog",
+          "correct": false,
+          "note": "Priority drives selection, not sizing."
+        },
+        {
+          "text": "Using the number of actors involved in the story",
+          "correct": false,
+          "note": "Actor count is not the measure."
+        },
+        {
+          "text": "Using the story's position in the backlog",
+          "correct": false,
+          "note": "Position reflects priority ordering."
+        }
+      ],
+      "explanation": "Relative sizing works because teams are better at comparing than at predicting absolute effort, and the comparison base improves as delivered stories accumulate."
+    },
+    {
+      "id": "ch11-11.4-01",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.4",
+      "stem": "On a use case diagram, what does the large box drawn around the use cases with the actors outside represent?",
+      "options": [
+        {
+          "text": "The system boundary, showing what is inside the system and where interactions cross into it",
+          "correct": true,
+          "note": "The chapter defines the boundary box and notes it is useful when agreeing scope."
+        },
+        {
+          "text": "The project scope, which also covers work outside the system",
+          "correct": false,
+          "note": "The chapter explicitly distinguishes the box from project scope."
+        },
+        {
+          "text": "The organisation, showing departments and reporting lines",
+          "correct": false,
+          "note": "An organisation chart shows structure, not system scope."
+        },
+        {
+          "text": "A swimlane, showing which actor performs the work",
+          "correct": false,
+          "note": "Swimlanes belong to process models."
+        },
+        {
+          "text": "The context diagram, which replaces the use case diagram",
+          "correct": false,
+          "note": "A context diagram is an earlier, simpler view."
+        },
+        {
+          "text": "The location of the actors in the business",
+          "correct": false,
+          "note": "Actors sit outside the boundary by definition."
+        }
+      ],
+      "explanation": "The boundary is the diagram's way of saying what is being built and what is merely interacting with it. Confusing it with project scope is the classic error, because a project often includes work the system does not."
+    },
+    {
+      "id": "ch11-11.4-02",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.4",
+      "stem": "Which name does the chapter give to the initial outside-in diagram that shows the solution as a black box with the actors around it?",
+      "options": [
+        {
+          "text": "A context diagram",
+          "correct": true,
+          "note": "The chapter calls the initial diagram a context diagram and describes its four uses."
+        },
+        {
+          "text": "A system use case diagram",
+          "correct": false,
+          "note": "That comes next, when use cases are added."
+        },
+        {
+          "text": "A business use case diagram",
+          "correct": false,
+          "note": "That also comes after the context diagram."
+        },
+        {
+          "text": "A class diagram",
+          "correct": false,
+          "note": "That models data rather than scope."
+        },
+        {
+          "text": "A process model",
+          "correct": false,
+          "note": "That models flow rather than scope."
+        },
+        {
+          "text": "A rich picture",
+          "correct": false,
+          "note": "That is a situation investigation technique."
+        }
+      ],
+      "explanation": "The sequence is context diagram, then business use case diagram, then system use case diagram. Starting outside in is what keeps the scope honest before anyone starts arguing about features."
+    },
+    {
+      "id": "ch11-11.4-03",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.4",
+      "stem": "In a use case diagram, an actor is shown as a rectangle with a stereotype naming a system. What does that mean?",
+      "options": [
+        {
+          "text": "The actor is another system rather than a person, and it sits outside the system being modelled",
+          "correct": true,
+          "note": "The chapter notes that software acting as an actor may be shown this way with the stereotype marker."
+        },
+        {
+          "text": "The actor is an internal module of the system being built",
+          "correct": false,
+          "note": "Internal modules are not actors."
+        },
+        {
+          "text": "The rectangle marks the system boundary",
+          "correct": false,
+          "note": "The boundary is the large box around the use cases."
+        },
+        {
+          "text": "The actor has been deprecated from the model",
+          "correct": false,
+          "note": "No such meaning is given."
+        },
+        {
+          "text": "The actor is a time-based trigger",
+          "correct": false,
+          "note": "Time is a possible actor but is not shown by a system stereotype."
+        },
+        {
+          "text": "The actor is a stakeholder who does not use the system",
+          "correct": false,
+          "note": "Stakeholders who do not interact are not actors."
+        }
+      ],
+      "explanation": "Actors are whoever or whatever expects a service from the system, and that includes other systems. The stereotype distinguishes a machine participant from a human role at a glance."
+    },
+    {
+      "id": "ch11-11.4-04",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.4",
+      "stem": "Several use cases need the same customer identity check, so the analyst moves that processing into its own use case and links the others to it. Which construct is this?",
+      "options": [
+        {
+          "text": "Include, shown as a dotted line with an arrowhead pointing to the included use case",
+          "correct": true,
+          "note": "The chapter describes include as the way to avoid duplicating shared processing."
+        },
+        {
+          "text": "Extend, shown as a dotted line pointing back to the extending use case",
+          "correct": false,
+          "note": "Extend adds optional behaviour rather than reusing shared steps."
+        },
+        {
+          "text": "Generalisation, shown as an upward arrow",
+          "correct": false,
+          "note": "Generalisation relates sub-classes to a parent."
+        },
+        {
+          "text": "An association, shown as a solid line",
+          "correct": false,
+          "note": "Associations link actors to use cases."
+        },
+        {
+          "text": "A decision point, shown as a diamond",
+          "correct": false,
+          "note": "Diamonds belong to activity diagrams."
+        },
+        {
+          "text": "A dependency, shown as a plain dashed line without arrowhead",
+          "correct": false,
+          "note": "Dependency is not the construct described."
+        }
+      ],
+      "explanation": "Include exists precisely because repeated processing would otherwise be described inconsistently in several places. Extend is the near miss: it is for optional or deferred behaviour, not for shared mandatory steps."
+    },
+    {
+      "id": "ch11-11.4-05",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.4",
+      "stem": "An extension scenario records an order for an item that is out of stock and expected soon, which will not be built in this release. How is it represented?",
+      "options": [
+        {
+          "text": "As a separate use case that extends the original, shown by a dotted line with an arrowhead",
+          "correct": true,
+          "note": "The chapter describes this exact example and the extend notation."
+        },
+        {
+          "text": "As an alternative flow inside the original use case description",
+          "correct": false,
+          "note": "That would imply it is being built now."
+        },
+        {
+          "text": "As an included use case",
+          "correct": false,
+          "note": "Include is for shared mandatory processing."
+        },
+        {
+          "text": "As an association from the actor",
+          "correct": false,
+          "note": "Association lines show interaction, not optional behaviour."
+        },
+        {
+          "text": "As a generalisation of the original use case",
+          "correct": false,
+          "note": "Generalisation is for classification, not optional steps."
+        },
+        {
+          "text": "As a note attached to the use case",
+          "correct": false,
+          "note": "Notes annotate diagrams without changing meaning."
+        }
+      ],
+      "explanation": "Extend is the mechanism for behaviour that may be added later, which is why it is used when an extension scenario is not prioritised as must have. The separate use case records the requirement without committing the current release to it."
+    },
+    {
+      "id": "ch11-11.4-06",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.4",
+      "stem": "Which elements does a fully described use case description add, compared with an outline description?",
+      "options": [
+        {
+          "text": "The trigger, preconditions and post-conditions, the main success scenario with extensions, priority, and frequency and volumes",
+          "correct": true,
+          "note": "Those are the additions the chapter lists."
+        },
+        {
+          "text": "Only the goal and the list of actions",
+          "correct": false,
+          "note": "Those already appear in the outline description."
+        },
+        {
+          "text": "The actor name and use case identifier only",
+          "correct": false,
+          "note": "Those are the minimum both formats share."
+        },
+        {
+          "text": "The class diagram and data model",
+          "correct": false,
+          "note": "Those are separate models."
+        },
+        {
+          "text": "The business case and rationale",
+          "correct": false,
+          "note": "Those sit in the catalogue and business case."
+        },
+        {
+          "text": "The story points and backlog position",
+          "correct": false,
+          "note": "Those belong to user stories in Agile."
+        }
+      ],
+      "explanation": "Outline gives the shape of the interaction; fully described gives enough to specify and test it, including what must be true before it starts and what is true when it ends."
+    },
+    {
+      "id": "ch11-11.4-07",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.4",
+      "stem": "Which naming convention does the chapter recommend for use cases?",
+      "options": [
+        {
+          "text": "A verb and noun, such as Book room or Set up project",
+          "correct": true,
+          "note": "The chapter gives those two examples."
+        },
+        {
+          "text": "A noun phrase, such as Room booking",
+          "correct": false,
+          "note": "Naming by object hides the action."
+        },
+        {
+          "text": "The actor followed by the action, such as Clerk books room",
+          "correct": false,
+          "note": "The actor is already shown on the diagram."
+        },
+        {
+          "text": "A numbered reference, such as UC-001",
+          "correct": false,
+          "note": "References do not convey meaning."
+        },
+        {
+          "text": "A gerund phrase, such as Booking a room",
+          "correct": false,
+          "note": "The verb noun convention is preferred."
+        },
+        {
+          "text": "The name of the screen where it happens",
+          "correct": false,
+          "note": "Screens are design artefacts."
+        }
+      ],
+      "explanation": "Verb plus noun keeps the use case describing a service the actor wants, which is what the notation means. The convention also keeps use cases distinct from classes and entities, which are named with nouns."
+    },
+    {
+      "id": "ch11-11.5-01",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.5",
+      "stem": "In UML class modelling, what is shown in the three sections of a class box?",
+      "options": [
+        {
+          "text": "The class name at the top, its attributes in the middle, and its operations at the bottom",
+          "correct": true,
+          "note": "That is the structure the chapter describes."
+        },
+        {
+          "text": "The class name, its associations, and its multiplicities",
+          "correct": false,
+          "note": "Associations are lines between classes, and multiplicities annotate them."
+        },
+        {
+          "text": "The entity name, its key, and its relationships",
+          "correct": false,
+          "note": "That describes entity relationship modelling rather than class modelling."
+        },
+        {
+          "text": "The actor, the use case, and the boundary",
+          "correct": false,
+          "note": "Those are use case diagram elements."
+        },
+        {
+          "text": "The object, its values, and its messages",
+          "correct": false,
+          "note": "Objects are instances, not classes."
+        },
+        {
+          "text": "The package, the module, and the library",
+          "correct": false,
+          "note": "Not part of the notation described."
+        }
+      ],
+      "explanation": "The three compartments separate what a thing is called, what it holds and what it can do. Operations are the part an ERD does not have, which is the main structural difference between the two techniques."
+    },
+    {
+      "id": "ch11-11.5-02",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.5",
+      "stem": "An association between Order and OrderLine is marked with an asterisk at the OrderLine end and a 1 at the Order end. What does that mean?",
+      "options": [
+        {
+          "text": "One order may include many order lines, but each order line belongs to exactly one order",
+          "correct": true,
+          "note": "The asterisk is an unlimited maximum and the 1 is exactly one."
+        },
+        {
+          "text": "One order line may belong to many orders",
+          "correct": false,
+          "note": "That would need an asterisk at the Order end."
+        },
+        {
+          "text": "There must always be at least one order line on every order",
+          "correct": false,
+          "note": "Multiplicity alone does not state the minimum here, which is shown as 0..* or 1..*."
+        },
+        {
+          "text": "Orders and order lines are the same class shown twice",
+          "correct": false,
+          "note": "They are distinct classes with an association."
+        },
+        {
+          "text": "Order lines can exist without any order",
+          "correct": false,
+          "note": "The association is drawn as mandatory in the example."
+        },
+        {
+          "text": "The association is optional in both directions",
+          "correct": false,
+          "note": "Optionality is shown by minimum values."
+        }
+      ],
+      "explanation": "Multiplicity is how a class model states business rules that an ERD would state as cardinality and optionality. Reading it in both directions, 1 to many, is the skill being tested."
+    },
+    {
+      "id": "ch11-11.5-03",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.5",
+      "stem": "A business rule states that no more than twenty people may be allocated to a project. How is that expressed on a class model?",
+      "options": [
+        {
+          "text": "As a multiplicity of 1..20 at the Allocation end of the association",
+          "correct": true,
+          "note": "Multiplicity can state a precise minimum and maximum."
+        },
+        {
+          "text": "As a note attached to the Project class",
+          "correct": false,
+          "note": "Notes do not carry multiplicity."
+        },
+        {
+          "text": "As an attribute called maximumAllocation on Project",
+          "correct": false,
+          "note": "Attributes record data, not constraints on associations."
+        },
+        {
+          "text": "As a generalisation with two sub-classes",
+          "correct": false,
+          "note": "Generalisation is for classification."
+        },
+        {
+          "text": "As an association class",
+          "correct": false,
+          "note": "That records data about the association rather than a limit."
+        },
+        {
+          "text": "As a separate constraint class",
+          "correct": false,
+          "note": "Not a notation element the chapter describes."
+        }
+      ],
+      "explanation": "Multiplicity ranges exist precisely so a model can carry a business rule instead of leaving it in prose. The 1..20 form says at least one and no more than twenty, which matches the rule exactly."
+    },
+    {
+      "id": "ch11-11.5-04",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.5",
+      "stem": "Office employees and sales people share some attributes but need different ones, so a general Employee class is defined with two sub-classes beneath it. What is this, and what does the arrow mean?",
+      "options": [
+        {
+          "text": "Generalisation, and the arrow points to the parent class, showing that the sub-classes inherit its attributes",
+          "correct": true,
+          "note": "The chapter describes generalisation and inheritance in these terms."
+        },
+        {
+          "text": "Aggregation, where the parent contains the children",
+          "correct": false,
+          "note": "Aggregation is a whole-part relationship."
+        },
+        {
+          "text": "Association, where the classes communicate",
+          "correct": false,
+          "note": "An association is a plain line between classes."
+        },
+        {
+          "text": "Multiplicity, where one class has many of another",
+          "correct": false,
+          "note": "Multiplicity annotates associations."
+        },
+        {
+          "text": "Encapsulation, where attributes are hidden",
+          "correct": false,
+          "note": "Encapsulation is about access, not classification."
+        },
+        {
+          "text": "An association class, which holds data about a link",
+          "correct": false,
+          "note": "That records attributes of an association."
+        }
+      ],
+      "explanation": "Generalisation factors out what is shared and leaves what differs in the sub-classes. The chapter notes it can also replace the exclusive relationship notation used in ERDs, which is why the two techniques sometimes look different for the same business rule."
+    },
+    {
+      "id": "ch11-11.6-01",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.6",
+      "stem": "What does the chapter say about the product backlog in an Agile environment?",
+      "options": [
+        {
+          "text": "It holds user stories, is primarily functional in content, and is ordered by priority",
+          "correct": true,
+          "note": "Those three points summarise the backlog's role."
+        },
+        {
+          "text": "It holds technical requirements and is ordered by effort",
+          "correct": false,
+          "note": "The content is primarily functional, and order is by priority."
+        },
+        {
+          "text": "It holds all four requirement types in a fixed template",
+          "correct": false,
+          "note": "A backlog is a different format from a requirements catalogue."
+        },
+        {
+          "text": "It is ordered alphabetically so items can be found",
+          "correct": false,
+          "note": "Order expresses priority rather than lookup."
+        },
+        {
+          "text": "It is created once at project start and then frozen",
+          "correct": false,
+          "note": "It is reprioritised as the project progresses."
+        },
+        {
+          "text": "It replaces the need for any other documentation",
+          "correct": false,
+          "note": "Other artefacts, including models, still apply."
+        }
+      ],
+      "explanation": "The backlog is a living, ordered list and the ordering is the management mechanism. That is why the chapter describes the backlog's priority order as indicating when a story should be selected for an iteration."
+    },
+    {
+      "id": "ch11-11.6-02",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.6",
+      "stem": "Why does the chapter say non-functional requirements fit the product backlog less well than functional ones?",
+      "options": [
+        {
+          "text": "Because non-functional requirements usually need a more precise definition than a user story provides",
+          "correct": true,
+          "note": "The chapter notes stories suit functional requirements and other types need alternative formats."
+        },
+        {
+          "text": "Because non-functional requirements do not matter in Agile projects",
+          "correct": false,
+          "note": "They matter, and the chapter warns against leaving them late."
+        },
+        {
+          "text": "Because non-functional requirements are always technical",
+          "correct": false,
+          "note": "Many are business-level, such as usability and availability."
+        },
+        {
+          "text": "Because a backlog cannot contain requirements from more than one source",
+          "correct": false,
+          "note": "It can contain requirements from several sources."
+        },
+        {
+          "text": "Because non-functional requirements have no acceptance criteria",
+          "correct": false,
+          "note": "They are testable and do need criteria."
+        },
+        {
+          "text": "Because user stories cannot be prioritised",
+          "correct": false,
+          "note": "They are prioritised by backlog order."
+        }
+      ],
+      "explanation": "A story's value is its brevity, and a non-functional requirement often has to state measurable levels, such as response times under load. That needs the precision of a catalogue entry or a defined performance statement."
+    },
+    {
+      "id": "ch11-11.7-01",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.7",
+      "stem": "Which six sections does the chapter's standard BRD structure contain?",
+      "options": [
+        {
+          "text": "Introduction and background, business process models, function models, data model, requirements catalogue or user story backlog, and glossary of terms",
+          "correct": true,
+          "note": "Those are the six sections."
+        },
+        {
+          "text": "Executive summary, scope, cost, risk, recommendation and appendices",
+          "correct": false,
+          "note": "That is closer to a business case structure."
+        },
+        {
+          "text": "Context, actors, use cases, classes, attributes and associations",
+          "correct": false,
+          "note": "These are modelling elements, not BRD sections."
+        },
+        {
+          "text": "Vision, mission, objectives, strategy, tactics and measures",
+          "correct": false,
+          "note": "That is VMOST."
+        },
+        {
+          "text": "Introduction, requirements, design, build, test and deploy",
+          "correct": false,
+          "note": "That is a lifecycle."
+        },
+        {
+          "text": "Stakeholders, analysis, strategy, options, case and benefits",
+          "correct": false,
+          "note": "These are scattered across other chapters."
+        }
+      ],
+      "explanation": "The structure groups the document around the four requirement views plus context and vocabulary. Note that both text formats are allowed in the same section, so a BRD can carry a catalogue or a backlog."
+    },
+    {
+      "id": "ch11-11.7-02",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.7",
+      "stem": "Why does a BRD need a glossary of terms?",
+      "options": [
+        {
+          "text": "Because business areas use precise terminology that analysts and reviewers may not understand, and a central definitions source removes the obstacle",
+          "correct": true,
+          "note": "The chapter gives exactly this rationale."
+        },
+        {
+          "text": "Because the BRD must be written in plain English for customers",
+          "correct": false,
+          "note": "The requirements use business terminology deliberately."
+        },
+        {
+          "text": "Because the glossary replaces the data model",
+          "correct": false,
+          "note": "They serve different purposes."
+        },
+        {
+          "text": "Because regulators require definitions of all technical terms",
+          "correct": false,
+          "note": "No regulatory requirement is cited."
+        },
+        {
+          "text": "Because it lists the stakeholders and their roles",
+          "correct": false,
+          "note": "Stakeholder details are not a glossary."
+        },
+        {
+          "text": "Because it records the priority of each requirement",
+          "correct": false,
+          "note": "Priority belongs to the requirement entries."
+        }
+      ],
+      "explanation": "The glossary resolves the tension between using the business's own vocabulary and being understood by everyone else. The chapter adds that many organisations keep a corporate glossary that a project can draw on."
+    },
+    {
+      "id": "ch11-11.7-03",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.7",
+      "stem": "Which section of the BRD holds the to-be process and, optionally, the as-is processes?",
+      "options": [
+        {
+          "text": "Business process models",
+          "correct": true,
+          "note": "The chapter places to-be models there, with as-is included if it adds clarity or explanation."
+        },
+        {
+          "text": "Function models",
+          "correct": false,
+          "note": "Function models hold context and use case diagrams."
+        },
+        {
+          "text": "Data model",
+          "correct": false,
+          "note": "The data model holds the ERD or class model."
+        },
+        {
+          "text": "Introduction and background",
+          "correct": false,
+          "note": "That sets out the situation and drivers."
+        },
+        {
+          "text": "Requirements catalogue",
+          "correct": false,
+          "note": "That holds individual requirement definitions."
+        },
+        {
+          "text": "Glossary of terms",
+          "correct": false,
+          "note": "That holds terminology."
+        }
+      ],
+      "explanation": "The BRD's process section exists because a software change usually supports a process change, so the document has to show the process the product must serve. Without it, requirements float free of the work they enable."
+    },
+    {
+      "id": "ch11-11.3-05",
+      "chapter": 11,
+      "topic": 11,
+      "lo": "11.3",
+      "stem": "Why does the chapter say user stories are relatively quick to develop?",
+      "options": [
+        {
+          "text": "Because they omit several catalogue fields such as owner, source and justification, and act as a placeholder for a later conversation",
+          "correct": true,
+          "note": "The chapter contrasts stories with catalogue entries on exactly these grounds."
+        },
+        {
+          "text": "Because they need no acceptance criteria",
+          "correct": false,
+          "note": "Confirmation against criteria is one of the three Cs."
+        },
+        {
+          "text": "Because they are written by developers rather than analysts",
+          "correct": false,
+          "note": "They are written with the user role and explored with developers."
+        },
+        {
+          "text": "Because they cannot be prioritised",
+          "correct": false,
+          "note": "They are prioritised in the backlog."
+        },
+        {
+          "text": "Because they cover all four requirement types equally well",
+          "correct": false,
+          "note": "They suit functional requirements best."
+        },
+        {
+          "text": "Because they replace the need for a backlog",
+          "correct": false,
+          "note": "They are held in the backlog."
+        }
+      ],
+      "explanation": "The point of a story is deliberately incomplete knowledge, held in a form that invites discussion. That is a strength where requirements will change and a weakness where precision is needed, which is why non-functional requirements need another format."
+    },
+    {
+      "id": "ch12-12.1-01",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.1",
+      "stem": "Who does requirements validation involve, and what is it for?",
+      "options": [
+        {
+          "text": "Stakeholders external to the project, agreeing that the defined requirements state what the solution must fulfil",
+          "correct": true,
+          "note": "The chapter describes validation as a review by stakeholders outside the project with that aim."
+        },
+        {
+          "text": "The analysts who wrote them, checking their own work",
+          "correct": false,
+          "note": "Analysts produce the requirements; validation is done by others."
+        },
+        {
+          "text": "The developers, confirming that the requirements can be built",
+          "correct": false,
+          "note": "Technical feasibility is one reviewer's concern, not the purpose of validation."
+        },
+        {
+          "text": "The project manager, confirming the requirements fit the schedule",
+          "correct": false,
+          "note": "Schedule fit is not validation."
+        },
+        {
+          "text": "The tester, proving the requirements are testable",
+          "correct": false,
+          "note": "Testability is one reviewer's perspective."
+        },
+        {
+          "text": "The sponsor alone, signing the document",
+          "correct": false,
+          "note": "The sponsor chairs or signs, but the review group is wider."
+        }
+      ],
+      "explanation": "Validation is a business judgement, which is why it sits with business representatives and uses criteria similar to the analysis filters. The analysts are too close to the work to be the only check on it."
+    },
+    {
+      "id": "ch12-12.1-02",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.1",
+      "stem": "What does signing off or baselining requirements mean in a linear project?",
+      "options": [
+        {
+          "text": "The requirements are confirmed as an accurate statement, become suitable for design and development, and any later change goes through change control",
+          "correct": true,
+          "note": "That is what baselining establishes."
+        },
+        {
+          "text": "The requirements can no longer be changed for any reason",
+          "correct": false,
+          "note": "Baselining puts changes under control rather than forbidding them."
+        },
+        {
+          "text": "The requirements have been fully detailed enough to build without further analysis",
+          "correct": false,
+          "note": "Baselining confirms accuracy of statement, not complete design detail."
+        },
+        {
+          "text": "The project sponsor takes over ownership of every requirement",
+          "correct": false,
+          "note": "Owners remain with the business."
+        },
+        {
+          "text": "The document is published to the whole organisation",
+          "correct": false,
+          "note": "Publication is not the effect described."
+        },
+        {
+          "text": "The requirements are frozen until the next project phase meeting",
+          "correct": false,
+          "note": "Change control governs changes at any time."
+        }
+      ],
+      "explanation": "The baseline is the moment a document becomes the reference point. Before it, the requirements are drafts; after it, a change is a decision with a cost rather than an edit."
+    },
+    {
+      "id": "ch12-12.1-03",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.1",
+      "stem": "How does the chapter describe Agile requirements validation?",
+      "options": [
+        {
+          "text": "Less formal, with review accepting outline definitions that will evolve, and backlog items refined until they are ready",
+          "correct": true,
+          "note": "The chapter describes both stages: at initiation and while maintaining the backlog."
+        },
+        {
+          "text": "Non-existent, because Agile has no validation step",
+          "correct": false,
+          "note": "Validation still happens, just less formally."
+        },
+        {
+          "text": "A single formal sign off of the complete backlog before development",
+          "correct": false,
+          "note": "The backlog is refined continuously rather than signed off once."
+        },
+        {
+          "text": "Identical to linear validation, using the same BRD review group",
+          "correct": false,
+          "note": "The approach is deliberately lighter."
+        },
+        {
+          "text": "Performed only by the product owner at the end of each iteration",
+          "correct": false,
+          "note": "Refinement involves stakeholders and reviewers throughout."
+        },
+        {
+          "text": "Deferred until user acceptance testing",
+          "correct": false,
+          "note": "Validation precedes development of an item."
+        }
+      ],
+      "explanation": "Agile validation has two distinct moments, which is the detail the exam targets: establishing the outline and backlog at initiation, and refining items to ready status as the work proceeds."
+    },
+    {
+      "id": "ch12-12.1-04",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.1",
+      "stem": "Which reviewer confirms that the requirements are testable?",
+      "options": [
+        {
+          "text": "The tester",
+          "correct": true,
+          "note": "Testability is the tester's validation responsibility."
+        },
+        {
+          "text": "The solution architect",
+          "correct": false,
+          "note": "The architect checks fit with the architectural context."
+        },
+        {
+          "text": "The subject matter expert",
+          "correct": false,
+          "note": "The SME checks correct business practice."
+        },
+        {
+          "text": "The business sponsor",
+          "correct": false,
+          "note": "The sponsor checks alignment and scope."
+        },
+        {
+          "text": "The project office representative",
+          "correct": false,
+          "note": "The project office checks standards and process compliance."
+        },
+        {
+          "text": "The developer",
+          "correct": false,
+          "note": "The developer checks technical feasibility."
+        }
+      ],
+      "explanation": "Each reviewer covers a different perspective, which is why the review group needs several roles rather than one signatory. Testability is specifically the tester's angle, and it is the one that catches requirements nobody could ever prove delivered."
+    },
+    {
+      "id": "ch12-12.1-05",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.1",
+      "stem": "A BRD review finds that parts of the document need significant rework. What is the outcome?",
+      "options": [
+        {
+          "text": "The BRD is reworked and reviewed again before any sign off is considered",
+          "correct": true,
+          "note": "The chapter lists significant rework as the first possible outcome."
+        },
+        {
+          "text": "The document is signed off with the issues logged for later",
+          "correct": false,
+          "note": "Sign off is not given to something needing significant rework."
+        },
+        {
+          "text": "The review chairperson signs off the parts that were acceptable",
+          "correct": false,
+          "note": "The document is assessed as a whole before sign off."
+        },
+        {
+          "text": "The requirements are baselined and the issues become change requests",
+          "correct": false,
+          "note": "Baselining an inaccurate document defeats the purpose of validation."
+        },
+        {
+          "text": "The project is restarted from the requirements elicitation stage",
+          "correct": false,
+          "note": "Rework is targeted rather than a restart."
+        },
+        {
+          "text": "The review group is disbanded and a new one formed",
+          "correct": false,
+          "note": "The group continues with the reworked document."
+        }
+      ],
+      "explanation": "There are three outcomes and the chapter is precise about them: significant rework, some amendment followed by sign off by the chair, or confirmation as a satisfactory statement."
+    },
+    {
+      "id": "ch12-12.1-06",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.1",
+      "stem": "A large BRD is causing reviewers to disengage because of its size. What does the chapter suggest?",
+      "options": [
+        {
+          "text": "A section-by-section review, inviting only the owners of that business area to each session",
+          "correct": true,
+          "note": "That approach saves time and keeps reviewers focused on what they are responsible for."
+        },
+        {
+          "text": "Distributing the BRD by email and asking for written responses from everyone",
+          "correct": false,
+          "note": "Email is described as the weakest option for shared review."
+        },
+        {
+          "text": "Asking the analysts to review their own sections and report back",
+          "correct": false,
+          "note": "Self-review removes the independence validation relies on."
+        },
+        {
+          "text": "Reducing the BRD by deleting the requirements that seem least important",
+          "correct": false,
+          "note": "Deleting requirements is a scope decision, not a review tactic."
+        },
+        {
+          "text": "Replacing the review with acceptance testing later in the project",
+          "correct": false,
+          "note": "That defers the problem and raises the cost of fixing it."
+        },
+        {
+          "text": "Asking the sponsor to review the whole document alone",
+          "correct": false,
+          "note": "One perspective cannot cover the roles required."
+        }
+      ],
+      "explanation": "The chapter's point is that review effort should be targeted at the right reviewer rather than spread thinly. Reviewers reviewing everything is how reviews quietly fail."
+    },
+    {
+      "id": "ch12-12.1-07",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.1",
+      "stem": "Which of these is a characteristic of Agile backlog refinement rather than formal BRD review?",
+      "options": [
+        {
+          "text": "Producing low fidelity prototypes so stakeholders can identify missing or incorrect features",
+          "correct": true,
+          "note": "The chapter lists prototyping among the refinement activities."
+        },
+        {
+          "text": "Appointing a chairperson to control the review meeting",
+          "correct": false,
+          "note": "That belongs to formal review."
+        },
+        {
+          "text": "Confirming the document is complete, consistent and conformant",
+          "correct": false,
+          "note": "That is the outcome of a formal BRD review."
+        },
+        {
+          "text": "Signing off the document as a baseline",
+          "correct": false,
+          "note": "Baselining is the linear outcome."
+        },
+        {
+          "text": "Circulating the document for written comment",
+          "correct": false,
+          "note": "That is a formal review tactic."
+        },
+        {
+          "text": "Recording the review outcome in the project log",
+          "correct": false,
+          "note": "Both approaches record outcomes, so this does not distinguish them."
+        }
+      ],
+      "explanation": "Refinement is exploratory and happens continuously: models, prototypes, scenarios, swimlane diagrams and acceptance criteria. Formal review is a single, controlled event against a document."
+    },
+    {
+      "id": "ch12-12.1-08",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.1",
+      "stem": "A key stakeholder cannot attend the BRD review. What does the chapter say the analyst should do?",
+      "options": [
+        {
+          "text": "Support the review through a less formal one-to-one meeting, accepting it is not ideal but better than no review",
+          "correct": true,
+          "note": "The chapter describes this fallback explicitly."
+        },
+        {
+          "text": "Wait until the stakeholder is available, delaying sign off",
+          "correct": false,
+          "note": "The charter says the review should proceed if possible."
+        },
+        {
+          "text": "Sign off on the stakeholder's behalf",
+          "correct": false,
+          "note": "The analyst cannot exercise business authority."
+        },
+        {
+          "text": "Remove the stakeholder's requirements from the BRD",
+          "correct": false,
+          "note": "Dropping requirements is a scope decision."
+        },
+        {
+          "text": "Ask the project office representative to cover the stakeholder's perspective",
+          "correct": false,
+          "note": "The project office checks standards, not business need."
+        },
+        {
+          "text": "Record the absence and baseline the document",
+          "correct": false,
+          "note": "Baselining without that perspective is the risk being avoided."
+        }
+      ],
+      "explanation": "The chapter is pragmatic: an informal one-to-one still surfaces errors from that perspective, which is worth more than a gap in the review. It is explicitly described as less than ideal rather than as good practice."
+    },
+    {
+      "id": "ch12-12.2-01",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.2",
+      "stem": "What does horizontal traceability concern?",
+      "options": [
+        {
+          "text": "Tracing a requirement from its inception to its delivery",
+          "correct": true,
+          "note": "Horizontal traceability runs across the development lifecycle, in two directions."
+        },
+        {
+          "text": "Tracing a requirement up the hierarchy to business strategy",
+          "correct": false,
+          "note": "That is vertical traceability."
+        },
+        {
+          "text": "Tracing changes to a requirement over time",
+          "correct": false,
+          "note": "That is version history within configuration management."
+        },
+        {
+          "text": "Tracing which stakeholder owns a requirement",
+          "correct": false,
+          "note": "Ownership is one element of management, not the horizontal axis."
+        },
+        {
+          "text": "Tracing the cost of delivering each requirement",
+          "correct": false,
+          "note": "Cost tracking is not what traceability means here."
+        },
+        {
+          "text": "Tracing requirements between different projects",
+          "correct": false,
+          "note": "That is a cross-project dependency concern."
+        }
+      ],
+      "explanation": "The chapter splits horizontal traceability into backwards from, which asks where a feature came from, and forwards to, which asks what happened to a requirement. Both run along the lifecycle rather than up the hierarchy."
+    },
+    {
+      "id": "ch12-12.2-02",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.2",
+      "stem": "An auditor asks who raised a particular requirement and why. Which form of traceability answers that?",
+      "options": [
+        {
+          "text": "Backwards from traceability, which traces a feature back to its origin",
+          "correct": true,
+          "note": "Backwards from answers what was the source for this requirement and who raised it."
+        },
+        {
+          "text": "Forwards to traceability, which tracks where a requirement was implemented",
+          "correct": false,
+          "note": "Forwards to answers what happened to it, not where it came from."
+        },
+        {
+          "text": "Vertical traceability, which links to business strategy",
+          "correct": false,
+          "note": "Strategy alignment does not identify the individual source."
+        },
+        {
+          "text": "Configuration identification, which records versions",
+          "correct": false,
+          "note": "Versioning records what changed rather than who asked."
+        },
+        {
+          "text": "Change control, which records decisions",
+          "correct": false,
+          "note": "Decisions record approval rather than origin."
+        },
+        {
+          "text": "Horizontal alignment, which compares requirements",
+          "correct": false,
+          "note": "No such technique is described."
+        }
+      ],
+      "explanation": "The two horizontal directions answer opposite questions, and exam questions routinely swap them. Origin and ownership sit with backwards from; implementation and resolution sit with forwards to."
+    },
+    {
+      "id": "ch12-12.2-03",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.2",
+      "stem": "What does vertical traceability show?",
+      "options": [
+        {
+          "text": "How a requirement aligns up or down the hierarchy, ultimately to business values, policies, strategy and objectives",
+          "correct": true,
+          "note": "That is the vertical axis the chapter describes."
+        },
+        {
+          "text": "How a requirement was delivered",
+          "correct": false,
+          "note": "That is horizontal traceability."
+        },
+        {
+          "text": "Which version of a requirement is current",
+          "correct": false,
+          "note": "That is configuration management."
+        },
+        {
+          "text": "Which stakeholder approved the requirement",
+          "correct": false,
+          "note": "That is ownership."
+        },
+        {
+          "text": "How many requirements belong to each business area",
+          "correct": false,
+          "note": "Grouping is not traceability."
+        },
+        {
+          "text": "Which tests cover a requirement",
+          "correct": false,
+          "note": "Test coverage is a form of horizontal tracing."
+        }
+      ],
+      "explanation": "Vertical traceability is the alignment check: it is how an analyst demonstrates that a solution requirement earns its place by supporting a business requirement, which in turn supports strategy."
+    },
+    {
+      "id": "ch12-12.2-04",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.2",
+      "stem": "What is the difference between change control and configuration management?",
+      "options": [
+        {
+          "text": "Change control manages changes that have been requested, while configuration management manages the items that make up the deliverables",
+          "correct": true,
+          "note": "The chapter states this distinction explicitly because the two are often confused."
+        },
+        {
+          "text": "Change control manages the versions of items, while configuration management manages requests",
+          "correct": false,
+          "note": "The definitions are the other way round here."
+        },
+        {
+          "text": "They are two names for the same process",
+          "correct": false,
+          "note": "The chapter says confusion arises precisely because they are different."
+        },
+        {
+          "text": "Change control applies to Agile and configuration management to linear projects",
+          "correct": false,
+          "note": "Both apply across approaches."
+        },
+        {
+          "text": "Configuration management is the approval step within change control",
+          "correct": false,
+          "note": "Approval belongs to change control."
+        },
+        {
+          "text": "Change control is done by the project office and configuration management by the analyst",
+          "correct": false,
+          "note": "Ownership of the activities is not the distinction."
+        }
+      ],
+      "explanation": "One manages demand for change, the other manages the contents of baselined items. They connect because assessing a change means asking which configuration items it affects."
+    },
+    {
+      "id": "ch12-12.2-05",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.2",
+      "stem": "Which sequence does the chapter give for a change control process?",
+      "options": [
+        {
+          "text": "Document the proposed change, analyse it, consult the stakeholders, then decide on the change",
+          "correct": true,
+          "note": "Those are the four stages in order."
+        },
+        {
+          "text": "Decide, document, implement, review",
+          "correct": false,
+          "note": "A decision cannot precede the analysis it depends on."
+        },
+        {
+          "text": "Consult, document, decide, implement",
+          "correct": false,
+          "note": "Documentation comes first so the request has substance."
+        },
+        {
+          "text": "Analyse, decide, document, consult",
+          "correct": false,
+          "note": "Consultation informs the decision rather than following it."
+        },
+        {
+          "text": "Raise the change request, escalate to the sponsor, implement, close",
+          "correct": false,
+          "note": "Escalation is not the standard path."
+        },
+        {
+          "text": "Assess impact, approve the budget, update the baseline, notify the team",
+          "correct": false,
+          "note": "Budget approval is only one part of the decision step."
+        }
+      ],
+      "explanation": "The order matters because the impact assessment and the consultation feed the decision the approval authority takes. Deciding first would make the analysis decorative."
+    },
+    {
+      "id": "ch12-12.2-06",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.2",
+      "stem": "A requirement is baselined as T-007v1.0 and a change is later approved and applied. What happens to the identifier?",
+      "options": [
+        {
+          "text": "It is renumbered to reflect the new version, such as T-007v2.0, and the change is recorded against it",
+          "correct": true,
+          "note": "The chapter describes renumbering after revision and keeping a version history."
+        },
+        {
+          "text": "It keeps the version at 1.0 and the change is noted in comments only",
+          "correct": false,
+          "note": "That would break the audit trail."
+        },
+        {
+          "text": "It receives a new identifier because it is now a different requirement",
+          "correct": false,
+          "note": "The identifier stays; the version changes."
+        },
+        {
+          "text": "It is reverted to draft status at v0.x",
+          "correct": false,
+          "note": "A baselined item does not return to draft."
+        },
+        {
+          "text": "The old version is deleted once the new one is approved",
+          "correct": false,
+          "note": "Version history requires retaining the earlier version."
+        },
+        {
+          "text": "It is renumbered only at the end of the project",
+          "correct": false,
+          "note": "Renumbering happens as changes are applied."
+        }
+      ],
+      "explanation": "The identifier identifies the requirement; the version tells you which state it is in. Drafts use the 0.n form, and baselining takes it to 1.0, so subsequent changes move the major number."
+    },
+    {
+      "id": "ch12-12.2-07",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.2",
+      "stem": "During development, a team works out further detail of how a baselined requirement will be met. Does that require a formal change to the requirement?",
+      "options": [
+        {
+          "text": "No, because emergent detail about how a requirement is fulfilled is not a change to the requirement itself",
+          "correct": true,
+          "note": "The chapter distinguishes elaboration from change."
+        },
+        {
+          "text": "Yes, because any change to the documentation requires reapproval",
+          "correct": false,
+          "note": "Elaboration of how the work is done is not a change to the definition."
+        },
+        {
+          "text": "Yes, because the baseline means the requirement is fixed",
+          "correct": false,
+          "note": "A baseline controls change rather than preventing elaboration."
+        },
+        {
+          "text": "No, because configuration management does not apply in Agile",
+          "correct": false,
+          "note": "The distinction applies in both approaches."
+        },
+        {
+          "text": "No, because the requirement owner can approve details informally",
+          "correct": false,
+          "note": "Approval authority is not the reason."
+        },
+        {
+          "text": "Yes, unless the product owner agrees otherwise",
+          "correct": false,
+          "note": "The distinction is conceptual, not a matter of discretion."
+        }
+      ],
+      "explanation": "This is the chapter's answer to when a change is actually a change. If the requirement still states the same what, and only the how has emerged, the item does not need to go through change control."
+    },
+    {
+      "id": "ch12-12.2-08",
+      "chapter": 12,
+      "topic": 12,
+      "lo": "12.2",
+      "stem": "Why is cross-referencing requirements and documents an element of requirements management?",
+      "options": [
+        {
+          "text": "It guards against inconsistency and fragmentation and supports impact analysis when a change is proposed",
+          "correct": true,
+          "note": "The chapter gives both reasons."
+        },
+        {
+          "text": "It replaces the need for unique identifiers",
+          "correct": false,
+          "note": "Identifiers are a separate element."
+        },
+        {
+          "text": "It reduces the number of requirements in the catalogue",
+          "correct": false,
+          "note": "Cross-referencing does not remove requirements."
+        },
+        {
+          "text": "It allows the configuration manager to approve changes",
+          "correct": false,
+          "note": "Approval is the change control decision."
+        },
+        {
+          "text": "It proves that the requirements are testable",
+          "correct": false,
+          "note": "Testability is a validation criterion."
+        },
+        {
+          "text": "It records the version history automatically",
+          "correct": false,
+          "note": "History is recorded through configuration control."
+        }
+      ],
+      "explanation": "Impact analysis is the practical payoff: a change request is assessed by following the links to see what else depends on the requirement. Without links, the analyst is guessing at the blast radius."
+    },
+    {
+      "id": "ch13-13.1-01",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.1",
+      "stem": "Which two philosophies underpin software development lifecycles?",
+      "options": [
+        {
+          "text": "Linear, where steps run in sequence and the solution is typically deployed in one release, and evolutionary, where the solution emerges through iterative development and is deployed in increments",
+          "correct": true,
+          "note": "Those are the two paradigms the chapter defines."
+        },
+        {
+          "text": "Waterfall and Agile, which are the only two lifecycles in use",
+          "correct": false,
+          "note": "Waterfall and Agile are examples, not the paradigms."
+        },
+        {
+          "text": "Predictive and adaptive, distinguished by whether a business case exists",
+          "correct": false,
+          "note": "Both approaches use business cases."
+        },
+        {
+          "text": "Structured and object-oriented, distinguished by modelling notation",
+          "correct": false,
+          "note": "Notation is an approach choice, not the underpinning philosophy."
+        },
+        {
+          "text": "Big bang and phased, distinguished only by deployment",
+          "correct": false,
+          "note": "Deployment is one consequence, not the paradigm."
+        },
+        {
+          "text": "In-house and outsourced, distinguished by who builds it",
+          "correct": false,
+          "note": "Sourcing is an unrelated choice."
+        }
+      ],
+      "explanation": "The paradigms sit above the individual lifecycles: waterfall and the V model are linear, incremental and iterative are evolutionary in different ways. The exam expects you to place a named lifecycle into the right paradigm."
+    },
+    {
+      "id": "ch13-13.1-02",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.1",
+      "stem": "A lifecycle proceeds feasibility study, analysis, design, development, testing, implementation, with each stage reviewed and signed off before the next begins. Which lifecycle is it?",
+      "options": [
+        {
+          "text": "Waterfall",
+          "correct": true,
+          "note": "That is the sequence of the waterfall lifecycle."
+        },
+        {
+          "text": "The V model",
+          "correct": false,
+          "note": "The V model shows testing stages explicitly and links them back to earlier deliverables."
+        },
+        {
+          "text": "Incremental",
+          "correct": false,
+          "note": "Incremental has multiple development and implementation phases."
+        },
+        {
+          "text": "Iterative",
+          "correct": false,
+          "note": "Iterative evolves requirements across timeboxed iterations."
+        },
+        {
+          "text": "The generic Agile lifecycle",
+          "correct": false,
+          "note": "That begins with establishing the business need and a solution backlog."
+        },
+        {
+          "text": "The business change lifecycle",
+          "correct": false,
+          "note": "That runs alignment, definition, design, implementation and realisation."
+        }
+      ],
+      "explanation": "The giveaway is the single sequence with sign off between stages, ending in one implementation. The business change lifecycle is the near miss, because it also has five ordered stages, but it describes business change rather than solution delivery."
+    },
+    {
+      "id": "ch13-13.1-03",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.1",
+      "stem": "What does the V model show that the waterfall does not?",
+      "options": [
+        {
+          "text": "The testing stages explicitly, each linked to the deliverable that determines its test criteria",
+          "correct": true,
+          "note": "The chapter says the waterfall is bent back on itself to make the testing connection explicit."
+        },
+        {
+          "text": "The feasibility study as a separate stage",
+          "correct": false,
+          "note": "The waterfall also begins with a feasibility study."
+        },
+        {
+          "text": "The business case and post-implementation review",
+          "correct": false,
+          "note": "Those appear in the extended V model rather than in the basic V."
+        },
+        {
+          "text": "The sequence of development stages reversed",
+          "correct": false,
+          "note": "The development sequence is the same."
+        },
+        {
+          "text": "Parallel development of modules",
+          "correct": false,
+          "note": "Parallel working is not what the V shows."
+        },
+        {
+          "text": "The roles responsible for each stage",
+          "correct": false,
+          "note": "Roles are not the model's subject."
+        }
+      ],
+      "explanation": "The valuable idea is that acceptance criteria are written when requirements are defined, and used later in user acceptance testing. That traceability between a deliverable and its test is what the straight waterfall leaves implicit."
+    },
+    {
+      "id": "ch13-13.1-04",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.1",
+      "stem": "In the extended V model, which comparison does the post-implementation review make?",
+      "options": [
+        {
+          "text": "The predicted business benefits in the business case against what has been realised by the new business system",
+          "correct": true,
+          "note": "The chapter describes the extended model reviewing benefits against the case."
+        },
+        {
+          "text": "The unit test criteria against the system test criteria",
+          "correct": false,
+          "note": "That comparison sits earlier, in testing."
+        },
+        {
+          "text": "The requirements against the design specification",
+          "correct": false,
+          "note": "That is a validation activity, not the post-implementation review."
+        },
+        {
+          "text": "The cost estimate against the final invoice",
+          "correct": false,
+          "note": "Financial reconciliation is not the review described."
+        },
+        {
+          "text": "The project plan against the actual schedule",
+          "correct": false,
+          "note": "Schedule review is project management reporting."
+        },
+        {
+          "text": "The business case against the feasibility study",
+          "correct": false,
+          "note": "Both are pre-decision documents."
+        }
+      ],
+      "explanation": "The extended V pairs analyse business needs with review benefits, which is how it makes the BA's involvement visible at both ends of the lifecycle rather than only at the requirements stage."
+    },
+    {
+      "id": "ch13-13.1-05",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.1",
+      "stem": "Which structure distinguishes the incremental lifecycle?",
+      "options": [
+        {
+          "text": "Linear early stages to establish feasibility, analysis and design, then multiple increments each comprising development, testing and implementation",
+          "correct": true,
+          "note": "That is the incremental structure the chapter illustrates."
+        },
+        {
+          "text": "A single sequence of stages with one implementation",
+          "correct": false,
+          "note": "That is waterfall."
+        },
+        {
+          "text": "Timeboxed iterations in which requirements evolve",
+          "correct": false,
+          "note": "That is the iterative or Agile lifecycle."
+        },
+        {
+          "text": "A V shape with testing mirrored against development",
+          "correct": false,
+          "note": "That is the V model."
+        },
+        {
+          "text": "A spiral of risk-driven rounds",
+          "correct": false,
+          "note": "That is Boehm's spiral model, the ancestor of iterative approaches."
+        },
+        {
+          "text": "Parallel increments delivered without any earlier analysis and design",
+          "correct": false,
+          "note": "The incremental lifecycle depends on early analysis and design."
+        }
+      ],
+      "explanation": "The incremental lifecycle borrows the linear front end and then repeats a slice of the back end. That is why it needs the complete requirements set and an overall design up front, which is the difference from iterative."
+    },
+    {
+      "id": "ch13-13.1-06",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.1",
+      "stem": "Why does the incremental lifecycle require a design that is future-proofed to accommodate later increments?",
+      "options": [
+        {
+          "text": "Because inconsistencies, errors and conflicts arise if later increments do not fit the design already built",
+          "correct": true,
+          "note": "The chapter links future-proof design directly to avoiding those problems."
+        },
+        {
+          "text": "Because each increment must be designed from scratch",
+          "correct": false,
+          "note": "Increments reuse the overall design."
+        },
+        {
+          "text": "Because the requirements are defined in outline and evolve",
+          "correct": false,
+          "note": "That describes iterative rather than incremental."
+        },
+        {
+          "text": "Because regression testing removes the need for design",
+          "correct": false,
+          "note": "Testing does not substitute for design."
+        },
+        {
+          "text": "Because subsequent increments are delivered by a different team",
+          "correct": false,
+          "note": "Team composition is not the reason given."
+        },
+        {
+          "text": "Because the total cost is lower than a single release",
+          "correct": false,
+          "note": "Incremental usually costs more overall, not less."
+        }
+      ],
+      "explanation": "Each increment must not compromise the solution already delivered, so the design has to anticipate what is coming. Retrofitting a later increment into a design that did not allow for it is exactly where the costs and defects the chapter warns about appear."
+    },
+    {
+      "id": "ch13-13.1-07",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.1",
+      "stem": "What is the fundamental difference between the incremental and the iterative lifecycle?",
+      "options": [
+        {
+          "text": "Incremental defines a complete requirements set and overall design up front, while iterative evolves the requirements through iterations",
+          "correct": true,
+          "note": "The chapter states this as the key distinction."
+        },
+        {
+          "text": "Incremental deploys once, while iterative deploys in increments",
+          "correct": false,
+          "note": "Incremental is the one that deploys in increments."
+        },
+        {
+          "text": "Incremental uses prototypes, while iterative does not",
+          "correct": false,
+          "note": "Prototyping is characteristic of the iterative approach."
+        },
+        {
+          "text": "Incremental requires no testing, while iterative tests continuously",
+          "correct": false,
+          "note": "Both test."
+        },
+        {
+          "text": "Incremental is used only for software, while iterative is used only for processes",
+          "correct": false,
+          "note": "Both are adapted to either."
+        },
+        {
+          "text": "Incremental has no design stage",
+          "correct": false,
+          "note": "Early analysis and design are part of it."
+        }
+      ],
+      "explanation": "Incremental answers how much is delivered at a time; iterative answers whether the requirements are fixed before development. That is why the chapter pairs incremental with a complete requirements set and iterative with emerging requirements."
+    },
+    {
+      "id": "ch13-13.1-08",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.1",
+      "stem": "Which of the chapter's Agile principles describes learning from work that does not deliver the desired outcome?",
+      "options": [
+        {
+          "text": "Experiential learning, where an unsuccessful attempt is treated as part of the iterative process rather than waste",
+          "correct": true,
+          "note": "The chapter states that learned experience informs the approach and that an unsuccessful attempt is not a waste."
+        },
+        {
+          "text": "Continuous testing, where software is tested throughout",
+          "correct": false,
+          "note": "Testing is a separate principle."
+        },
+        {
+          "text": "Empowered teams, where the team is self-organising",
+          "correct": false,
+          "note": "Empowerment concerns decision authority."
+        },
+        {
+          "text": "Timeboxed iterations, where a time limit is set",
+          "correct": false,
+          "note": "Timeboxing concerns scheduling."
+        },
+        {
+          "text": "Evolutionary development, where requirements evolve through prototyping",
+          "correct": false,
+          "note": "Evolution concerns requirement detail."
+        },
+        {
+          "text": "Incremental delivery, where each increment adds functionality",
+          "correct": false,
+          "note": "Increments concern deployment scope."
+        }
+      ],
+      "explanation": "The eight principles are individually examinable and this one is the easiest to miss, because it is a claim about attitude rather than practice. It is what allows a team to prototype without treating a failed prototype as a project failure."
+    },
+    {
+      "id": "ch13-13.1-09",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.1",
+      "stem": "Which stage of the generic Agile lifecycle takes the selected option and defines high-level business requirements into a repository of solution requirements?",
+      "options": [
+        {
+          "text": "Establish solution backlog",
+          "correct": true,
+          "note": "The chapter places backlog establishment after option selection and prior to increment planning."
+        },
+        {
+          "text": "Establish business need and evaluate options",
+          "correct": false,
+          "note": "That stage precedes the backlog and covers feasibility."
+        },
+        {
+          "text": "Plan solution increment",
+          "correct": false,
+          "note": "Planning selects from the backlog rather than creating it."
+        },
+        {
+          "text": "Develop solution",
+          "correct": false,
+          "note": "Development elaborates the backlog items within iterations."
+        },
+        {
+          "text": "Deploy and evaluate solution increment",
+          "correct": false,
+          "note": "Deployment follows development."
+        },
+        {
+          "text": "Review benefits",
+          "correct": false,
+          "note": "Benefits review follows operation of the increment."
+        }
+      ],
+      "explanation": "The order matters because the backlog is the artefact that carries requirements from option selection into iterative development. Its content is then reprioritised continuously as increments are deployed and feedback arrives."
+    },
+    {
+      "id": "ch13-13.1-10",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.1",
+      "stem": "In the waterfall lifecycle, which stages are the business analyst typically directly involved in?",
+      "options": [
+        {
+          "text": "The feasibility study and analysis stages, plus user acceptance activity in testing and support to business staff in implementation",
+          "correct": true,
+          "note": "The chapter lists those involvements."
+        },
+        {
+          "text": "Design and development only, because requirements are finished",
+          "correct": false,
+          "note": "Analysts support design and development with queries rather than owning them."
+        },
+        {
+          "text": "Implementation and operation only",
+          "correct": false,
+          "note": "Both happen after the analyst's main work."
+        },
+        {
+          "text": "Every stage equally, with no distinction",
+          "correct": false,
+          "note": "The chapter is specific about where the analyst leads."
+        },
+        {
+          "text": "Testing only, as independent verification",
+          "correct": false,
+          "note": "Acceptance testing is one part of the involvement."
+        },
+        {
+          "text": "None, because the project manager owns the lifecycle",
+          "correct": false,
+          "note": "The analyst is a project team member throughout."
+        }
+      ],
+      "explanation": "The analyst leads where business understanding is the constraint and supports where technical work is the constraint. The chapter also says the analyst should still be involved in design and development to clarify requirements and assess impact."
+    },
+    {
+      "id": "ch13-13.2-01",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.2",
+      "stem": "What is the principal benefit of the waterfall lifecycle?",
+      "options": [
+        {
+          "text": "It provides a strong basis for firm and clear management control, and stage sign off supports a high quality solution",
+          "correct": true,
+          "note": "The chapter names both as the principal benefit."
+        },
+        {
+          "text": "It adapts quickly to change",
+          "correct": false,
+          "note": "Poor adaptation to change is its principal weakness."
+        },
+        {
+          "text": "It delivers high priority requirements earliest",
+          "correct": false,
+          "note": "That is the incremental lifecycle's advantage."
+        },
+        {
+          "text": "It requires only outline requirements",
+          "correct": false,
+          "note": "It requires a complete requirements set."
+        },
+        {
+          "text": "It avoids documentation overhead",
+          "correct": false,
+          "note": "Documentation is substantial."
+        },
+        {
+          "text": "It removes the need for acceptance testing",
+          "correct": false,
+          "note": "Acceptance testing still happens in the testing stage."
+        }
+      ],
+      "explanation": "Control is bought with sequence and sign off. The same structure that makes the project easy to manage is what makes change expensive, which is why the chapter pairs the benefit with the weakness."
+    },
+    {
+      "id": "ch13-13.2-02",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.2",
+      "stem": "A significant change is requested during the development stage of a waterfall project. Why is this costly?",
+      "options": [
+        {
+          "text": "Because it requires adjustments to the analysis and design documentation and possibly to the feasibility study as well",
+          "correct": true,
+          "note": "The chapter gives this cascading effect as the reason."
+        },
+        {
+          "text": "Because the testing stage must be repeated in full",
+          "correct": false,
+          "note": "Some testing is affected, but the reason given is the documentation cascade."
+        },
+        {
+          "text": "Because the feasibility study becomes invalid in every case",
+          "correct": false,
+          "note": "It may need adjustment, not automatic invalidation."
+        },
+        {
+          "text": "Because the project must restart from analysis",
+          "correct": false,
+          "note": "The change is absorbed by revising deliverables."
+        },
+        {
+          "text": "Because the business case must be rewritten and reapproved",
+          "correct": false,
+          "note": "The case may be revisited, but that is not the stated reason."
+        },
+        {
+          "text": "Because sign off cannot be given to any stage after a change",
+          "correct": false,
+          "note": "Sign off continues on the revised deliverables."
+        }
+      ],
+      "explanation": "The cost of change in a linear lifecycle is the cost of updating every artefact downstream that assumed the old requirement. That is the trade against the control the sequence provides."
+    },
+    {
+      "id": "ch13-13.2-03",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.2",
+      "stem": "Which of these does the chapter give as a disadvantage of the linear lifecycles?",
+      "options": [
+        {
+          "text": "A completely defined set of requirements is likely to be out of date quickly, because the pace of business change is rapid",
+          "correct": true,
+          "note": "That is one of the four disadvantages listed."
+        },
+        {
+          "text": "The requirements are usually too vague to develop from",
+          "correct": false,
+          "note": "The opposite is the risk: over-specification."
+        },
+        {
+          "text": "Stakeholders are not involved in validation",
+          "correct": false,
+          "note": "Validation is part of the linear approach."
+        },
+        {
+          "text": "There is no basis for managing the project",
+          "correct": false,
+          "note": "Strong control is the linear advantage."
+        },
+        {
+          "text": "The solution cannot be tested against criteria",
+          "correct": false,
+          "note": "The V model in particular makes criteria explicit."
+        },
+        {
+          "text": "Documentation is not produced at all",
+          "correct": false,
+          "note": "Documentation is extensive."
+        }
+      ],
+      "explanation": "The recommendation to define everything up front assumes a stable world. When change is fast, the asset you just baselined starts depreciating immediately, and maintaining it becomes work in its own right."
+    },
+    {
+      "id": "ch13-13.2-04",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.2",
+      "stem": "Which requirements does the chapter say cannot safely be left to evolve in an iterative approach?",
+      "options": [
+        {
+          "text": "Those involving complex business rules or legal constraints, which often have to be defined accurately at an early stage",
+          "correct": true,
+          "note": "The chapter names those two cases explicitly."
+        },
+        {
+          "text": "Non-functional requirements such as usability",
+          "correct": false,
+          "note": "Usability is often explored through prototypes."
+        },
+        {
+          "text": "User interface requirements",
+          "correct": false,
+          "note": "Interfaces are a natural fit for iterative refinement."
+        },
+        {
+          "text": "Reporting requirements for managers",
+          "correct": false,
+          "note": "These are requirements like any other and can evolve."
+        },
+        {
+          "text": "Requirements with a must have priority",
+          "correct": false,
+          "note": "Priority does not determine whether detail can evolve."
+        },
+        {
+          "text": "Requirements owned by the product owner",
+          "correct": false,
+          "note": "Ownership does not change the constraint."
+        }
+      ],
+      "explanation": "Iterative delivery assumes detail can emerge. Compliance and complex rules break that assumption, because getting them wrong late risks legal failure and rejection of the product, which is why the chapter treats this as a disadvantage rather than a preference."
+    },
+    {
+      "id": "ch13-13.2-05",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.2",
+      "stem": "What does the chapter say can result from defining requirements in an iterative project without an overview of the intended solution?",
+      "options": [
+        {
+          "text": "A fragmented view and a product that is inconsistent or fails to address key non-functional issues",
+          "correct": true,
+          "note": "The chapter lists this as an iterative disadvantage."
+        },
+        {
+          "text": "A product with too much documentation",
+          "correct": false,
+          "note": "Iterative projects tend toward less documentation."
+        },
+        {
+          "text": "Requirements that are never prioritised",
+          "correct": false,
+          "note": "Prioritisation is central to iterative working."
+        },
+        {
+          "text": "An inability to deliver increments",
+          "correct": false,
+          "note": "Increments are delivered regularly."
+        },
+        {
+          "text": "Excessive control over scope",
+          "correct": false,
+          "note": "Control is the linear characteristic, not the iterative one."
+        },
+        {
+          "text": "Users receiving releases too infrequently",
+          "correct": false,
+          "note": "The iterative risk is releasing too often, not too rarely."
+        }
+      ],
+      "explanation": "Story by story delivery can lose the whole. The overview is what keeps non-functional qualities coherent across increments, and it is the thing most easily dropped when a team works only from a backlog."
+    },
+    {
+      "id": "ch13-13.2-06",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.2",
+      "stem": "What does the chapter identify as a customer-facing disadvantage of iterative delivery?",
+      "options": [
+        {
+          "text": "That too frequent product releases may be unacceptable, because users must change their ways of working more often than they feel is necessary",
+          "correct": true,
+          "note": "The chapter lists this as an iterative disadvantage."
+        },
+        {
+          "text": "That releases contain too few features to be useful",
+          "correct": false,
+          "note": "Feature content is not the stated problem."
+        },
+        {
+          "text": "That releases are never tested before deployment",
+          "correct": false,
+          "note": "Continuous testing is an Agile principle."
+        },
+        {
+          "text": "That customers cannot provide feedback between releases",
+          "correct": false,
+          "note": "Feedback between increments is central."
+        },
+        {
+          "text": "That each release costs more than a single delivery",
+          "correct": false,
+          "note": "Higher total cost is associated with incremental delivery, not this point."
+        },
+        {
+          "text": "That releases cannot include non-functional improvements",
+          "correct": false,
+          "note": "They can and should."
+        }
+      ],
+      "explanation": "Change fatigue is a real cost, and it is easy to overlook when the delivery mechanics are working well. The pace that suits a development team is not automatically the pace that suits the people who have to adopt each release."
+    },
+    {
+      "id": "ch13-13.2-07",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.2",
+      "stem": "Why is the total cost of an incremental delivery likely to be higher than a single release?",
+      "options": [
+        {
+          "text": "Because each increment must not compromise the solution, and later increments require regression testing",
+          "correct": true,
+          "note": "The chapter gives both reasons."
+        },
+        {
+          "text": "Because increments always require more developers",
+          "correct": false,
+          "note": "Team size is not the stated reason."
+        },
+        {
+          "text": "Because the requirements must be redefined for every increment",
+          "correct": false,
+          "note": "The requirements set is defined up front."
+        },
+        {
+          "text": "Because each increment needs its own business case",
+          "correct": false,
+          "note": "One case covers the programme."
+        },
+        {
+          "text": "Because testing is skipped in the first increment",
+          "correct": false,
+          "note": "Testing happens in every increment."
+        },
+        {
+          "text": "Because the design is future-proofed, which removes rework",
+          "correct": false,
+          "note": "Future-proofing is what keeps increments compatible, not the cost driver itself."
+        }
+      ],
+      "explanation": "The extra cost buys earlier delivery of priority requirements and reduced risk. Whether that trade is worth it depends on the context, which is why the chapter presents it as a trade rather than a fault."
+    },
+    {
+      "id": "ch13-13.2-08",
+      "chapter": 13,
+      "topic": 13,
+      "lo": "13.2",
+      "stem": "A legacy system must be replaced and partial operation alongside the old system is not viable. What does the chapter say about the delivery approach?",
+      "options": [
+        {
+          "text": "A direct changeover to a complete replacement solution is probable, and incremental delivery will not be acceptable",
+          "correct": true,
+          "note": "The chapter links legacy replacement to direct changeover."
+        },
+        {
+          "text": "An incremental approach is preferable because it reduces risk",
+          "correct": false,
+          "note": "That preference applies to new applications or enhancements."
+        },
+        {
+          "text": "A pilot with a subset of users should be attempted first",
+          "correct": false,
+          "note": "No pilot is described for this situation."
+        },
+        {
+          "text": "Parallel running of old and new systems is the standard approach",
+          "correct": false,
+          "note": "Parallel running is described elsewhere and is not what the chapter recommends here."
+        },
+        {
+          "text": "The lifecycle choice is irrelevant to delivery",
+          "correct": false,
+          "note": "Delivery approach depends on context."
+        },
+        {
+          "text": "The organisation should postpone the replacement until increments are possible",
+          "correct": false,
+          "note": "Deferral is not the recommendation."
+        }
+      ],
+      "explanation": "Delivery approach follows context, and the constraint here is that the old system cannot co-exist with the new one. That rules out phasing and forces a single cutover, however uncomfortable that is."
+    },
+    {
+      "id": "ch14-14.1-01",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.1",
+      "stem": "Which stage of the business change lifecycle is concerned with reviewing predicted benefits and identifying where further action is needed?",
+      "options": [
+        {
+          "text": "Realisation",
+          "correct": true,
+          "note": "The chapter defines realisation as review of predicted benefits against those achieved."
+        },
+        {
+          "text": "Implementation",
+          "correct": false,
+          "note": "Implementation covers planning, preparation and deployment of the changes."
+        },
+        {
+          "text": "Design and development",
+          "correct": false,
+          "note": "That stage specifies, develops and tests the solution."
+        },
+        {
+          "text": "Definition",
+          "correct": false,
+          "note": "Definition uncovers root causes and defines requirements."
+        },
+        {
+          "text": "Alignment",
+          "correct": false,
+          "note": "Alignment fits the change to strategy and architecture."
+        },
+        {
+          "text": "Feasibility",
+          "correct": false,
+          "note": "Feasibility is a business case activity, not a lifecycle stage."
+        }
+      ],
+      "explanation": "Each stage has a distinct concern, and realisation is the only one that looks backwards at benefits. Confusing it with implementation is common because benefits are often reviewed soon after deployment."
+    },
+    {
+      "id": "ch14-14.1-02",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.1",
+      "stem": "What does the chapter say about the business analyst's involvement across the change lifecycle?",
+      "options": [
+        {
+          "text": "The role is relevant across the entire lifecycle, not only during alignment and definition",
+          "correct": true,
+          "note": "The chapter states the role is relevant across the entire change lifecycle."
+        },
+        {
+          "text": "The role ends when requirements are signed off",
+          "correct": false,
+          "note": "The chapter describes BA work in design, development, testing, implementation and realisation."
+        },
+        {
+          "text": "The role is limited to the definition stage",
+          "correct": false,
+          "note": "Much of the book covers definition, but not exclusively."
+        },
+        {
+          "text": "The role is only needed where software is involved",
+          "correct": false,
+          "note": "Process and people changes also need analysis."
+        },
+        {
+          "text": "The role transfers to the project manager after design",
+          "correct": false,
+          "note": "The two roles run in parallel."
+        },
+        {
+          "text": "The role is advisory only after definition",
+          "correct": false,
+          "note": "The BA conducts work in later stages, including acceptance testing and readiness assessment."
+        }
+      ],
+      "explanation": "This is the chapter's whole argument: the skills used early remain useful late, particularly for acceptance testing, readiness assessment and benefits realisation."
+    },
+    {
+      "id": "ch14-14.1-03",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.1",
+      "stem": "How does the chapter describe the relationship between the five lifecycle stages in practice?",
+      "options": [
+        {
+          "text": "There are likely to be overlaps, and some stages are revisited as changes arise, so the lifecycle gives overall direction rather than a strict sequence",
+          "correct": true,
+          "note": "The chapter says exactly this."
+        },
+        {
+          "text": "The stages must be completed strictly in order, with no return",
+          "correct": false,
+          "note": "Rigid sequencing is explicitly discouraged."
+        },
+        {
+          "text": "The stages are alternatives, and projects choose one",
+          "correct": false,
+          "note": "All five apply to a change."
+        },
+        {
+          "text": "The stages run in parallel from start to finish",
+          "correct": false,
+          "note": "The lifecycle provides direction rather than simultaneity."
+        },
+        {
+          "text": "The lifecycle applies only to software projects",
+          "correct": false,
+          "note": "It applies to business change generally."
+        },
+        {
+          "text": "The lifecycle is identical to the waterfall development lifecycle",
+          "correct": false,
+          "note": "One is a business change view, the other a solution development view."
+        }
+      ],
+      "explanation": "The lesson is that a change programme rarely moves cleanly forward. Revisiting definition during implementation is normal and is why the business case is kept under review throughout."
+    },
+    {
+      "id": "ch14-14.1-04",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.1",
+      "stem": "Which two chapters does the chapter point to for the work of the alignment and definition stages?",
+      "options": [
+        {
+          "text": "Chapter 3 for alignment and the requirements chapters for definition",
+          "correct": true,
+          "note": "The chapter directs readers to Chapter 3 for alignment and notes definition is the topic of much of the book."
+        },
+        {
+          "text": "Chapter 7 for alignment and Chapter 9 for definition",
+          "correct": false,
+          "note": "Those cover processes and the business case."
+        },
+        {
+          "text": "Chapter 5 for alignment and Chapter 6 for definition",
+          "correct": false,
+          "note": "Those cover investigation and stakeholders."
+        },
+        {
+          "text": "Chapter 13 for alignment and Chapter 14 for definition",
+          "correct": false,
+          "note": "Chapter 13 covers delivery lifecycles."
+        },
+        {
+          "text": "Chapter 8 for alignment and Chapter 10 for definition",
+          "correct": false,
+          "note": "Those cover solution definition and requirements establishment."
+        },
+        {
+          "text": "Chapter 1 for alignment only, with definition left out",
+          "correct": false,
+          "note": "Definition is covered across several chapters."
+        }
+      ],
+      "explanation": "The chapter deliberately does not repeat earlier material; it picks up where the book has covered definition and follows the solution through design, implementation and realisation."
+    },
+    {
+      "id": "ch14-14.1-05",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.1",
+      "stem": "An analyst is asked to identify the different elements required within a solution during the design stage. Which model does the chapter say is used for that?",
+      "options": [
+        {
+          "text": "POPIT",
+          "correct": true,
+          "note": "The chapter notes POPIT moves from gap analysis into design for this purpose."
+        },
+        {
+          "text": "The stakeholder wheel",
+          "correct": false,
+          "note": "That identifies stakeholder categories."
+        },
+        {
+          "text": "The power and interest grid",
+          "correct": false,
+          "note": "That analyses stakeholder influence."
+        },
+        {
+          "text": "SIPOC",
+          "correct": false,
+          "note": "That models enterprise level processes."
+        },
+        {
+          "text": "McKinsey 7S",
+          "correct": false,
+          "note": "That assesses readiness and organisational fit."
+        },
+        {
+          "text": "The business change lifecycle",
+          "correct": false,
+          "note": "That describes stages rather than solution elements."
+        }
+      ],
+      "explanation": "POPIT is reused across the lifecycle: first to structure investigation and gap analysis, then to make sure a design covers people, organisation, processes, information and technology rather than just software."
+    },
+    {
+      "id": "ch14-14.2-01",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.2",
+      "stem": "Which set of activities does the chapter give for the business analyst during software design?",
+      "options": [
+        {
+          "text": "Facilitating communication between business and technical staff, developing models and documentation, clarifying requirements, and working with solution architects",
+          "correct": true,
+          "note": "Those are the four design activities in the table."
+        },
+        {
+          "text": "Writing the code, running unit tests and fixing defects",
+          "correct": false,
+          "note": "Those are developer activities."
+        },
+        {
+          "text": "Estimating the build effort and agreeing the release date",
+          "correct": false,
+          "note": "Those belong to project management."
+        },
+        {
+          "text": "Assessing business readiness and running the transition",
+          "correct": false,
+          "note": "Those are implementation activities."
+        },
+        {
+          "text": "Preparing the business case and monitoring benefits",
+          "correct": false,
+          "note": "Those sit in definition and realisation."
+        },
+        {
+          "text": "Chairing the design authority and approving architecture",
+          "correct": false,
+          "note": "Architecture governance is not the BA role described."
+        }
+      ],
+      "explanation": "The analyst's value in design is translation and clarification, not technical decision-making. Working with the solution architect is the one place the chapter explicitly pairs the BA with architecture."
+    },
+    {
+      "id": "ch14-14.2-02",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.2",
+      "stem": "What does the chapter say the business analyst contributes during the development stage?",
+      "options": [
+        {
+          "text": "Supporting queries about requirements and helping decisions on functionality, using an overall understanding of the solution to assess impact and suggest alternatives",
+          "correct": true,
+          "note": "That is the development role described."
+        },
+        {
+          "text": "Specifying the detailed technical design of each module",
+          "correct": false,
+          "note": "That is the designer's and developer's work."
+        },
+        {
+          "text": "Writing and executing automated test scripts",
+          "correct": false,
+          "note": "That is testing work."
+        },
+        {
+          "text": "Approving each code release before deployment",
+          "correct": false,
+          "note": "Release approval is a governance decision."
+        },
+        {
+          "text": "Redefining the requirements as the code is written without change control",
+          "correct": false,
+          "note": "Changes still go through control."
+        },
+        {
+          "text": "Managing the development team's workload",
+          "correct": false,
+          "note": "That is project management."
+        }
+      ],
+      "explanation": "The distinctive claim is the holistic view: because the analyst understands the whole solution, they can see when a proposed feature creates a problem somewhere else, which a developer working on one module cannot."
+    },
+    {
+      "id": "ch14-14.2-03",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.2",
+      "stem": "Which three techniques does the chapter give for defining test cases and test scenarios during acceptance testing?",
+      "options": [
+        {
+          "text": "Use case descriptions, decision tables and state charts",
+          "correct": true,
+          "note": "Those are the three techniques listed."
+        },
+        {
+          "text": "Rich pictures, mind maps and fishbone diagrams",
+          "correct": false,
+          "note": "Those are investigation and visualisation techniques."
+        },
+        {
+          "text": "CRUD matrices, class models and ERDs",
+          "correct": false,
+          "note": "Those are data and cross-checking techniques."
+        },
+        {
+          "text": "PESTLE, SWOT and VMOST",
+          "correct": false,
+          "note": "Those are strategy analysis techniques."
+        },
+        {
+          "text": "Story points, velocity and burn-down charts",
+          "correct": false,
+          "note": "Those are Agile estimation and tracking measures."
+        },
+        {
+          "text": "RACI charts, stakeholder wheels and power and interest grids",
+          "correct": false,
+          "note": "Those are stakeholder analysis techniques."
+        }
+      ],
+      "explanation": "Each technique defines a different shape of test: a pathway through a use case, a combination of conditions producing an action, and a sequence of valid state transitions. Together they cover the cases that a happy path narrative alone would miss."
+    },
+    {
+      "id": "ch14-14.2-04",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.2",
+      "stem": "What does a decision table define?",
+      "options": [
+        {
+          "text": "The range of conditions in a particular situation and the actions to be taken for a specific combination of them",
+          "correct": true,
+          "note": "The chapter defines decision tables in those terms."
+        },
+        {
+          "text": "The states an entity may occupy and the valid transitions between them",
+          "correct": false,
+          "note": "That is a state chart."
+        },
+        {
+          "text": "The main success scenario and alternative flows of a use case",
+          "correct": false,
+          "note": "That is a use case description."
+        },
+        {
+          "text": "The data to be migrated and the format required in the new system",
+          "correct": false,
+          "note": "That is a migration concern."
+        },
+        {
+          "text": "The roles responsible and accountable for each deliverable",
+          "correct": false,
+          "note": "That is a RACI chart."
+        },
+        {
+          "text": "The benefits and the business changes that deliver them",
+          "correct": false,
+          "note": "That is a benefits dependency network."
+        }
+      ],
+      "explanation": "Decision tables are the technique for rules that combine several conditions, where prose becomes ambiguous and a narrative cannot guarantee every combination has been considered."
+    },
+    {
+      "id": "ch14-14.2-05",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.2",
+      "stem": "A person registers for an event, pays, changes their booking and is eventually archived. Which technique represents this?",
+      "options": [
+        {
+          "text": "A state chart, showing the states an entity may occupy and the valid transitions between them",
+          "correct": true,
+          "note": "The chapter's example is exactly a person registering to attend an event."
+        },
+        {
+          "text": "A decision table, showing conditions and actions",
+          "correct": false,
+          "note": "Decision tables handle combinations of conditions rather than state transitions."
+        },
+        {
+          "text": "A use case description, showing the main success scenario",
+          "correct": false,
+          "note": "A use case describes interaction with the system, not an entity's lifecycle."
+        },
+        {
+          "text": "An entity relationship diagram, showing data structure",
+          "correct": false,
+          "note": "An ERD shows entities and relationships, not transitions."
+        },
+        {
+          "text": "A swimlane diagram, showing which actor does which task",
+          "correct": false,
+          "note": "Swimlanes show responsibility for work."
+        },
+        {
+          "text": "A CRUD matrix, showing which process creates and updates data",
+          "correct": false,
+          "note": "CRUD shows data access rather than allowed transitions."
+        }
+      ],
+      "explanation": "State charts exist because some things have a lifecycle with permitted moves between states. Recording, confirming, changing and archiving a registration is a sequence of transitions, each of which can be tested."
+    },
+    {
+      "id": "ch14-14.2-06",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.2",
+      "stem": "Who defines the acceptance criteria that user acceptance testing is measured against?",
+      "options": [
+        {
+          "text": "The business analyst, who records them within user stories, use case descriptions and the requirements catalogue",
+          "correct": true,
+          "note": "The chapter places responsibility for acceptance criteria with the analyst."
+        },
+        {
+          "text": "The software tester, who writes them alongside the test scripts",
+          "correct": false,
+          "note": "Testers validate that criteria are testable; the analyst defines them."
+        },
+        {
+          "text": "The developer, who confirms them during the build",
+          "correct": false,
+          "note": "Developers confirm technical feasibility."
+        },
+        {
+          "text": "The project sponsor, who approves them at sign off",
+          "correct": false,
+          "note": "The sponsor approves overall requirements, not each criterion."
+        },
+        {
+          "text": "The business staff alone, as the people who will accept the solution",
+          "correct": false,
+          "note": "Business staff undertake UAT and confirm the criteria are met."
+        },
+        {
+          "text": "The solution architect, who aligns them to the architecture",
+          "correct": false,
+          "note": "Architecture fit is a different concern."
+        }
+      ],
+      "explanation": "Acceptance criteria are a requirements artefact, which is why they are written when the requirement is defined rather than when testing starts. Testing then becomes a check against something written in advance."
+    },
+    {
+      "id": "ch14-14.3-01",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.3",
+      "stem": "Which three major aspects does the chapter identify for the implementation stage?",
+      "options": [
+        {
+          "text": "Business readiness assessment, transition and migration, and people's response to change",
+          "correct": true,
+          "note": "Those are the three aspects, and the analyst may contribute to all of them."
+        },
+        {
+          "text": "Design, development and testing",
+          "correct": false,
+          "note": "Those belong to the previous stage."
+        },
+        {
+          "text": "Benefits planning, benefits tracking and benefits reporting",
+          "correct": false,
+          "note": "Those belong to realisation."
+        },
+        {
+          "text": "Stakeholder identification, analysis and management",
+          "correct": false,
+          "note": "Those run across the lifecycle rather than defining implementation."
+        },
+        {
+          "text": "Training, coaching and mentoring",
+          "correct": false,
+          "note": "These are activities within transition and the human response."
+        },
+        {
+          "text": "Cost, benefit and risk assessment",
+          "correct": false,
+          "note": "Those are business case concerns."
+        }
+      ],
+      "explanation": "Implementation is where change meets the organisation, so the three aspects cover whether the business is ready, how the change is moved into operation, and how people react. All three can sink a technically sound solution."
+    },
+    {
+      "id": "ch14-14.3-02",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.3",
+      "stem": "Which framework uses the elements customer, product, process, organisation, location, data, application and technology?",
+      "options": [
+        {
+          "text": "CPPOLDAT",
+          "correct": true,
+          "note": "Those eight elements spell CPPOLDAT, which the chapter uses for business readiness assessment."
+        },
+        {
+          "text": "McKinsey 7S",
+          "correct": false,
+          "note": "That uses strategy, structure, systems, style, staff, skills and shared values."
+        },
+        {
+          "text": "POPIT",
+          "correct": false,
+          "note": "That uses people, organisation, processes, information and technology."
+        },
+        {
+          "text": "The Basf",
+          "correct": false,
+          "note": "The BASF is a services framework, not a readiness checklist."
+        },
+        {
+          "text": "VMOST",
+          "correct": false,
+          "note": "That is vision, mission, objectives, strategy and tactics."
+        },
+        {
+          "text": "SIPOC",
+          "correct": false,
+          "note": "That is supplier, input, process, output and customer."
+        }
+      ],
+      "explanation": "CPPOLDAT is the readiness checklist the exam likes because the acronym is distinctive and the elements map almost one to one to the POPIT dimensions. POPIT adds culture and people resistance as explicit concerns."
+    },
+    {
+      "id": "ch14-14.3-03",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.3",
+      "stem": "An organisation removes the old system on Friday and the new one goes live on Monday, with no fallback. Which strategy is this, and what does the chapter say about it?",
+      "options": [
+        {
+          "text": "Direct changeover, which is risky because there is little opportunity for contingency but may be the only viable option",
+          "correct": true,
+          "note": "The chapter describes big bang in those terms and gives legislative deadlines and obsolete systems as cases where it is unavoidable."
+        },
+        {
+          "text": "Parallel running, which reduces risk by keeping both systems going",
+          "correct": false,
+          "note": "Parallel running keeps the old system alive alongside the new."
+        },
+        {
+          "text": "Pilot running, which tests the solution in one part of the business",
+          "correct": false,
+          "note": "A pilot limits scope rather than removing the old system everywhere."
+        },
+        {
+          "text": "Phased implementation, which deploys part of the solution at a time",
+          "correct": false,
+          "note": "Phasing staggers the solution rather than switching everything at once."
+        },
+        {
+          "text": "Phased retirement, which removes the old system gradually",
+          "correct": false,
+          "note": "That is not one of the four strategies described."
+        },
+        {
+          "text": "Incremental delivery, which releases features progressively",
+          "correct": false,
+          "note": "That is a delivery lifecycle choice rather than a transition strategy."
+        }
+      ],
+      "explanation": "Big bang is the cheapest strategy in effort and the most exposed in risk. The chapter does not dismiss it, because some contexts leave no alternative, but it is explicit that contingency is nearly absent."
+    },
+    {
+      "id": "ch14-14.3-04",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.3",
+      "stem": "Why is parallel running described as removing the risk of a direct changeover but being expensive?",
+      "options": [
+        {
+          "text": "Because both the old and new ways of working are maintained for a period, so the organisation can revert but pays to run two approaches",
+          "correct": true,
+          "note": "The chapter gives both the benefit and the cost."
+        },
+        {
+          "text": "Because it requires the new system to be built twice",
+          "correct": false,
+          "note": "One system is built, and two are operated."
+        },
+        {
+          "text": "Because it delays the project start date",
+          "correct": false,
+          "note": "The delay is in the transition, not the start."
+        },
+        {
+          "text": "Because it needs a pilot location as well",
+          "correct": false,
+          "note": "Parallel running does not require a pilot."
+        },
+        {
+          "text": "Because staff must be retrained twice",
+          "correct": false,
+          "note": "Retraining is not the reason given."
+        },
+        {
+          "text": "Because the old system must be reimplemented afterwards",
+          "correct": false,
+          "note": "The old system is already running."
+        }
+      ],
+      "explanation": "Running two approaches doubles operational effort and often doubles data handling, which is why parallel running is usually limited to the riskiest cutovers or to a short period."
+    },
+    {
+      "id": "ch14-14.3-05",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.3",
+      "stem": "What distinguishes pilot running from phased implementation?",
+      "options": [
+        {
+          "text": "A pilot deploys the whole solution in one part of the business, while phasing deploys part of the solution, possibly across the whole organisation",
+          "correct": true,
+          "note": "The chapter draws exactly this contrast."
+        },
+        {
+          "text": "A pilot deploys part of the solution everywhere, while phasing deploys everything in one area",
+          "correct": false,
+          "note": "This reverses the two."
+        },
+        {
+          "text": "A pilot replaces the old system fully, while phasing keeps both systems running",
+          "correct": false,
+          "note": "Neither description matches."
+        },
+        {
+          "text": "A pilot is another name for parallel running",
+          "correct": false,
+          "note": "Parallel running keeps both systems live."
+        },
+        {
+          "text": "A pilot is the same as direct changeover but smaller in scale",
+          "correct": false,
+          "note": "A pilot deliberately limits where the change applies."
+        },
+        {
+          "text": "Phasing means deploying to one location at a time",
+          "correct": false,
+          "note": "That is closer to a pilot."
+        }
+      ],
+      "explanation": "The distinction is scope of solution versus scope of organisation. Both let the organisation learn and adjust before full rollout, but they test different things: the whole system in one place, or one part of the system everywhere."
+    },
+    {
+      "id": "ch14-14.3-06",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.3",
+      "stem": "What is the correct order of the SARAH curve?",
+      "options": [
+        {
+          "text": "Shock, anger, rejection, acceptance, hope",
+          "correct": true,
+          "note": "Those are the five stages in order."
+        },
+        {
+          "text": "Shock, rejection, anger, hope, acceptance",
+          "correct": false,
+          "note": "Anger precedes rejection."
+        },
+        {
+          "text": "Anger, shock, rejection, acceptance, hope",
+          "correct": false,
+          "note": "Shock comes first."
+        },
+        {
+          "text": "Shock, anger, acceptance, rejection, hope",
+          "correct": false,
+          "note": "Acceptance follows rejection."
+        },
+        {
+          "text": "Denial, anger, bargaining, depression, acceptance",
+          "correct": false,
+          "note": "That is a different grief model, not SARAH."
+        },
+        {
+          "text": "Shock, denial, anger, acceptance, commitment",
+          "correct": false,
+          "note": "Denial and commitment are not SARAH stages."
+        }
+      ],
+      "explanation": "SARAH describes the emotional path people take through unwanted change. The chapter's point is that these reactions are expected, and that ignoring them causes resistance that can undermine the whole programme."
+    },
+    {
+      "id": "ch14-14.3-07",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.3",
+      "stem": "Staff have moved from shock to directing anger at the business analysts and developers involved in the change. What does the chapter say the analyst should do?",
+      "options": [
+        {
+          "text": "Recognise the reaction as expected, be sensitive to it, and help people move through the stages with coaching, training and ongoing support",
+          "correct": true,
+          "note": "The chapter describes this response explicitly."
+        },
+        {
+          "text": "Escalate the behaviour as a disciplinary matter",
+          "correct": false,
+          "note": "The reaction is normal rather than misconduct."
+        },
+        {
+          "text": "Withdraw from the business area until the change is live",
+          "correct": false,
+          "note": "Withdrawal removes the support that helps people through the stages."
+        },
+        {
+          "text": "Reassure staff by playing down the scale of the change",
+          "correct": false,
+          "note": "Understating the change undermines trust when reality arrives."
+        },
+        {
+          "text": "Delay the deployment until the anger has passed",
+          "correct": false,
+          "note": "The curve describes a process to be supported, not a blocker."
+        },
+        {
+          "text": "Reassign the affected staff to other work",
+          "correct": false,
+          "note": "Movement through the stages happens in the role."
+        }
+      ],
+      "explanation": "The analyst is often the visible face of the change, so the anger lands on them. The chapter's guidance is interpersonal skill rather than process: recognise, be sensitive, and support."
+    },
+    {
+      "id": "ch14-14.4-01",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.4",
+      "stem": "Which five elements does the chapter say a benefits plan should include?",
+      "options": [
+        {
+          "text": "Context or vision, benefits profiles, benefits dependency network, responsibilities, and tracking procedures",
+          "correct": true,
+          "note": "Those are the five elements."
+        },
+        {
+          "text": "Business case, options, costs, risks and recommendation",
+          "correct": false,
+          "note": "That is a business case structure."
+        },
+        {
+          "text": "Objectives, measures, targets, owners and review dates",
+          "correct": false,
+          "note": "Those are useful details but not the five elements."
+        },
+        {
+          "text": "Benefits, disbenefits, costs, risks and dependencies",
+          "correct": false,
+          "note": "Those are CARDI-style categories."
+        },
+        {
+          "text": "Baseline, forecast, variance, action and closure",
+          "correct": false,
+          "note": "That is a tracking cycle rather than a plan structure."
+        },
+        {
+          "text": "Vision, mission, objectives, strategy and tactics",
+          "correct": false,
+          "note": "That is VMOST."
+        }
+      ],
+      "explanation": "The plan answers five different questions: why the change exists, what each benefit is, what enables it, who owns it, and how progress is tracked. Without the dependency network the plan lists benefits without explaining how they arrive."
+    },
+    {
+      "id": "ch14-14.4-02",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.4",
+      "stem": "Who should be appointed as the benefit owner?",
+      "options": [
+        {
+          "text": "A named senior manager with responsibility for the area in which the benefit is to be achieved, so they can take the actions needed",
+          "correct": true,
+          "note": "The chapter requires the owner to be able to secure the benefit."
+        },
+        {
+          "text": "The business analyst, who defined the requirement",
+          "correct": false,
+          "note": "The analyst can track but cannot make the operational savings happen."
+        },
+        {
+          "text": "The project manager, who controlled the budget",
+          "correct": false,
+          "note": "Delivery authority is not the same as operational authority."
+        },
+        {
+          "text": "The product owner, who owns the backlog",
+          "correct": false,
+          "note": "Backlog ownership does not extend to business outcomes after delivery."
+        },
+        {
+          "text": "Any stakeholder who expressed an interest in the benefit",
+          "correct": false,
+          "note": "Interest is not the same as the ability to act."
+        },
+        {
+          "text": "The finance department, because benefits are financial",
+          "correct": false,
+          "note": "Finance may measure a benefit without being able to deliver it."
+        }
+      ],
+      "explanation": "Ownership only means something if the owner can change how the area works. The chapter notes the risk of shared ownership in large organisations, where divided responsibility lets some managers avoid making the changes."
+    },
+    {
+      "id": "ch14-14.4-03",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.4",
+      "stem": "In what order does the chapter recommend building a benefits dependency network?",
+      "options": [
+        {
+          "text": "Right to left, starting with the business objectives, then the benefits, then the business changes, then the enabling changes",
+          "correct": true,
+          "note": "The arrows run left to right but the network is built from the objectives backwards."
+        },
+        {
+          "text": "Left to right, starting with the enabling changes and working towards the objectives",
+          "correct": false,
+          "note": "That is the direction of the arrows, not the order of construction."
+        },
+        {
+          "text": "Top to bottom, starting with the project scope",
+          "correct": false,
+          "note": "The network is not organised that way."
+        },
+        {
+          "text": "In benefit priority order, highest value first",
+          "correct": false,
+          "note": "Priority order is not the construction sequence."
+        },
+        {
+          "text": "By department, starting with the area that owns the largest benefit",
+          "correct": false,
+          "note": "Departmental grouping is not the method."
+        },
+        {
+          "text": "By cost, starting with the cheapest enabling change",
+          "correct": false,
+          "note": "Cost sequencing is not the method."
+        }
+      ],
+      "explanation": "Working back from the objective forces each benefit and change to justify itself: if a business change does not lead to a benefit, it does not belong. It also exposes how much of the work is non-technical, which the chapter says is often most of it."
+    },
+    {
+      "id": "ch14-14.4-04",
+      "chapter": 14,
+      "topic": 14,
+      "lo": "14.4",
+      "stem": "Which four uses does the chapter give for a benefits realisation report?",
+      "options": [
+        {
+          "text": "Identifying further actions for unachieved benefits, reassuring decision-makers, informing future business cases, and improving the organisation's ability to choose projects",
+          "correct": true,
+          "note": "Those are the four uses listed."
+        },
+        {
+          "text": "Auditing the project budget, apportioning blame, closing the project and releasing staff",
+          "correct": false,
+          "note": "These are not the uses described."
+        },
+        {
+          "text": "Reporting to the regulator, publishing to shareholders, updating the brand and marketing the result",
+          "correct": false,
+          "note": "External reporting is not the purpose given."
+        },
+        {
+          "text": "Reviewing individual performance, setting pay, agreeing promotion and managing talent",
+          "correct": false,
+          "note": "Performance management is a separate process."
+        },
+        {
+          "text": "Closing the business case, updating the risk log, retiring the CARDI log and archiving documents",
+          "correct": false,
+          "note": "These are administrative closures rather than the report's uses."
+        },
+        {
+          "text": "Proving the technical solution works, benchmarking competitors, testing the architecture and measuring load",
+          "correct": false,
+          "note": "Technical verification happens earlier."
+        }
+      ],
+      "explanation": "The fourth use is the strategic one: an organisation that reviews benefits properly gets better at choosing which projects to fund, because it learns what kinds of benefit actually arrive."
     }
   ]
 }
