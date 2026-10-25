@@ -29,23 +29,23 @@ OPTIONS_SHOWN = 4
 BANK_VERSION = "0.1.0"
 SYLLABUS_VERSION = "4.1"
 
-# Chapter titles and page ranges follow the syllabus mapping. Page ranges after
-# chapter 3 are provisional and have not been checked against the printed book.
+# Chapter titles and page ranges are taken from the book's own contents pages
+# (printed pp. vii-x) and verified against the rendered pages.
 CHAPTERS = [
     (1, "What is Business Analysis?", "1-24", 5),
     (2, "The Competencies of a Business Analyst", "25-47", 2.5),
-    (3, "The Strategic Context for Business Analysis", "48-70", 7.5),
-    (4, "The Business Analysis Service Framework", "71-100", 2.5),
-    (5, "Investigating the Business Situation", "101-140", 12.5),
-    (6, "Analysing and Managing Stakeholders", "141-166", 10),
-    (7, "Improving Business Services and Processes", "167-206", 12.5),
-    (8, "Defining the Solution", "207-232", 7.5),
-    (9, "Making the Business Case", "233-262", 5),
-    (10, "Establishing the Requirements", "263-292", 10),
-    (11, "Documenting and Modelling Requirements", "293-330", 10),
-    (12, "Validating and Managing Requirements", "331-352", 5),
-    (13, "Delivering the Requirements", "353-374", 5),
-    (14, "Delivering the Business Solution", "375-398", 5),
+    (3, "The Strategic Context for Business Analysis", "48-86", 7.5),
+    (4, "The Business Analysis Service Framework", "87-103", 2.5),
+    (5, "Investigating the Business Situation", "104-143", 12.5),
+    (6, "Analysing and Managing Stakeholders", "144-163", 10),
+    (7, "Improving Business Services and Processes", "164-205", 12.5),
+    (8, "Defining the Solution", "206-220", 7.5),
+    (9, "Making the Business Case", "221-242", 5),
+    (10, "Establishing the Requirements", "243-280", 10),
+    (11, "Documenting and Modelling Requirements", "281-320", 10),
+    (12, "Validating and Managing Requirements", "321-332", 5),
+    (13, "Delivering the Requirements", "333-353", 5),
+    (14, "Delivering the Business Solution", "354-368", 5),
 ]
 
 REQUIRED_FIELDS = ("chapter", "topic", "lo", "stem")
@@ -210,9 +210,9 @@ def parse_block(lines: list[str], source: Path, block_number: int) -> dict | Non
     }
 
 
-def load_questions() -> tuple[list[dict], list[str], list[str]]:
-    """Read and validate every bank/*.md file. Returns questions, problems and sources."""
-    sources = sorted(BANK_DIR.glob("*.md"))
+def load_questions(only: Path | None = None) -> tuple[list[dict], list[str], list[str]]:
+    """Read and validate bank markdown. Returns questions, problems and sources."""
+    sources = [only] if only is not None else sorted(BANK_DIR.glob("*.md"))
     if not sources:
         return [], [f"{BANK_DIR}: no markdown files found"], []
 
@@ -277,14 +277,25 @@ def print_summary(questions: list[dict]) -> None:
     )
 
 
-def main() -> int:
-    questions, problems, sources = load_questions()
+def main(argv: list[str]) -> int:
+    check_only = "--check" in argv
+    paths = [arg for arg in argv if not arg.startswith("--")]
+    only = Path(paths[0]) if paths else None
+    if only is not None and not only.is_absolute():
+        only = (ROOT / only).resolve()
+
+    questions, problems, sources = load_questions(only)
     if problems:
         print("Build failed:", file=sys.stderr)
         for problem in problems:
             print(f"  {problem}", file=sys.stderr)
         print(f"{len(problems)} problem(s) found; questions.json was not written.", file=sys.stderr)
         return 1
+
+    if check_only:
+        print(f"Checked {len(sources)} file(s), no problems found.")
+        print_summary(questions)
+        return 0
 
     document = build_document(questions, sources)
     OUTPUT.write_text(
@@ -296,4 +307,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main(sys.argv[1:]))
