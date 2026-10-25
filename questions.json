@@ -1,8 +1,8 @@
 {
   "bankVersion": "0.1.0",
   "syllabusVersion": "4.1",
-  "generatedFrom": "bank/ch01.md, bank/ch02.md, bank/ch03.md, bank/ch04.md, bank/ch05.md, bank/ch06.md, bank/ch07.md",
-  "builtAt": "2026-10-25T11:29:03Z",
+  "generatedFrom": "bank/ch01.md, bank/ch02.md, bank/ch03.md, bank/ch04.md, bank/ch05.md, bank/ch06.md, bank/ch07.md, bank/ch08.md, bank/ch09.md, bank/ch10.md",
+  "builtAt": "2026-10-25T11:39:10Z",
   "optionsPerQuestion": 6,
   "optionsShown": 4,
   "chapters": [
@@ -7051,6 +7051,3206 @@
         }
       ],
       "explanation": "The same number can serve two analysis areas: three minutes is a timeliness measure and, once priced against a rate, a cost. The chapter's task analysis example deliberately shows both."
+    },
+    {
+      "id": "ch8-8.1-01",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.1",
+      "stem": "A team has assembled a model of how the business works today and a separate model of how it must work after the change. What is the next step in gap analysis?",
+      "options": [
+        {
+          "text": "Compare the two representations and identify where there are differences",
+          "correct": true,
+          "note": "The process runs assemble existing, assemble target, compare, identify gaps, consider actions."
+        },
+        {
+          "text": "Identify gaps and immediately begin costing the options",
+          "correct": false,
+          "note": "Costing belongs to feasibility and the business case, and comes after gaps are identified."
+        },
+        {
+          "text": "Produce the business case",
+          "correct": false,
+          "note": "The case is produced from the evaluated shortlist, not from the comparison."
+        },
+        {
+          "text": "Assemble the target representation",
+          "correct": false,
+          "note": "That has already been done."
+        },
+        {
+          "text": "Build the as-is process model",
+          "correct": false,
+          "note": "That is part of assembling the existing situation, already complete."
+        },
+        {
+          "text": "Prioritise the requirements using MoSCoW",
+          "correct": false,
+          "note": "Prioritisation is requirements analysis, a later activity."
+        }
+      ],
+      "explanation": "The order of the five steps is the examinable part. Comparison is its own step: the differences only become gaps once the two representations are set against each other."
+    },
+    {
+      "id": "ch8-8.1-02",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.1",
+      "stem": "The change involves one screen in an existing application. Which artefacts does the chapter suggest for the target state at that scale?",
+      "options": [
+        {
+          "text": "A prototype or wireframe, a user story, a use case description or a requirement description",
+          "correct": true,
+          "note": "Table 8.1 lists these as the artefacts used for a localised change."
+        },
+        {
+          "text": "A target operating model and a full BAM",
+          "correct": false,
+          "note": "Those are the artefacts for extensive change."
+        },
+        {
+          "text": "A value stream diagram and a capability map",
+          "correct": false,
+          "note": "These are architectural artefacts used at enterprise scale."
+        },
+        {
+          "text": "An as-is business process model and a fishbone diagram",
+          "correct": false,
+          "note": "These represent the existing situation for extensive change."
+        },
+        {
+          "text": "A business case and a feasibility study",
+          "correct": false,
+          "note": "These are decision documents, not representations of a target state."
+        },
+        {
+          "text": "A RACI chart and a stakeholder wheel",
+          "correct": false,
+          "note": "These analyse stakeholders, not the target solution."
+        }
+      ],
+      "explanation": "The scale of the change decides the artefacts. A single screen needs a wireframe or a small requirement description, and reaching for a target operating model here would be disproportionate."
+    },
+    {
+      "id": "ch8-8.1-03",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.1",
+      "stem": "A gap analysis concerns one task in a back office, and the analyst finds there is no written description of how the task is done today. What does the chapter say to do?",
+      "options": [
+        {
+          "text": "Get input from the business staff who understand how the work is actually done",
+          "correct": true,
+          "note": "The chapter notes that a formal description of an existing task often does not exist, so the analysis needs input from business staff."
+        },
+        {
+          "text": "Abandon the gap analysis until documentation is produced",
+          "correct": false,
+          "note": "The absence of documentation is expected, not a blocker."
+        },
+        {
+          "text": "Use the target description as a proxy for the current state",
+          "correct": false,
+          "note": "That would make the gap zero by definition."
+        },
+        {
+          "text": "Model the enterprise value stream instead",
+          "correct": false,
+          "note": "That is the wrong level for a single task."
+        },
+        {
+          "text": "Ask the IT department for the system specification",
+          "correct": false,
+          "note": "A system specification describes software, not the task."
+        },
+        {
+          "text": "Record the gap as unknown and move to options",
+          "correct": false,
+          "note": "An unanalysed gap cannot be closed."
+        }
+      ],
+      "explanation": "The chapter is explicit that local task documentation is often missing, and that people carry the knowledge. This is one of the few places where it tells you the artefact will not exist."
+    },
+    {
+      "id": "ch8-8.1-04",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.1",
+      "stem": "After comparing states, an analyst finds that the current organisational structure cannot support the target operating model. Is that a gap?",
+      "options": [
+        {
+          "text": "Yes, an organisational structural mismatch is one of the gaps the chapter lists",
+          "correct": true,
+          "note": "The chapter gives unsuitable organisational structure as its first example of a possible gap."
+        },
+        {
+          "text": "No, gaps are only about missing technology",
+          "correct": false,
+          "note": "Technology is only one of several gap types."
+        },
+        {
+          "text": "No, structural change belongs to the enterprise architect and is outside gap analysis",
+          "correct": false,
+          "note": "The chapter names structure as a gap for the analyst to identify."
+        },
+        {
+          "text": "Yes, but only if the target state was expressed as a TOM",
+          "correct": false,
+          "note": "The gap is the mismatch, whatever form the target was expressed in."
+        },
+        {
+          "text": "No, gaps must be expressed as requirements before they can be recorded",
+          "correct": false,
+          "note": "Requirements come after the gaps are identified, not before."
+        },
+        {
+          "text": "Yes, but it should be resolved by changing the target state to match",
+          "correct": false,
+          "note": "Adjusting the target to fit the current state defeats the analysis."
+        }
+      ],
+      "explanation": "The chapter lists structure, skills, process fit, technology support, job role coverage and missing information as the kinds of gap comparison tends to surface. Structure is the one most often missed because it is intangible."
+    },
+    {
+      "id": "ch8-8.1-05",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.1",
+      "stem": "An analyst assesses each activity on a BAM and labels it either as operating satisfactorily, as having some issues to be addressed, or as not in place. What is being done?",
+      "options": [
+        {
+          "text": "Categorising BAM activities to identify where further gap analysis is needed",
+          "correct": true,
+          "note": "The chapter describes exactly these three categories, or a RAG equivalent, for inspecting BAM activities."
+        },
+        {
+          "text": "Building the consensus BAM",
+          "correct": false,
+          "note": "The consensus BAM is agreed during stakeholder analysis, before this step."
+        },
+        {
+          "text": "Defining the target operating model",
+          "correct": false,
+          "note": "The TOM is an architectural artefact, not a BAM categorisation."
+        },
+        {
+          "text": "Producing the business case",
+          "correct": false,
+          "note": "The case comes later, from evaluated options."
+        },
+        {
+          "text": "Validating the requirements",
+          "correct": false,
+          "note": "That is a later requirements activity."
+        },
+        {
+          "text": "Classifying stakeholders by interest and power",
+          "correct": false,
+          "note": "That is the power and interest grid."
+        }
+      ],
+      "explanation": "The categories are a triage device. Each activity is judged against the current situation so the analyst knows which parts of the target system need detailed work, which matters because BAMs cover far more activity than a project can address at once."
+    },
+    {
+      "id": "ch8-8.1-06",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.1",
+      "stem": "Which comparison does a detailed gap analysis based on business process models typically make?",
+      "options": [
+        {
+          "text": "The as-is and to-be process models, the competencies held against those required, and the current system features against those needed",
+          "correct": true,
+          "note": "The chapter lists these three detailed comparisons."
+        },
+        {
+          "text": "The value stream against the capability map only",
+          "correct": false,
+          "note": "Those are architectural artefacts for the enterprise view."
+        },
+        {
+          "text": "The business case against the benefits plan",
+          "correct": false,
+          "note": "That belongs to benefits realisation."
+        },
+        {
+          "text": "The stakeholder map against the RACI chart",
+          "correct": false,
+          "note": "Those are stakeholder analysis artefacts."
+        },
+        {
+          "text": "The syllabus against the training plan",
+          "correct": false,
+          "note": "Not a gap analysis comparison."
+        },
+        {
+          "text": "The timeline against the cost estimate",
+          "correct": false,
+          "note": "Those are process measurement concerns."
+        }
+      ],
+      "explanation": "Once processes are modelled, the detailed comparison runs across processes, people competencies and system features. That breadth is the point: process change pulls the other POPIT dimensions with it."
+    },
+    {
+      "id": "ch8-8.2-01",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.2",
+      "stem": "What does the chapter say POPIT is used for in gap analysis?",
+      "options": [
+        {
+          "text": "Taking a holistic view of the situation, structuring the gap analysis, and evaluating the impact of changes",
+          "correct": true,
+          "note": "These are the three uses the chapter lists."
+        },
+        {
+          "text": "Costing each option and calculating its payback",
+          "correct": false,
+          "note": "That is investment appraisal in the business case."
+        },
+        {
+          "text": "Prioritising requirements and agreeing acceptance criteria",
+          "correct": false,
+          "note": "That is requirements work."
+        },
+        {
+          "text": "Identifying stakeholders and plotting them on a grid",
+          "correct": false,
+          "note": "That is stakeholder analysis."
+        },
+        {
+          "text": "Defining the business events that trigger each process",
+          "correct": false,
+          "note": "That is process modelling."
+        },
+        {
+          "text": "Selecting the delivery lifecycle for the solution",
+          "correct": false,
+          "note": "That is chapter 13."
+        }
+      ],
+      "explanation": "POPIT is an aide-memoire in the chapter's words: it stops an analyst from comparing only the process and the system and declaring the analysis complete while structure, culture and skills sit unexamined."
+    },
+    {
+      "id": "ch8-8.2-02",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.2",
+      "stem": "A gap analysis concludes that job roles are unclear, the management structure has too many layers and the culture resists escalation. Which POPIT dimension holds these?",
+      "options": [
+        {
+          "text": "Organisation",
+          "correct": true,
+          "note": "The organisation dimension covers job roles, management structures, culture, values, standards and policies."
+        },
+        {
+          "text": "People",
+          "correct": false,
+          "note": "The people dimension covers skills, motivation, objectives, recruitment, appraisal and pay."
+        },
+        {
+          "text": "Processes",
+          "correct": false,
+          "note": "The processes dimension covers process and task definitions, business events and business rules."
+        },
+        {
+          "text": "Information",
+          "correct": false,
+          "note": "The information dimension covers capture, recording, reporting and distribution of data."
+        },
+        {
+          "text": "Technology",
+          "correct": false,
+          "note": "The technology dimension covers software, hardware, infrastructure and networking."
+        },
+        {
+          "text": "Culture is outside POPIT altogether",
+          "correct": false,
+          "note": "Culture sits inside the organisation dimension as values and standards."
+        }
+      ],
+      "explanation": "The boundary between organisation and people is the one candidates most often blur. Skills and motivation are people; roles, structure and culture are organisation."
+    },
+    {
+      "id": "ch8-8.2-03",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.2",
+      "stem": "A gap analysis finds that customer details are captured three times in different places and cannot be reported on together. Which POPIT dimension is this?",
+      "options": [
+        {
+          "text": "Information, which covers the capture, recording, reporting and distribution of data",
+          "correct": true,
+          "note": "Those four activities are the information dimension's stated aspects."
+        },
+        {
+          "text": "Technology, which covers the software and infrastructure used",
+          "correct": false,
+          "note": "The systems are the means, but the gap described is in the information itself."
+        },
+        {
+          "text": "Processes, which cover task definitions and business rules",
+          "correct": false,
+          "note": "The process may cause it, but the reported gap is data related."
+        },
+        {
+          "text": "Organisation, which covers roles and policies",
+          "correct": false,
+          "note": "No structural weakness is described."
+        },
+        {
+          "text": "People, which covers skills and motivation",
+          "correct": false,
+          "note": "Nobody lacks a skill here."
+        },
+        {
+          "text": "It sits outside POPIT because it is a data quality issue",
+          "correct": false,
+          "note": "Data quality is precisely what the information dimension addresses."
+        }
+      ],
+      "explanation": "POPIT separates information from technology deliberately. Duplication and the inability to report are information problems even when a system could fix them, and that separation is what lets the analyst decide whether the fix is procedural or technical."
+    },
+    {
+      "id": "ch8-8.2-04",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.2",
+      "stem": "Why does detailed gap analysis usually begin with a comparison of the as-is and to-be business processes?",
+      "options": [
+        {
+          "text": "Because changes to processes inevitably have an impact on the other POPIT dimensions",
+          "correct": true,
+          "note": "The chapter says process change carries impacts into people, organisation, information and technology."
+        },
+        {
+          "text": "Because processes are the only dimension that can be modelled",
+          "correct": false,
+          "note": "The other dimensions are analysed too."
+        },
+        {
+          "text": "Because the process dimension is the most expensive to change",
+          "correct": false,
+          "note": "Cost is not the stated reason."
+        },
+        {
+          "text": "Because POPIT orders its dimensions with processes first",
+          "correct": false,
+          "note": "POPIT has no prescribed starting order."
+        },
+        {
+          "text": "Because stakeholders are only interested in process change",
+          "correct": false,
+          "note": "Stakeholder interest varies."
+        },
+        {
+          "text": "Because information and technology gaps are always a consequence of design faults",
+          "correct": false,
+          "note": "Sometimes they are independent gaps."
+        }
+      ],
+      "explanation": "The process model is the reference point that shows which roles, skills, information and systems the new way of working requires. Starting there makes the knock-on gaps visible instead of leaving them to be discovered during implementation."
+    },
+    {
+      "id": "ch8-8.2-05",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.2",
+      "stem": "When the Organisation dimension of POPIT is analysed in depth, which four elements of McKinsey's 7S model does it focus on?",
+      "options": [
+        {
+          "text": "Shared values, style, strategy and structure",
+          "correct": true,
+          "note": "The chapter says the organisation dimension focuses on the remaining four, because systems, skills and staff are covered by other POPIT dimensions."
+        },
+        {
+          "text": "Strategy, structure, systems and style",
+          "correct": false,
+          "note": "Systems sits in processes and information and technology instead."
+        },
+        {
+          "text": "Skills, staff, style and shared values",
+          "correct": false,
+          "note": "Skills and staff are covered by the people dimension."
+        },
+        {
+          "text": "Structure, strategy, staff and systems",
+          "correct": false,
+          "note": "Staff and systems are covered elsewhere."
+        },
+        {
+          "text": "Shared values, skills, systems and staff",
+          "correct": false,
+          "note": "Only shared values belongs to the four."
+        },
+        {
+          "text": "All seven elements equally",
+          "correct": false,
+          "note": "The chapter explicitly narrows the organisation dimension to four."
+        }
+      ],
+      "explanation": "This is the crispest overlap between 7S and POPIT, and the exam likes it. Systems maps to processes plus information and technology, skills and staff map to people, and the remaining four are organisation."
+    },
+    {
+      "id": "ch8-8.2-06",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.2",
+      "stem": "In McKinsey's 7S model, which elements are described as the hard elements?",
+      "options": [
+        {
+          "text": "Strategy, structure and systems",
+          "correct": true,
+          "note": "The chapter calls these three hard because they are tangible."
+        },
+        {
+          "text": "Shared values, style, staff and skills",
+          "correct": false,
+          "note": "These four are the soft elements."
+        },
+        {
+          "text": "Strategy, skills and shared values",
+          "correct": false,
+          "note": "Skills and shared values are soft."
+        },
+        {
+          "text": "Structure, staff and systems",
+          "correct": false,
+          "note": "Staff is soft."
+        },
+        {
+          "text": "Systems, style and skills",
+          "correct": false,
+          "note": "Two of these are soft."
+        },
+        {
+          "text": "Hard and soft are not distinguished in the model",
+          "correct": false,
+          "note": "The chapter makes the distinction explicitly."
+        }
+      ],
+      "explanation": "Tangibility is the test. Documents, org charts and systems exist as things; values, style, staff and skills are qualities of the people and the culture."
+    },
+    {
+      "id": "ch8-8.2-07",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.2",
+      "stem": "An organisation has a new strategy and a reshaped structure, but the management style is unchanged and contradicts the stated values. The chapter says the key aspects of the 7S model are often what?",
+      "options": [
+        {
+          "text": "The connections between the elements, because there must be congruence between them",
+          "correct": true,
+          "note": "The chapter says the key aspects are frequently not the individual elements but the lines that connect them."
+        },
+        {
+          "text": "The individual elements, because each can be improved independently",
+          "correct": false,
+          "note": "Changing one element affects the others, which is why connections matter."
+        },
+        {
+          "text": "The hard elements, because they can be measured",
+          "correct": false,
+          "note": "Measurability is not the stated criterion."
+        },
+        {
+          "text": "The soft elements, because culture dominates outcomes",
+          "correct": false,
+          "note": "The model treats them as equally requiring attention."
+        },
+        {
+          "text": "The structure, because it determines everything else",
+          "correct": false,
+          "note": "Structure is one element among seven."
+        },
+        {
+          "text": "The shared values alone, because they sit at the core",
+          "correct": false,
+          "note": "Shared values matter most for direction but do not make the others irrelevant."
+        }
+      ],
+      "explanation": "Congruence is the point of the model. The chapter gives the example of a disconnect between management style and shared values leading to confusion and reduced productivity, which is exactly the situation described."
+    },
+    {
+      "id": "ch8-8.3-01",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.3",
+      "stem": "Which sequence does the chapter give for developing options?",
+      "options": [
+        {
+          "text": "Identify possible options, shortlist, evaluate the shortlist, produce the business case",
+          "correct": true,
+          "note": "That is the four stage process shown in the chapter."
+        },
+        {
+          "text": "Shortlist options, identify options, produce the business case, evaluate",
+          "correct": false,
+          "note": "Evaluation must precede the case."
+        },
+        {
+          "text": "Evaluate all options, then shortlist, then identify",
+          "correct": false,
+          "note": "Identification comes before evaluation."
+        },
+        {
+          "text": "Produce the business case, then identify and evaluate options",
+          "correct": false,
+          "note": "The case is built from evaluated options."
+        },
+        {
+          "text": "Identify options, evaluate them all, then shortlist for the case",
+          "correct": false,
+          "note": "Shortlisting exists because evaluating everything in depth is impractical."
+        },
+        {
+          "text": "Identify options, produce the case, then shortlist for feasibility",
+          "correct": false,
+          "note": "Feasibility assessment follows shortlisting."
+        }
+      ],
+      "explanation": "Divergence first, then convergence. The chapter pairs this with divergent and convergent thinking: generate widely, cut to a shortlist, evaluate only those, then make the case."
+    },
+    {
+      "id": "ch8-8.3-02",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.3",
+      "stem": "What size should the options shortlist for a feasibility study or business case be, and what must it include?",
+      "options": [
+        {
+          "text": "Three or four options, one of which should be the do nothing option",
+          "correct": true,
+          "note": "The chapter says a shortlist is usually three or four, and do nothing should always be considered."
+        },
+        {
+          "text": "Two options, the preferred one and its cheapest alternative",
+          "correct": false,
+          "note": "Too narrow, and it omits do nothing."
+        },
+        {
+          "text": "Five to seven options, all evaluated in depth",
+          "correct": false,
+          "note": "The chapter says a larger number is seldom practical to evaluate in depth."
+        },
+        {
+          "text": "One option, the recommended one, with reasons for rejecting the rest",
+          "correct": false,
+          "note": "A case needs comparison, not a single option."
+        },
+        {
+          "text": "Any number, provided each is costed",
+          "correct": false,
+          "note": "The constraint is evaluability, not cost."
+        },
+        {
+          "text": "Four options, none of which may be do nothing",
+          "correct": false,
+          "note": "Do nothing must always be considered."
+        }
+      ],
+      "explanation": "Do nothing is not a formality. The chapter notes it may genuinely be the best choice, and that where inaction is not viable, spelling out the consequences is often what makes the case for acting."
+    },
+    {
+      "id": "ch8-8.3-03",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.3",
+      "stem": "Why does the chapter recommend considering business options before technical options?",
+      "options": [
+        {
+          "text": "To avoid the technical tail wagging the business dog, even though the two are usually intertwined",
+          "correct": true,
+          "note": "That is the chapter's phrase, and its reason for considering business options first."
+        },
+        {
+          "text": "Because technical options cannot be evaluated until a supplier is chosen",
+          "correct": false,
+          "note": "Suppliers are chosen after the option is defined."
+        },
+        {
+          "text": "Because technical options are always more expensive",
+          "correct": false,
+          "note": "Relative cost varies by option."
+        },
+        {
+          "text": "Because business options never require technology",
+          "correct": false,
+          "note": "The chapter says most business changes involve technology."
+        },
+        {
+          "text": "Because the business case only covers business benefits",
+          "correct": false,
+          "note": "Cases include technical costs too."
+        },
+        {
+          "text": "Because technical options belong to the development team",
+          "correct": false,
+          "note": "The analyst scopes them, whatever team delivers them."
+        }
+      ],
+      "explanation": "The split is between what the solution provides to the business and how it will be implemented. Technology frequently expands what is possible, but letting infrastructure determine the requirement is how projects deliver systems nobody needed."
+    },
+    {
+      "id": "ch8-8.3-04",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.3",
+      "stem": "Three options are offered: one that fixes the pressing problems quickly and cheaply, one that adds features at more cost and time, and one comprehensive solution that is the most expensive and slowest. What are these called?",
+      "options": [
+        {
+          "text": "Basic, extended and exhaustive options",
+          "correct": true,
+          "note": "The chapter names the three levels exactly this way."
+        },
+        {
+          "text": "Minimum, standard and premium options",
+          "correct": false,
+          "note": "These are not the chapter's terms."
+        },
+        {
+          "text": "Tactical, operational and strategic options",
+          "correct": false,
+          "note": "Those describe levels of decision, not option scope."
+        },
+        {
+          "text": "As-is, to-be and future-state options",
+          "correct": false,
+          "note": "As-is is the current state, not an option."
+        },
+        {
+          "text": "Do nothing, do something and do everything options",
+          "correct": false,
+          "note": "Do nothing is a separate option in its own right."
+        },
+        {
+          "text": "Feasibility, viability and desirability options",
+          "correct": false,
+          "note": "Those are assessment criteria, not option types."
+        }
+      ],
+      "explanation": "The three levels trade timescale and cost against features, and each has a different footprint across POPIT. The basic option often needs little technology change and minimal impact on people and processes; the exhaustive one touches everything."
+    },
+    {
+      "id": "ch8-8.3-05",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.3",
+      "stem": "A workshop generates forty ideas for solving a problem, then a second session merges, eliminates and summarises them into four. Which pairing of thinking does this show?",
+      "options": [
+        {
+          "text": "Divergent thinking followed by convergent thinking",
+          "correct": true,
+          "note": "The chapter describes generating ideas expansively and then evaluating them into a manageable set."
+        },
+        {
+          "text": "Convergent thinking followed by divergent thinking",
+          "correct": false,
+          "note": "The order here is the reverse."
+        },
+        {
+          "text": "Hard thinking followed by soft thinking",
+          "correct": false,
+          "note": "These are 7S categories, not thinking styles."
+        },
+        {
+          "text": "Strategic thinking followed by tactical thinking",
+          "correct": false,
+          "note": "These describe levels of planning."
+        },
+        {
+          "text": "Holistic thinking followed by analytical thinking",
+          "correct": false,
+          "note": "Not the chapter's terms for this activity."
+        },
+        {
+          "text": "Creative thinking followed by critical thinking",
+          "correct": false,
+          "note": "Similar in spirit but not the terminology the chapter uses."
+        }
+      ],
+      "explanation": "The technique is a pair, and the chapter notes the hard part is judging when to switch from generating to evaluating. Stop too early and the option set is thin; too late and the workshop never converges."
+    },
+    {
+      "id": "ch8-8.3-06",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.3",
+      "stem": "A proposal replaces the core software but leaves skills, job roles and the process itself untouched. Why does the chapter say this is likely to fail?",
+      "options": [
+        {
+          "text": "Options must be considered holistically, because changing one or two POPIT areas while neglecting the others undermines the change",
+          "correct": true,
+          "note": "The chapter gives exactly this warning, using software that the organisation cannot use as its example."
+        },
+        {
+          "text": "Because software replacement always costs more than process change",
+          "correct": false,
+          "note": "Relative cost is not the stated reason."
+        },
+        {
+          "text": "Because skills and roles belong to a different project",
+          "correct": false,
+          "note": "They are part of the same business system."
+        },
+        {
+          "text": "Because options must offer an exhaustive solution to be approved",
+          "correct": false,
+          "note": "Basic options can be valid choices."
+        },
+        {
+          "text": "Because the do nothing option was not included in the comparison",
+          "correct": false,
+          "note": "Do nothing matters, but it is not the flaw described."
+        },
+        {
+          "text": "Because technology options must always precede business options",
+          "correct": false,
+          "note": "The chapter says the opposite."
+        }
+      ],
+      "explanation": "The chapter is blunt that the best software will not work if it does not align with the organisation's goals or the people cannot use it. A proposal scoped to one dimension is a proposal to create new gaps while closing the old one."
+    },
+    {
+      "id": "ch8-8.4-01",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.4",
+      "stem": "Which sequence gives the design thinking stages in order?",
+      "options": [
+        {
+          "text": "Empathise, define, ideate, prototype, evaluate, create",
+          "correct": true,
+          "note": "That is the stage sequence the chapter sets out, while stressing that it is highly iterative in practice."
+        },
+        {
+          "text": "Define, empathise, prototype, ideate, create, evaluate",
+          "correct": false,
+          "note": "Empathise comes before define, and ideate before prototype."
+        },
+        {
+          "text": "Empathise, ideate, define, prototype, create, evaluate",
+          "correct": false,
+          "note": "The problem is framed before ideas are generated."
+        },
+        {
+          "text": "Understand, design, build, test, launch, review",
+          "correct": false,
+          "note": "These are generic project stages, not the design thinking model."
+        },
+        {
+          "text": "Discover, define, develop, deliver",
+          "correct": false,
+          "note": "That is the Double Diamond's four phases, not the six stages."
+        },
+        {
+          "text": "Empathise, define, prototype, ideate, evaluate, create",
+          "correct": false,
+          "note": "Ideas must be generated before they are prototyped."
+        }
+      ],
+      "explanation": "Empathise and define come first because the technique exists to solve the customer's problem rather than the one the project assumed. Prototype comes before evaluate, and create is development and launch."
+    },
+    {
+      "id": "ch8-8.4-02",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.4",
+      "stem": "In the define stage of design thinking, what is the objective?",
+      "options": [
+        {
+          "text": "Frame the problem to be solved",
+          "correct": true,
+          "note": "The stage objectives pair empathise with understanding customer needs and define with framing the problem."
+        },
+        {
+          "text": "Understand the needs of the customers",
+          "correct": false,
+          "note": "That is empathise."
+        },
+        {
+          "text": "Build prototypes to try out possible solutions",
+          "correct": false,
+          "note": "That is prototype."
+        },
+        {
+          "text": "Develop the selected solution and launch it into operation",
+          "correct": false,
+          "note": "That is create."
+        },
+        {
+          "text": "Generate ideas using divergent and convergent thinking",
+          "correct": false,
+          "note": "That is ideate."
+        },
+        {
+          "text": "Evaluate the prototypes and learn where they do not work",
+          "correct": false,
+          "note": "That is evaluate."
+        }
+      ],
+      "explanation": "Framing is a deliberate act. Getting it wrong means the rest of the process, however creative, answers the wrong question, which is why the stage has its own objective rather than being folded into empathise."
+    },
+    {
+      "id": "ch8-8.4-03",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.4",
+      "stem": "The Design Council's Double Diamond shows divergent and convergent thinking at two points. Which two?",
+      "options": [
+        {
+          "text": "When defining the challenge to be addressed, and when developing the solution that will resolve it",
+          "correct": true,
+          "note": "The chapter names these two points."
+        },
+        {
+          "text": "When selecting stakeholders, and when agreeing the business case",
+          "correct": false,
+          "note": "These are not the diamond's points."
+        },
+        {
+          "text": "When costing options, and when approving the budget",
+          "correct": false,
+          "note": "Costing is not part of the model."
+        },
+        {
+          "text": "When modelling processes, and when testing the system",
+          "correct": false,
+          "note": "Those are delivery activities."
+        },
+        {
+          "text": "When recruiting the team, and when launching the solution",
+          "correct": false,
+          "note": "Neither is part of the model."
+        },
+        {
+          "text": "When writing requirements, and when signing them off",
+          "correct": false,
+          "note": "That is requirements validation."
+        }
+      ],
+      "explanation": "The first diamond opens up the problem space and narrows to a defined challenge; the second opens up the solution space and narrows to a chosen solution. Diverge then converge, twice, is the whole idea."
+    },
+    {
+      "id": "ch8-8.4-04",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.4",
+      "stem": "Which set of principles does the chapter attach to design thinking?",
+      "options": [
+        {
+          "text": "Focus on the problem or opportunity, keep customers at the centre, work collaboratively, and iterate to test and learn",
+          "correct": true,
+          "note": "These are the principles the chapter sets out around the Double Diamond."
+        },
+        {
+          "text": "Minimise cost, maximise features, deliver on time, avoid rework",
+          "correct": false,
+          "note": "These are project constraints, not design thinking principles."
+        },
+        {
+          "text": "Document formally, control change, sign off each stage, audit the result",
+          "correct": false,
+          "note": "These are linear lifecycle controls."
+        },
+        {
+          "text": "Analyse data, model processes, define requirements, test the solution",
+          "correct": false,
+          "note": "These are business analysis activities generally."
+        },
+        {
+          "text": "Segment customers, target segments, position the product, promote it",
+          "correct": false,
+          "note": "That is marketing."
+        },
+        {
+          "text": "Divergent thinking only, because convergence limits creativity",
+          "correct": false,
+          "note": "The model uses both."
+        }
+      ],
+      "explanation": "The four principles are about where attention sits and how the team works. Iteration is part of it, which is why the chapter says the six stages are revisited rather than passed through once."
+    },
+    {
+      "id": "ch8-8.4-05",
+      "chapter": 8,
+      "topic": 8,
+      "lo": "8.4",
+      "stem": "A team wants to understand what customers actually experience before framing any problem. Which design thinking stage and techniques fit?",
+      "options": [
+        {
+          "text": "Empathise, using investigation techniques, personas, empathy mapping and customer journey mapping",
+          "correct": true,
+          "note": "The chapter maps those techniques to the empathise stage."
+        },
+        {
+          "text": "Ideate, using brainstorming, brainwriting and mind mapping",
+          "correct": false,
+          "note": "Those generate ideas, which requires a defined problem first."
+        },
+        {
+          "text": "Prototype, using prototyping and scenario analysis",
+          "correct": false,
+          "note": "Prototyping tests a solution, not a need."
+        },
+        {
+          "text": "Evaluate, using scenario and event analysis and reflective learning",
+          "correct": false,
+          "note": "Evaluation follows prototyping."
+        },
+        {
+          "text": "Create, using experimentation, feedback and review",
+          "correct": false,
+          "note": "That stage develops and launches the chosen solution."
+        },
+        {
+          "text": "Define, using storytelling and problem framing",
+          "correct": false,
+          "note": "Framing presumes you already understand the experience."
+        }
+      ],
+      "explanation": "Empathy work precedes framing because the point is to discover the real need rather than confirm an assumed one. Personas, empathy maps and journey maps all exist to surface what the customer actually goes through."
+    },
+    {
+      "id": "ch9-9.1-01",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.1",
+      "stem": "In the business case lifecycle, what sits between requirements analysis and specification and solution design?",
+      "options": [
+        {
+          "text": "A decision gate, where the case is confirmed after detailed requirements are known",
+          "correct": true,
+          "note": "The lifecycle places a decision gate between each stage, and the case is refreshed once detailed requirements exist."
+        },
+        {
+          "text": "The feasibility study",
+          "correct": false,
+          "note": "The feasibility study precedes requirements analysis."
+        },
+        {
+          "text": "The benefits review",
+          "correct": false,
+          "note": "Benefits are reviewed after the solution has been in operation."
+        },
+        {
+          "text": "The business case itself as a stage",
+          "correct": false,
+          "note": "The case is a document under continual review, not a stage between stages."
+        },
+        {
+          "text": "Solution development and implementation",
+          "correct": false,
+          "note": "Development follows solution design."
+        },
+        {
+          "text": "Operation of the new processes and systems",
+          "correct": false,
+          "note": "Operation is the final stage of the lifecycle."
+        }
+      ],
+      "explanation": "The gates are the examinable structure: five stages with a decision point between each, and the business case refreshed at each of those points. Requirements arriving changes the numbers, so the case is re-confirmed there."
+    },
+    {
+      "id": "ch9-9.1-02",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.1",
+      "stem": "At which points does the chapter say the business case is refreshed in a linear lifecycle?",
+      "options": [
+        {
+          "text": "Before major resources are committed, after detailed requirements, once development costs are estimated, and before deployment",
+          "correct": true,
+          "note": "Those are the four refresh points, with a benefits review once the solution is in operation."
+        },
+        {
+          "text": "Only at the start and at the end of the project",
+          "correct": false,
+          "note": "Two points would leave the case stale through the riskiest stages."
+        },
+        {
+          "text": "At every project meeting, as a standing agenda item",
+          "correct": false,
+          "note": "No such frequency is proposed."
+        },
+        {
+          "text": "Only once, when the budget is approved",
+          "correct": false,
+          "note": "The chapter stresses that the case is a living document."
+        },
+        {
+          "text": "Whenever a stakeholder requests an update",
+          "correct": false,
+          "note": "Review is triggered by lifecycle points and significant change, not by request."
+        },
+        {
+          "text": "Before and after each decision gate, making eight reviews",
+          "correct": false,
+          "note": "The gates are the review points, not events that each need two reviews."
+        }
+      ],
+      "explanation": "Each refresh happens when new cost or requirement information makes the earlier figures unreliable. The chapter also says any really significant change in the environment should trigger a review whenever it is detected."
+    },
+    {
+      "id": "ch9-9.1-03",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.1",
+      "stem": "What does the chapter say about the do nothing option where an organisation is obliged to comply with new legislation?",
+      "options": [
+        {
+          "text": "There are still choices about how it complies, each with a different blend of benefits and costs",
+          "correct": true,
+          "note": "The chapter uses the Register of Dangerous Trees example to show a cheap low fidelity compliance option alongside an expensive system."
+        },
+        {
+          "text": "Do nothing is impossible, so the option can be omitted",
+          "correct": false,
+          "note": "Choices still exist about the means of compliance."
+        },
+        {
+          "text": "The only remaining option is the most expensive one",
+          "correct": false,
+          "note": "The chapter's example shows a notebook as a cheap alternative."
+        },
+        {
+          "text": "Compliance projects have no business case",
+          "correct": false,
+          "note": "A case is still needed to compare approaches."
+        },
+        {
+          "text": "Do nothing means ignoring the legislation",
+          "correct": false,
+          "note": "Ignoring a legal obligation is not the option being described."
+        },
+        {
+          "text": "The option is replaced by a technical option",
+          "correct": false,
+          "note": "The business choice between compliance approaches comes first."
+        }
+      ],
+      "explanation": "This is the chapter's defence of the do nothing option: even mandatory change leaves discretion over approach. Omitting that comparison hides the cheapest compliant option from decision-makers."
+    },
+    {
+      "id": "ch9-9.1-04",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.1",
+      "stem": "A business case states that a proposal matches the organisation's strategy and market, will be delivered in time to secure the benefits, and fits the culture and capabilities. Which area of feasibility is being assessed?",
+      "options": [
+        {
+          "text": "Business feasibility",
+          "correct": true,
+          "note": "These are the business feasibility checks: strategic fit, market appropriateness, timeliness, architectural and organisational fit, culture, capability and regulatory alignment."
+        },
+        {
+          "text": "Technical feasibility",
+          "correct": false,
+          "note": "That covers availability, reliability, performance, scalability and compatibility of the technology."
+        },
+        {
+          "text": "Financial feasibility",
+          "correct": false,
+          "note": "That covers budget, funds, return on investment, cash flow and payback."
+        },
+        {
+          "text": "Operational feasibility",
+          "correct": false,
+          "note": "The chapter does not use this as one of its three headings."
+        },
+        {
+          "text": "Legal feasibility as a separate area",
+          "correct": false,
+          "note": "Legal and regulatory alignment sit inside business feasibility."
+        },
+        {
+          "text": "Schedule feasibility as a separate area",
+          "correct": false,
+          "note": "Timeliness sits inside business feasibility."
+        }
+      ],
+      "explanation": "The three headings are business, technical and financial. Culture, capability, regulatory alignment and timing all sit under business feasibility even though several of them feel like separate concerns."
+    },
+    {
+      "id": "ch9-9.1-05",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.1",
+      "stem": "An option relies on a technology that has never been deployed at scale in this organisation, and its integration points with existing systems are unclear. Which feasibility concern is this?",
+      "options": [
+        {
+          "text": "Technical feasibility, covering availability, proven use, compatibility and the customisation required",
+          "correct": true,
+          "note": "The chapter warns about placing excessive reliance on new technology and about compatibility with other systems."
+        },
+        {
+          "text": "Business feasibility, covering strategic fit and market conditions",
+          "correct": false,
+          "note": "No strategic mismatch is described."
+        },
+        {
+          "text": "Financial feasibility, covering budget and payback",
+          "correct": false,
+          "note": "Cost is not the stated concern."
+        },
+        {
+          "text": "Cultural feasibility, covering whether staff accept the change",
+          "correct": false,
+          "note": "Acceptance is not what is being questioned."
+        },
+        {
+          "text": "Regulatory feasibility",
+          "correct": false,
+          "note": "No regulator is mentioned."
+        },
+        {
+          "text": "Benefits feasibility, covering whether benefits will materialise",
+          "correct": false,
+          "note": "The risk is delivery of the technology, not realisation of benefit."
+        }
+      ],
+      "explanation": "The chapter notes many organisations prefer a less ambitious but reliable solution to an advanced one carrying technological risk. Provenness and compatibility are named technical criteria."
+    },
+    {
+      "id": "ch9-9.2-01",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.2",
+      "stem": "Which three areas of feasibility assessment does the chapter define?",
+      "options": [
+        {
+          "text": "Business, technical and financial",
+          "correct": true,
+          "note": "These are the three broad headings."
+        },
+        {
+          "text": "Operational, legal and environmental",
+          "correct": false,
+          "note": "These sit inside the three headings rather than being headings themselves."
+        },
+        {
+          "text": "Strategic, tactical and operational",
+          "correct": false,
+          "note": "These describe levels of planning."
+        },
+        {
+          "text": "Cost, benefit and risk",
+          "correct": false,
+          "note": "These are elements of the business case, not the feasibility headings."
+        },
+        {
+          "text": "Desirability, viability and achievability",
+          "correct": false,
+          "note": "These are not the chapter's terms."
+        },
+        {
+          "text": "Economic, social and technical",
+          "correct": false,
+          "note": "These resemble PESTLE factors rather than feasibility areas."
+        }
+      ],
+      "explanation": "The three headings each carry detailed criteria. Business covers fit and timing, technical covers whether the technology works and integrates, and financial covers whether it can be afforded and whether it pays back."
+    },
+    {
+      "id": "ch9-9.2-02",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.2",
+      "stem": "An option pays for itself eventually, but the organisation would have to fund a heavy cost peak in the second year before benefits arrive. Which financial feasibility criterion does this fail?",
+      "options": [
+        {
+          "text": "Acceptable cash flow, because costs and benefits may fall at different times",
+          "correct": true,
+          "note": "The chapter lists acceptable cash flow alongside budget, ROI and payback as financial criteria."
+        },
+        {
+          "text": "Acceptable return on investment",
+          "correct": false,
+          "note": "The option does produce a return, so this is not the failing."
+        },
+        {
+          "text": "Timely payback",
+          "correct": false,
+          "note": "Payback timing is a separate criterion from the cash profile within the period."
+        },
+        {
+          "text": "Sufficient funds available or borrowable",
+          "correct": false,
+          "note": "The concern is timing of cash, not the ability to raise it."
+        },
+        {
+          "text": "Within budget",
+          "correct": false,
+          "note": "A budget may exist; the issue is when money leaves the organisation."
+        },
+        {
+          "text": "Architectural alignment",
+          "correct": false,
+          "note": "That is a business feasibility criterion."
+        }
+      ],
+      "explanation": "A project can be sound overall and still break the organisation that funds it if the spending front-loads. This is why the chapter separates cash flow from ROI and from payback."
+    },
+    {
+      "id": "ch9-9.2-03",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.2",
+      "stem": "A proposed change would be legal and affordable but the board is divided over it and it would attract unwelcome political attention. Which technique does the chapter suggest for examining this?",
+      "options": [
+        {
+          "text": "PESTLE analysis, using the political factor to ask whether the solution is politically acceptable",
+          "correct": true,
+          "note": "The chapter applies PESTLE to feasibility and names internal and external politics explicitly."
+        },
+        {
+          "text": "Payback calculation, using the cash flow forecast",
+          "correct": false,
+          "note": "Payback is financial appraisal, not political judgement."
+        },
+        {
+          "text": "Force-field analysis, because it lists only positive forces",
+          "correct": false,
+          "note": "Force-field analysis includes both forces, and PESTLE is the tool named here."
+        },
+        {
+          "text": "A CARDI log, because politics is an issue",
+          "correct": false,
+          "note": "A CARDI log records constraints and issues rather than analysing acceptability."
+        },
+        {
+          "text": "The management summary, because it states the recommendation",
+          "correct": false,
+          "note": "The summary communicates a recommendation rather than testing one."
+        },
+        {
+          "text": "Technical feasibility, because the board must approve the technology",
+          "correct": false,
+          "note": "Board division is not a technical test."
+        }
+      ],
+      "explanation": "PESTLE is not only a strategy tool in this book; the chapter applies it to feasibility, and the political factor covers the internal politics of the organisation as well as the external situation."
+    },
+    {
+      "id": "ch9-9.2-04",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.2",
+      "stem": "An analyst lists the forces inside and outside the organisation that support a proposal alongside those that oppose it, and concludes that the negatives outweigh the positives. What has been done, and what follows?",
+      "options": [
+        {
+          "text": "A force-field analysis, and the proposal is not feasible unless it can be re-cast to strengthen the positive forces",
+          "correct": true,
+          "note": "The chapter says if the negative forces are too strong the proposal must be abandoned or re-cast."
+        },
+        {
+          "text": "A SWOT analysis, and the proposal should proceed because strengths are internal",
+          "correct": false,
+          "note": "SWOT has not been applied, and the conclusion drawn is the opposite."
+        },
+        {
+          "text": "A cost-benefit analysis, and the proposal should be rejected on cost grounds",
+          "correct": false,
+          "note": "Costs and benefits are not what was compared."
+        },
+        {
+          "text": "A PESTLE analysis, and the proposal should be deferred until the environment changes",
+          "correct": false,
+          "note": "PESTLE examines external factors, not supporting and opposing forces."
+        },
+        {
+          "text": "A risk assessment, and the principal risks should be logged",
+          "correct": false,
+          "note": "Risk assessment records probability and impact rather than net force."
+        },
+        {
+          "text": "A stakeholder analysis, and the opposing stakeholders should be ignored",
+          "correct": false,
+          "note": "Ignoring opposition is not the conclusion."
+        }
+      ],
+      "explanation": "Force-field analysis is the technique for judging whether support outweighs resistance. The chapter ties the forces to PESTLE factors, the feasibility criteria and key stakeholders, so it is a synthesis step rather than a separate survey."
+    },
+    {
+      "id": "ch9-9.2-05",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.2",
+      "stem": "An off-the-shelf product would meet the need but requires extensive customisation to fit the organisation's processes. Which feasibility concern does this raise?",
+      "options": [
+        {
+          "text": "Technical feasibility, because the amount of customisation may cause technical difficulties",
+          "correct": true,
+          "note": "The chapter raises exactly this point about off-the-shelf products."
+        },
+        {
+          "text": "Financial feasibility, because packaged software is always more expensive than bespoke development",
+          "correct": false,
+          "note": "The chapter makes no such claim."
+        },
+        {
+          "text": "Business feasibility, because off-the-shelf products cannot match a strategy",
+          "correct": false,
+          "note": "Strategy fit is a separate test."
+        },
+        {
+          "text": "Cultural feasibility, because staff prefer bespoke systems",
+          "correct": false,
+          "note": "Preference is not the stated concern."
+        },
+        {
+          "text": "Regulatory feasibility, because vendors must be approved",
+          "correct": false,
+          "note": "Vendor approval is not discussed here."
+        },
+        {
+          "text": "Benefits feasibility, because the benefits cannot be quantified",
+          "correct": false,
+          "note": "Quantification is not the issue described."
+        }
+      ],
+      "explanation": "Customisation is a technical risk: the more a package is bent, the more likely it is to break on upgrade or resist support. The chapter pairs it with compatibility and with whether the solution is proven."
+    },
+    {
+      "id": "ch9-9.3-01",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.3",
+      "stem": "Which section of a business case does the chapter describe as possibly the only part senior decision-makers actually study?",
+      "options": [
+        {
+          "text": "The management or executive summary",
+          "correct": true,
+          "note": "The chapter calls it in many ways the most important part and says it should be written last."
+        },
+        {
+          "text": "The introduction",
+          "correct": false,
+          "note": "The introduction sets the scene for readers who go further."
+        },
+        {
+          "text": "The appendices",
+          "correct": false,
+          "note": "Appendices hold supporting detail."
+        },
+        {
+          "text": "The cost-benefit analysis",
+          "correct": false,
+          "note": "The analysis underpins the recommendation but is not what most readers study."
+        },
+        {
+          "text": "The recommendations",
+          "correct": false,
+          "note": "The recommendation is distilled into the summary, which is why the summary is read."
+        },
+        {
+          "text": "The risk assessment",
+          "correct": false,
+          "note": "Risks are summarised in the body and detailed in an appendix."
+        }
+      ],
+      "explanation": "Because it may be the only part read, the summary has to carry the report: what was studied and found, the options with their advantages, and the decision required. The chapter suggests three paragraphs."
+    },
+    {
+      "id": "ch9-9.3-02",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.3",
+      "stem": "In which order does the chapter present the main sections of a business case?",
+      "options": [
+        {
+          "text": "Introduction, management summary, current situation, options considered, recommendations, appendices",
+          "correct": true,
+          "note": "That is the sequence the chapter sets out."
+        },
+        {
+          "text": "Management summary, introduction, options considered, current situation, appendices, recommendations",
+          "correct": false,
+          "note": "The summary follows the introduction and comes before the analysis."
+        },
+        {
+          "text": "Current situation, options considered, introduction, recommendations, management summary, appendices",
+          "correct": false,
+          "note": "The summary is always near the front."
+        },
+        {
+          "text": "Introduction, current situation, management summary, recommendations, options considered, appendices",
+          "correct": false,
+          "note": "Options must precede the recommendation."
+        },
+        {
+          "text": "Executive summary, introduction, recommendations, options, costs and benefits, appendices",
+          "correct": false,
+          "note": "Recommendations close the body rather than opening it."
+        },
+        {
+          "text": "Appendices, introduction, management summary, options, recommendations, current situation",
+          "correct": false,
+          "note": "Appendices come last."
+        }
+      ],
+      "explanation": "The order is a document convention: set the scene, summarise for the busy reader, describe the problem, present and compare the options, then state what decision is wanted, with detail in appendices. The summary is written last but sits near the front."
+    },
+    {
+      "id": "ch9-9.3-03",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.3",
+      "stem": "A business case presents benefits before costs, even though the section is called cost-benefit analysis. Why?",
+      "options": [
+        {
+          "text": "Because presenting benefits first is more persuasive, so the section reads as a benefit-cost analysis in practice",
+          "correct": true,
+          "note": "The chapter notes the convention of the name but the practical value of leading with benefits."
+        },
+        {
+          "text": "Because costs cannot be quantified until benefits are agreed",
+          "correct": false,
+          "note": "Both are quantified independently."
+        },
+        {
+          "text": "Because the ordering is mandated by accounting standards",
+          "correct": false,
+          "note": "No standard is cited."
+        },
+        {
+          "text": "Because benefits are always larger than costs",
+          "correct": false,
+          "note": "The chapter does not assume this."
+        },
+        {
+          "text": "Because decision-makers are only interested in benefits",
+          "correct": false,
+          "note": "Decision-makers have varied interests."
+        },
+        {
+          "text": "Because the section is actually optional",
+          "correct": false,
+          "note": "The analysis is a key aspect of the case."
+        }
+      ],
+      "explanation": "The chapter applies the rules of selling: stress benefits rather than features, sell the benefits before discussing cost, and make sure the reader understands the size of the problem first."
+    },
+    {
+      "id": "ch9-9.3-04",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.3",
+      "stem": "Which of these is a tangible and immediate cost in the chapter's four-category model?",
+      "options": [
+        {
+          "text": "Hardware purchase",
+          "correct": true,
+          "note": "A purchase at the start of the project is tangible because it has a credible monetary value and immediate because it is incurred straight away."
+        },
+        {
+          "text": "Loss of productivity during transition",
+          "correct": false,
+          "note": "Disruption is real but hard to value, so it is intangible."
+        },
+        {
+          "text": "Improved customer satisfaction",
+          "correct": false,
+          "note": "Satisfaction has no credible monetary value without defined measures, so it is intangible."
+        },
+        {
+          "text": "Better market image",
+          "correct": false,
+          "note": "Image is explicitly given as extremely difficult to quantify."
+        },
+        {
+          "text": "Increased job satisfaction",
+          "correct": false,
+          "note": "Job satisfaction is described as difficult to quantify."
+        },
+        {
+          "text": "Reduced staff turnover as a result of morale",
+          "correct": false,
+          "note": "Even where it correlates with morale, the causal link is hard to prove in advance."
+        }
+      ],
+      "explanation": "Tangible means a credible monetary value can be placed on it; immediate means it is incurred or realised at once. Only the hardware purchase satisfies both, and costs are mostly tangible while benefits tend to be mixed."
+    },
+    {
+      "id": "ch9-9.3-05",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.3",
+      "stem": "A business case claims an 'improved market image' but attaches a firm monetary figure to it. What does the chapter warn about this?",
+      "options": [
+        {
+          "text": "Intangible benefits should not be over-stated or given a spurious value, because decision-makers will disbelieve the rest of the case too",
+          "correct": true,
+          "note": "The chapter says this undermines confidence in the other, soundly based figures."
+        },
+        {
+          "text": "Intangible benefits must always be quantified to be included",
+          "correct": false,
+          "note": "The chapter accepts them unquantified if explained."
+        },
+        {
+          "text": "Market image is a tangible benefit and can always be valued",
+          "correct": false,
+          "note": "The chapter calls it extremely difficult to quantify."
+        },
+        {
+          "text": "Benefits without a figure should be removed from the case",
+          "correct": false,
+          "note": "Removing them loses real value from the analysis."
+        },
+        {
+          "text": "Decision-makers should set the figures, not the analyst",
+          "correct": false,
+          "note": "The chapter recommends leaving valuation to decision-makers, not inviting them to fix numbers."
+        },
+        {
+          "text": "Monetary values should be rounded up to look confident",
+          "correct": false,
+          "note": "The chapter advises erring on the side of conservatism."
+        }
+      ],
+      "explanation": "The recommended treatment is to state the benefit and explain why it matters, then let decision-makers place their own value on it. The chapter pairs this with a warning against assumptions that over-claim."
+    },
+    {
+      "id": "ch9-9.3-06",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.3",
+      "stem": "What does the chapter say should be recorded for each risk in a business case?",
+      "options": [
+        {
+          "text": "A description including cause and impact, an impact assessment, a probability, countermeasures and an owner",
+          "correct": true,
+          "note": "Those five items are the required record for each risk."
+        },
+        {
+          "text": "The risk, its cost and its mitigation budget",
+          "correct": false,
+          "note": "Cost and budget are not the required fields."
+        },
+        {
+          "text": "A single risk score combining likelihood and impact",
+          "correct": false,
+          "note": "A score may be used, but the chapter asks for impact and probability separately."
+        },
+        {
+          "text": "The risk owner only, with detail deferred to the risk log",
+          "correct": false,
+          "note": "Ownership alone leaves nothing to manage."
+        },
+        {
+          "text": "The date the risk was identified and the date it is due to close",
+          "correct": false,
+          "note": "Dates are not among the required fields."
+        },
+        {
+          "text": "The probability only, because impact is subjective",
+          "correct": false,
+          "note": "Both are required, with a small, moderate or large scale acceptable for impact."
+        }
+      ],
+      "explanation": "The record is what makes the risk manageable rather than merely noted. The chapter also says to document only the major showstoppers in the body and put the rest in an appendix."
+    },
+    {
+      "id": "ch9-9.4-01",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.4",
+      "stem": "Which set of features does the chapter give for business cases produced within an Agile environment?",
+      "options": [
+        {
+          "text": "Shorter time horizons, smaller budgets, reduced risk, and partial return on investment throughout",
+          "correct": true,
+          "note": "These are the four features the chapter names."
+        },
+        {
+          "text": "Larger budgets, fixed scope, longer payback and a single benefits review",
+          "correct": false,
+          "note": "These describe the opposite of the incremental approach."
+        },
+        {
+          "text": "No business case, because the destination is unknown",
+          "correct": false,
+          "note": "The chapter rejects that argument for large organisations."
+        },
+        {
+          "text": "A full case rewritten at every iteration, with no baseline",
+          "correct": false,
+          "note": "The case is revisited and extended, not rewritten from scratch."
+        },
+        {
+          "text": "Benefits realised only at programme end",
+          "correct": false,
+          "note": "Partial return through the programme is the stated feature."
+        },
+        {
+          "text": "Costs estimated once and never revisited",
+          "correct": false,
+          "note": "Estimates are refined with actual delivery data."
+        }
+      ],
+      "explanation": "Incremental delivery means money is committed in smaller amounts, results arrive sooner, and benefits can fund later phases. The chapter notes this contrasts sharply with realising all benefits once the whole programme has landed."
+    },
+    {
+      "id": "ch9-9.4-02",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.4",
+      "stem": "In an Agile business case, how does the chapter use MoSCoW to structure the options?",
+      "options": [
+        {
+          "text": "Must have and should have requirements form the baseline cost, could have requirements are offered as a menu, and want to have requirements are parked",
+          "correct": true,
+          "note": "That is the treatment the chapter describes."
+        },
+        {
+          "text": "All requirements are costed equally so decision-makers see the full picture",
+          "correct": false,
+          "note": "The point of the menu is to separate baseline from optional."
+        },
+        {
+          "text": "Could have requirements are treated as mandatory to protect quality",
+          "correct": false,
+          "note": "Only must and should are described as mandatory."
+        },
+        {
+          "text": "Want to have requirements form the baseline for the following iteration",
+          "correct": false,
+          "note": "They are outside the scope of the current case."
+        },
+        {
+          "text": "MoSCoW is replaced by the double diamond in Agile cases",
+          "correct": false,
+          "note": "The two are unrelated techniques."
+        },
+        {
+          "text": "Nothing is baselined, because Agile scope is variable",
+          "correct": false,
+          "note": "A baseline is needed for the investment appraisal."
+        }
+      ],
+      "explanation": "The menu lets decision-makers buy optional features against current strategy while keeping a stable baseline for appraisal. Parking the remainder is what keeps the current case bounded."
+    },
+    {
+      "id": "ch9-9.4-03",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.4",
+      "stem": "What does the chapter say is the opportunity provided by delivering each release in an Agile programme?",
+      "options": [
+        {
+          "text": "Revisiting or extending the business case and reprioritising the backlog in the light of what has been learned",
+          "correct": true,
+          "note": "Each release is described as that opportunity."
+        },
+        {
+          "text": "Replacing the business case with a benefits review",
+          "correct": false,
+          "note": "The case is revisited, not replaced."
+        },
+        {
+          "text": "Fixing the remaining budget for the programme",
+          "correct": false,
+          "note": "Budgets are revisited rather than fixed at the first release."
+        },
+        {
+          "text": "Closing the CARDI log and opening a new one",
+          "correct": false,
+          "note": "Logs persist and gain detail."
+        },
+        {
+          "text": "Re-running the feasibility study from scratch",
+          "correct": false,
+          "note": "Feasibility was assessed before the initial case."
+        },
+        {
+          "text": "Publishing the final benefits to the owners",
+          "correct": false,
+          "note": "Benefits are reviewed after implementation, not at each release."
+        }
+      ],
+      "explanation": "Delivery produces real data: team productivity and the cost of delivering an iteration. The chapter says that data is then used to refine estimates for the remaining requirements, which is the practical benefit of revisiting at each release."
+    },
+    {
+      "id": "ch9-9.4-04",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.4",
+      "stem": "Some argue that a conventional business case is unnecessary in Agile because the destination is uncertain and risk is reduced. Why does the chapter reject that argument?",
+      "options": [
+        {
+          "text": "Because senior managers in large organisations must account to owners, whether shareholders or taxpayers, for the investments they authorise",
+          "correct": true,
+          "note": "That accountability is the chapter's stated reason."
+        },
+        {
+          "text": "Because Agile projects always overrun and need a case to justify them",
+          "correct": false,
+          "note": "Delivery performance is not the argument made."
+        },
+        {
+          "text": "Because the case is required by regulators in all sectors",
+          "correct": false,
+          "note": "Regulation is not the reason given."
+        },
+        {
+          "text": "Because benefits cannot be measured without a case",
+          "correct": false,
+          "note": "Measurement is possible, though the case supports it."
+        },
+        {
+          "text": "Because the initial case replaces the need for a backlog",
+          "correct": false,
+          "note": "The backlog is still needed."
+        },
+        {
+          "text": "Because Agile and business cases are incompatible in every respect",
+          "correct": false,
+          "note": "The chapter shows how they are combined."
+        }
+      ],
+      "explanation": "The chapter accepts that the basic elements still apply and adapts the case rather than abandoning it. Accountability to owners is what makes the document necessary regardless of delivery approach."
+    },
+    {
+      "id": "ch9-9.5-01",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.5",
+      "stem": "What is the difference between a RAID log and a CARDI log?",
+      "options": [
+        {
+          "text": "CARDI adds constraints to the risks, assumptions, issues and dependencies covered by RAID",
+          "correct": true,
+          "note": "The chapter describes RAID as risks, assumptions, issues and dependencies, and CARDI as those plus constraints."
+        },
+        {
+          "text": "RAID adds actions to the elements covered by CARDI",
+          "correct": false,
+          "note": "Actions are not the distinguishing element."
+        },
+        {
+          "text": "They are alternative names for the same log",
+          "correct": false,
+          "note": "They differ by one element, which is exactly what gets tested."
+        },
+        {
+          "text": "CARDI excludes issues because they become risks",
+          "correct": false,
+          "note": "Issues are one of the five elements."
+        },
+        {
+          "text": "RAID covers the project and CARDI covers the programme",
+          "correct": false,
+          "note": "Scope is not the distinction."
+        },
+        {
+          "text": "CARDI is used in Agile and RAID in linear lifecycles",
+          "correct": false,
+          "note": "The distinction is content, not lifecycle."
+        }
+      ],
+      "explanation": "Constraints are the addition: the iron triangle of time, cost and quality, plus legislative, standards or platform constraints. Everything else in the two logs is identical."
+    },
+    {
+      "id": "ch9-9.5-02",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.5",
+      "stem": "It is already known at the outset that the project team is inexperienced. How does the chapter say this should be recorded?",
+      "options": [
+        {
+          "text": "As an issue, because it has already happened rather than being something that might happen",
+          "correct": true,
+          "note": "The chapter uses this exact example, noting a hundred per cent probability makes it an issue rather than a risk."
+        },
+        {
+          "text": "As a risk, because inexperience may cause problems later",
+          "correct": false,
+          "note": "A certainty is not a risk under the chapter's definition."
+        },
+        {
+          "text": "As an assumption, because the team might gain experience",
+          "correct": false,
+          "note": "The inexperience is known, not assumed."
+        },
+        {
+          "text": "As a constraint on the project's quality",
+          "correct": false,
+          "note": "It may constrain quality, but the element described is the fact itself."
+        },
+        {
+          "text": "As a dependency on another project",
+          "correct": false,
+          "note": "No other project is involved."
+        },
+        {
+          "text": "As an action in the risk log",
+          "correct": false,
+          "note": "Actions are a response, not an entry type."
+        }
+      ],
+      "explanation": "The test is probability: something that has already occurred is an issue, something that might occur is a risk. The chapter adds that issues can be good or bad, but either way they need managing."
+    },
+    {
+      "id": "ch9-9.5-03",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.5",
+      "stem": "A project to introduce a new system depends on another project to recruit people with the required skills. Which CARDI element is that, and why does it matter?",
+      "options": [
+        {
+          "text": "A dependency, because capturing it keeps it in mind and surfaces the risk if the other project slips",
+          "correct": true,
+          "note": "The chapter gives almost this exact example of cross-project dependency."
+        },
+        {
+          "text": "A constraint, because the project cannot proceed without staff",
+          "correct": false,
+          "note": "A constraint is a limit on time, cost or quality rather than another project's delivery."
+        },
+        {
+          "text": "A risk, because recruitment might fail",
+          "correct": false,
+          "note": "The reliance on another project is the dependency; the chance of failure is a separate risk."
+        },
+        {
+          "text": "An issue, because the skills gap already exists",
+          "correct": false,
+          "note": "The gap may exist, but the entry described is the reliance."
+        },
+        {
+          "text": "An assumption, because staff will be recruited",
+          "correct": false,
+          "note": "Assumptions are things taken as true that should be tested."
+        },
+        {
+          "text": "An action, because recruitment must be chased",
+          "correct": false,
+          "note": "An action is a response rather than a logged element."
+        }
+      ],
+      "explanation": "Dependencies exist because organisations run many projects at once, so one project's delivery is another's precondition. Logging it means the scheduled date is not treated as independent of the rest of the portfolio."
+    },
+    {
+      "id": "ch9-9.6-01",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.6",
+      "stem": "What is the main weakness of a payback calculation as an investment appraisal technique?",
+      "options": [
+        {
+          "text": "It ignores the time value of money, so money received in later years is treated as worth the same as money today",
+          "correct": true,
+          "note": "That is the chapter's stated limitation, and the reason DCF exists."
+        },
+        {
+          "text": "It requires a discount rate that most organisations cannot agree",
+          "correct": false,
+          "note": "The discount rate belongs to DCF, not payback."
+        },
+        {
+          "text": "It cannot be presented as a cash-flow forecast",
+          "correct": false,
+          "note": "A payback calculation is precisely a cash-flow forecast."
+        },
+        {
+          "text": "It assumes benefits are spread evenly across the years",
+          "correct": false,
+          "note": "The calculation handles uneven cash flows."
+        },
+        {
+          "text": "It always overstates the payback period",
+          "correct": false,
+          "note": "It tends to flatter the project rather than understate it."
+        },
+        {
+          "text": "It cannot be used alongside other techniques",
+          "correct": false,
+          "note": "The chapter presents the techniques as a set used together."
+        }
+      ],
+      "explanation": "Payback is simple and, where interest and inflation are low, a reasonable forecast. Its blind spot is that a pound in year four is treated as a pound now, which makes the project look better than DCF shows it to be."
+    },
+    {
+      "id": "ch9-9.6-02",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.6",
+      "stem": "A project shows a healthy cumulative cash surplus from year three but a negative net present value at the organisation's discount rate. What does this tell you?",
+      "options": [
+        {
+          "text": "The project repays its costs in cash terms but does not clear the organisation's required rate of return",
+          "correct": true,
+          "note": "NPV discounts future cash flows, so a positive payback can still be a negative NPV."
+        },
+        {
+          "text": "The project is profitable and should proceed",
+          "correct": false,
+          "note": "The negative NPV says it fails the required return."
+        },
+        {
+          "text": "The discount rate has been applied incorrectly",
+          "correct": false,
+          "note": "A negative NPV with a positive payback is a normal result."
+        },
+        {
+          "text": "Payback and NPV are the same calculation and one is wrong",
+          "correct": false,
+          "note": "They are different techniques measuring different things."
+        },
+        {
+          "text": "The project should be appraised using IRR only",
+          "correct": false,
+          "note": "IRR is one of several techniques, and NPV is preferred for value."
+        },
+        {
+          "text": "The cash flows must be spread evenly to be valid",
+          "correct": false,
+          "note": "NPV handles uneven cash flows."
+        }
+      ],
+      "explanation": "Payback asks when the cumulative cash turns positive. NPV asks whether the money, once discounted, beats the return the organisation requires. A project can satisfy the first and fail the second."
+    },
+    {
+      "id": "ch9-9.6-03",
+      "chapter": 9,
+      "topic": 9,
+      "lo": "9.6",
+      "stem": "Two projects are compared. Project A has an internal rate of return of eighteen per cent; project B has twelve per cent but would generate considerably more money overall. What does the chapter say about this?",
+      "options": [
+        {
+          "text": "IRR does not account for the overall size of a project, and DCF with NPV is generally regarded as the better method of assessing value",
+          "correct": true,
+          "note": "The chapter makes both points."
+        },
+        {
+          "text": "IRR is the better measure because it gives a single percentage",
+          "correct": false,
+          "note": "The chapter notes organisations like its simplicity but not that it is better."
+        },
+        {
+          "text": "The higher IRR always identifies the better investment",
+          "correct": false,
+          "note": "Size blindness is exactly why it does not."
+        },
+        {
+          "text": "NPV cannot be used to compare projects of different sizes",
+          "correct": false,
+          "note": "It can, which is part of why it is preferred."
+        },
+        {
+          "text": "IRR measures risk rather than return",
+          "correct": false,
+          "note": "IRR measures return as a percentage."
+        },
+        {
+          "text": "The two techniques can never disagree",
+          "correct": false,
+          "note": "They routinely disagree, as described."
+        }
+      ],
+      "explanation": "IRR answers a rate question; NPV answers a value question. The chapter's position is that NPV is the better measure while recognising why organisations like the single figure."
+    },
+    {
+      "id": "ch10-10.1-01",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.1",
+      "stem": "Which five activities make up the requirements engineering framework?",
+      "options": [
+        {
+          "text": "Elicitation, analysis, documentation, validation and management",
+          "correct": true,
+          "note": "Those are the five core activities and the interactions between them."
+        },
+        {
+          "text": "Elicitation, analysis, design, build and test",
+          "correct": false,
+          "note": "Design and build belong to solution development."
+        },
+        {
+          "text": "Capture, prioritisation, sign off, build and review",
+          "correct": false,
+          "note": "None of these is the framework's vocabulary."
+        },
+        {
+          "text": "Elicitation, modelling, validation, traceability and change control",
+          "correct": false,
+          "note": "Modelling and traceability are parts of the framework rather than separate activities."
+        },
+        {
+          "text": "Discovery, definition, documentation, delivery and benefits review",
+          "correct": false,
+          "note": "This is closer to a project lifecycle."
+        },
+        {
+          "text": "Planning, analysis, design, implementation and evaluation",
+          "correct": false,
+          "note": "This is a generic problem solving sequence."
+        }
+      ],
+      "explanation": "The framework pairs elicitation with analysis, validation and management, with documentation spanning all three, and management sitting beneath documentation. The diagram's shape is examinable, not just the list."
+    },
+    {
+      "id": "ch10-10.1-02",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.1",
+      "stem": "Why does the chapter say separating requirements elicitation from requirements analysis is a strength of the framework?",
+      "options": [
+        {
+          "text": "Because it keeps drawing out information apart from judging what the solution should deliver, and the two iterate",
+          "correct": true,
+          "note": "Elicitation uncovers and discovers, analysis defines what the solution should deliver, and the loop repeats."
+        },
+        {
+          "text": "Because it allows unskilled staff to carry out elicitation",
+          "correct": false,
+          "note": "Elicitation takes skill and judgement too."
+        },
+        {
+          "text": "Because it removes the need for validation",
+          "correct": false,
+          "note": "Validation remains a separate activity."
+        },
+        {
+          "text": "Because it lets analysts skip analysis in Agile projects",
+          "correct": false,
+          "note": "All five activities still apply."
+        },
+        {
+          "text": "Because it ensures requirements are documented before being analysed",
+          "correct": false,
+          "note": "Documentation spans the whole process."
+        },
+        {
+          "text": "Because it separates business requirements from technical requirements",
+          "correct": false,
+          "note": "That is the requirement taxonomy, not the framework."
+        }
+      ],
+      "explanation": "Mixing the two leads an analyst to stop interviewing as soon as an answer sounds solution-shaped. Separating them gives permission to gather widely first and judge later, which is the same divergence and convergence pattern used elsewhere in the book."
+    },
+    {
+      "id": "ch10-10.1-03",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.1",
+      "stem": "Which statement about the RE framework and Agile development does the chapter make?",
+      "options": [
+        {
+          "text": "It is a misinterpretation to think the framework suits only linear projects, because every requirement is still elicited, analysed, validated, documented and managed",
+          "correct": true,
+          "note": "The framework applies; only the depth and timing of the work vary."
+        },
+        {
+          "text": "The framework is unnecessary where a product backlog is used",
+          "correct": false,
+          "note": "Backlog items are requirements and still pass through the activities."
+        },
+        {
+          "text": "The framework requires a complete requirements specification before any Agile development begins",
+          "correct": false,
+          "note": "Outline requirements with later elaboration are explicitly allowed."
+        },
+        {
+          "text": "Agile removes the need for requirements management",
+          "correct": false,
+          "note": "Change control and traceability still apply."
+        },
+        {
+          "text": "The framework applies only where an off-the-shelf product is being evaluated",
+          "correct": false,
+          "note": "It applies across solution types."
+        },
+        {
+          "text": "Agile replaces elicitation with prototyping",
+          "correct": false,
+          "note": "Prototyping is one elicitation technique, not a replacement."
+        }
+      ],
+      "explanation": "The chapter's line is adaptation, not exemption. Depth, timing and documentation approach vary with context; whether the activities happen does not."
+    },
+    {
+      "id": "ch10-10.1-04",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.1",
+      "stem": "A project must define the complete set of requirements before development starts because the system is strategically critical and replaces a key legacy system. What does the chapter say about this?",
+      "options": [
+        {
+          "text": "It is a legitimate context for applying the framework thoroughly to a granular level of detail",
+          "correct": true,
+          "note": "The chapter gives regulatory, strategic and legacy replacement as reasons for full definition up front."
+        },
+        {
+          "text": "It is a sign the project has not adopted an Agile mindset",
+          "correct": false,
+          "note": "Context, not mindset, drives the depth of requirements work."
+        },
+        {
+          "text": "It means the framework is being misapplied",
+          "correct": false,
+          "note": "The framework is designed to flex to this context."
+        },
+        {
+          "text": "It requires abandoning requirements management until after deployment",
+          "correct": false,
+          "note": "Management applies throughout."
+        },
+        {
+          "text": "It allows validation to be deferred to acceptance testing",
+          "correct": false,
+          "note": "Validation remains part of the work."
+        },
+        {
+          "text": "It is only acceptable where legislation requires it",
+          "correct": false,
+          "note": "Strategic criticality and legacy replacement count too."
+        }
+      ],
+      "explanation": "The chapter is explicit that the framework must be applied pragmatically. Full specification before development is right for some contexts, outline requirements elaborated later is right for others, and neither is a failure of method."
+    },
+    {
+      "id": "ch10-10.1-05",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.1",
+      "stem": "Which pair of definitions does the chapter give for iteration and increment?",
+      "options": [
+        {
+          "text": "An iteration is a timeboxed period of scoped work, and an increment is a partial product ready for release",
+          "correct": true,
+          "note": "Those are the two definitions, with iteration sometimes called a sprint."
+        },
+        {
+          "text": "An iteration is a partial product and an increment is a timeboxed period",
+          "correct": false,
+          "note": "The two are the other way round here."
+        },
+        {
+          "text": "Both terms mean the same thing",
+          "correct": false,
+          "note": "The chapter notes the distinction is often lost but does define it."
+        },
+        {
+          "text": "An iteration is a release and an increment is a deployment",
+          "correct": false,
+          "note": "Release and deployment are separate concepts again."
+        },
+        {
+          "text": "An iteration is a requirements slice and an increment is a prototype",
+          "correct": false,
+          "note": "Slicing and prototyping are different techniques."
+        },
+        {
+          "text": "An iteration is a team and an increment is a deliverable",
+          "correct": false,
+          "note": "Neither definition involves teams."
+        }
+      ],
+      "explanation": "The distinction matters because several iterations can sit inside one release, and an increment is what is actually releasable. The chapter warns this vocabulary is routinely muddled."
+    },
+    {
+      "id": "ch10-10.1-06",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.1",
+      "stem": "A validation session uncovers a contradiction between two requirements. What does the framework say happens next?",
+      "options": [
+        {
+          "text": "The work returns to analysis, and possibly to elicitation, to resolve it",
+          "correct": true,
+          "note": "The chapter shows validation issues feeding back into analysis and elicitation."
+        },
+        {
+          "text": "The contradiction is documented and deferred to change control",
+          "correct": false,
+          "note": "Change control manages agreed changes, not unresolved contradictions."
+        },
+        {
+          "text": "Validation is repeated until the contradiction disappears",
+          "correct": false,
+          "note": "Repetition without analysis will not resolve it."
+        },
+        {
+          "text": "The requirement is dropped because it failed validation",
+          "correct": false,
+          "note": "Only one of the pair is wrong, and that has to be established first."
+        },
+        {
+          "text": "The contradiction is escalated directly to the project sponsor",
+          "correct": false,
+          "note": "Escalation is the last resort, after analysis has failed to resolve it."
+        },
+        {
+          "text": "The framework ends and the design phase begins",
+          "correct": false,
+          "note": "Validation issues reopen earlier activity."
+        }
+      ],
+      "explanation": "The framework's value is the loops. Validation is a quality gate that can send work backwards, which is why the chapter draws the two-way arrows rather than a straight line."
+    },
+    {
+      "id": "ch10-10.2-01",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.2",
+      "stem": "Two stakeholders are in entrenched disagreement about a requirement and the analyst has failed to negotiate agreement. Who does the chapter say rules on it?",
+      "options": [
+        {
+          "text": "The project sponsor, who represents the business in ensuring objectives are met",
+          "correct": true,
+          "note": "The sponsor's responsibilities include ruling on conflicting requirements the analyst cannot resolve."
+        },
+        {
+          "text": "The subject matter expert, who knows industry best practice",
+          "correct": false,
+          "note": "The SME advises on requirement content rather than adjudicating conflicts."
+        },
+        {
+          "text": "The software tester, who must prove the requirement is testable",
+          "correct": false,
+          "note": "The tester is concerned with testing, not arbitration."
+        },
+        {
+          "text": "The developer, who confirms technical feasibility",
+          "correct": false,
+          "note": "Feasibility is the developer's contribution, not authority."
+        },
+        {
+          "text": "The business analyst, who decides and records the outcome",
+          "correct": false,
+          "note": "The analyst negotiates but escalates when negotiation fails."
+        },
+        {
+          "text": "The steering committee, in every case",
+          "correct": false,
+          "note": "Escalation further up is a last resort, after the sponsor."
+        }
+      ],
+      "explanation": "The sponsor is the accountable business role: funds, sign off, acceptance and benefit delivery sit there too. The analyst's job is to negotiate first and escalate second, which is why the sponsor is the named authority for conflicts."
+    },
+    {
+      "id": "ch10-10.2-02",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.2",
+      "stem": "Which role is described as the custodian of the product backlog, empowered to decide the priorities and resolve requirement conflicts on the organisation's behalf?",
+      "options": [
+        {
+          "text": "The product owner",
+          "correct": true,
+          "note": "The chapter describes the product owner in exactly these terms, originating from Scrum."
+        },
+        {
+          "text": "The project sponsor",
+          "correct": false,
+          "note": "The sponsor decides conflicts the analyst cannot resolve, but does not own the backlog day to day."
+        },
+        {
+          "text": "The subject matter expert",
+          "correct": false,
+          "note": "The SME supplies domain knowledge."
+        },
+        {
+          "text": "The business analyst",
+          "correct": false,
+          "note": "An analyst may act as proxy product owner, but the role being described is the product owner."
+        },
+        {
+          "text": "The project manager",
+          "correct": false,
+          "note": "The project manager owns schedule, deliverables and budget."
+        },
+        {
+          "text": "The solution architect",
+          "correct": false,
+          "note": "The architect governs adherence to architectural principles."
+        }
+      ],
+      "explanation": "The distinction matters because the same person may hold both a business analysis and a product owner hat, and the chapter warns that a product owner doing business analysis still needs the analytical skill to do it properly."
+    },
+    {
+      "id": "ch10-10.2-03",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.2",
+      "stem": "An external subject matter expert is engaged for the duration of a project. Which risk does the chapter identify?",
+      "options": [
+        {
+          "text": "There may be no knowledge transfer, so the expertise leaves the organisation when the consultant goes",
+          "correct": true,
+          "note": "The chapter lists this alongside cultural ignorance, political unawareness and resentment from internal staff."
+        },
+        {
+          "text": "External SMEs cannot offer industry best practice",
+          "correct": false,
+          "note": "Offering best practice is their main advantage."
+        },
+        {
+          "text": "External SMEs must be approved by the regulator",
+          "correct": false,
+          "note": "No such requirement is described."
+        },
+        {
+          "text": "External SMEs cannot attend workshops",
+          "correct": false,
+          "note": "They can, and are engaged to contribute."
+        },
+        {
+          "text": "Their advice is automatically more reliable than internal staff",
+          "correct": false,
+          "note": "The chapter treats the advantage as breadth, not reliability."
+        },
+        {
+          "text": "They are always more expensive than internal staff",
+          "correct": false,
+          "note": "Cost is not the risk the chapter names."
+        }
+      ],
+      "explanation": "The four risks are about context and longevity: not understanding how the organisation works, missing the politics, being resented, and taking the knowledge away. That last one is the one that quietly damages the organisation afterwards."
+    },
+    {
+      "id": "ch10-10.2-04",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.2",
+      "stem": "Who does the chapter say is responsible for trying to prove that the system does not work?",
+      "options": [
+        {
+          "text": "The software tester",
+          "correct": true,
+          "note": "The tester's job is framed as trying to prove the system fails and finding where it does."
+        },
+        {
+          "text": "The developer",
+          "correct": false,
+          "note": "The developer builds the product and confirms technical feasibility."
+        },
+        {
+          "text": "The business analyst",
+          "correct": false,
+          "note": "The analyst defines and manages requirements."
+        },
+        {
+          "text": "The project manager",
+          "correct": false,
+          "note": "The project manager owns delivery against schedule and budget."
+        },
+        {
+          "text": "The product owner",
+          "correct": false,
+          "note": "The product owner prioritises and accepts the product."
+        },
+        {
+          "text": "The subject matter expert",
+          "correct": false,
+          "note": "The SME advises on the business domain."
+        }
+      ],
+      "explanation": "The framing is deliberate. Testing cannot prove absence of defects, so the tester's value is in trying hard to break the product; when they struggle to find defects, the product may be declared satisfactory."
+    },
+    {
+      "id": "ch10-10.2-05",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.2",
+      "stem": "Which contribution does the chapter attribute to developers during requirements work?",
+      "options": [
+        {
+          "text": "Confirming technical feasibility of requirements, explaining their implications, and helping build high-fidelity prototypes",
+          "correct": true,
+          "note": "Those are the three contributions the chapter names."
+        },
+        {
+          "text": "Deciding which requirements are mandatory",
+          "correct": false,
+          "note": "Prioritisation belongs to business roles and the product owner."
+        },
+        {
+          "text": "Approving the requirements documentation on behalf of the business",
+          "correct": false,
+          "note": "Sign off belongs to the sponsor."
+        },
+        {
+          "text": "Mediating between conflicting business stakeholders",
+          "correct": false,
+          "note": "The analyst negotiates and the sponsor rules."
+        },
+        {
+          "text": "Defining the business rules that apply to a task",
+          "correct": false,
+          "note": "Business rules come from the business."
+        },
+        {
+          "text": "Signing off the business case",
+          "correct": false,
+          "note": "The sponsor is accountable for the business case."
+        }
+      ],
+      "explanation": "Developers are in the requirements conversation early, and their value is feasibility and consequence: telling the analyst what a request really implies before it is agreed. Prototypes then make that concrete for business staff."
+    },
+    {
+      "id": "ch10-10.2-06",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.2",
+      "stem": "Why does the chapter say business staff are involved differently at different stages of the work?",
+      "options": [
+        {
+          "text": "Because their contribution changes from reporting current problems, to describing required features, to elaborating user stories",
+          "correct": true,
+          "note": "The chapter describes exactly this progression."
+        },
+        {
+          "text": "Because they are only required once the solution is being tested",
+          "correct": false,
+          "note": "Their involvement starts during investigation."
+        },
+        {
+          "text": "Because they are not competent to describe their own work",
+          "correct": false,
+          "note": "They are the primary source on how work is done."
+        },
+        {
+          "text": "Because business managers decide what business staff may say",
+          "correct": false,
+          "note": "Managers are involved in some areas, but not as gatekeepers."
+        },
+        {
+          "text": "Because their involvement is optional in Agile projects",
+          "correct": false,
+          "note": "Collaboration is central to elaborating stories."
+        },
+        {
+          "text": "Because they are represented by the product owner and need not attend",
+          "correct": false,
+          "note": "The product owner represents the organisation, not the staff's knowledge of the work."
+        }
+      ],
+      "explanation": "The clue is that knowledge shifts as the project moves: problems first, then features, then detail. Fixing one way of involving staff for the whole project leaves the later, more detailed work without its best source."
+    },
+    {
+      "id": "ch10-10.3-01",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.3",
+      "stem": "The four recognised types of requirement are business and solution requirements. Which pairing is correct?",
+      "options": [
+        {
+          "text": "Business requirements are general or technical, and solution requirements are functional or non-functional",
+          "correct": true,
+          "note": "That is the taxonomy the chapter presents."
+        },
+        {
+          "text": "Business requirements are functional or non-functional, and solution requirements are general or technical",
+          "correct": false,
+          "note": "The pairs are the wrong way round here."
+        },
+        {
+          "text": "Business requirements are mandatory or desirable, and solution requirements are essential or optional",
+          "correct": false,
+          "note": "Those are priority levels, not types."
+        },
+        {
+          "text": "Business requirements are strategic or tactical, and solution requirements are technical or operational",
+          "correct": false,
+          "note": "Not the chapter's taxonomy."
+        },
+        {
+          "text": "Business requirements are general or functional, and solution requirements are technical or non-functional",
+          "correct": false,
+          "note": "This mixes the categories."
+        },
+        {
+          "text": "There is one type of requirement with four sub-categories",
+          "correct": false,
+          "note": "The chapter distinguishes business from solution requirements."
+        }
+      ],
+      "explanation": "The distinction is about what the requirement belongs to: the business side covers policy, standards and technical infrastructure constraints, while the solution side covers the features and the level of service those features must provide."
+    },
+    {
+      "id": "ch10-10.3-02",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.3",
+      "stem": "'The organisation must comply with data protection legislation.' Which type of requirement is this?",
+      "options": [
+        {
+          "text": "A general business requirement",
+          "correct": true,
+          "note": "General requirements define business policies, standards and compliance areas, and are broad enough to be decomposed."
+        },
+        {
+          "text": "A technical business requirement",
+          "correct": false,
+          "note": "Technical requirements cover hardware, software, interoperability and internet policy."
+        },
+        {
+          "text": "A functional solution requirement",
+          "correct": false,
+          "note": "Functional requirements state features the solution must provide."
+        },
+        {
+          "text": "A non-functional solution requirement",
+          "correct": false,
+          "note": "Non-functional requirements state levels of service such as performance and security."
+        },
+        {
+          "text": "A business rule constraint",
+          "correct": false,
+          "note": "Business rules govern decisions within a requirement, not the legislative obligation itself."
+        },
+        {
+          "text": "A transition requirement",
+          "correct": false,
+          "note": "Transition requirements concern migration, communication and release."
+        }
+      ],
+      "explanation": "The giveaway is breadth. A statement that the organisation must comply with legislation cannot be delivered by a feature, so it gets decomposed into functional and non-functional requirements such as recording, accessing and archiving data."
+    },
+    {
+      "id": "ch10-10.3-03",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.3",
+      "stem": "'Only the current and previous two major versions of the supported web browsers are permitted.' Which type of requirement is this?",
+      "options": [
+        {
+          "text": "A technical business requirement, covering the technical policies that apply across the organisation",
+          "correct": true,
+          "note": "Technical requirements cover hardware, software, interoperability and internet policy, and apply to all change projects."
+        },
+        {
+          "text": "A general business requirement, covering branding and culture",
+          "correct": false,
+          "note": "Branding and culture are general sub-categories."
+        },
+        {
+          "text": "A functional solution requirement",
+          "correct": false,
+          "note": "This is a constraint on technology, not a feature."
+        },
+        {
+          "text": "A non-functional solution requirement",
+          "correct": false,
+          "note": "It constrains the platform rather than setting a level of service."
+        },
+        {
+          "text": "A legal requirement",
+          "correct": false,
+          "note": "No legislation is involved."
+        },
+        {
+          "text": "A user interface requirement",
+          "correct": false,
+          "note": "Interface requirements concern look and feel and interaction."
+        }
+      ],
+      "explanation": "Technical requirements are the organisation-wide policies about technology, and they bind every project rather than one solution. The internet sub-category is exactly where supported browser policies sit."
+    },
+    {
+      "id": "ch10-10.3-04",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.3",
+      "stem": "Which pairing of examples is correct for functional and non-functional requirements?",
+      "options": [
+        {
+          "text": "Functional is the ability to place an order; non-functional is that the order must complete within eight seconds",
+          "correct": true,
+          "note": "Features are functional and levels of service are non-functional."
+        },
+        {
+          "text": "Functional is that the system is available 24/7; non-functional is the ability to place an order",
+          "correct": false,
+          "note": "These are the wrong way round."
+        },
+        {
+          "text": "Functional is security; non-functional is data entry",
+          "correct": false,
+          "note": "Security and data entry are both non-functional categories."
+        },
+        {
+          "text": "Functional is usability; non-functional is reporting",
+          "correct": false,
+          "note": "Usability is non-functional."
+        },
+        {
+          "text": "Functional is capacity; non-functional is processing an order",
+          "correct": false,
+          "note": "Capacity is non-functional."
+        },
+        {
+          "text": "They are the same type expressed at different levels of detail",
+          "correct": false,
+          "note": "They answer different questions: what it does, and how well it must do it."
+        }
+      ],
+      "explanation": "Functional requirements describe what the solution provides, typically data entry, processing and reporting. Non-functional requirements describe the level of service in areas like performance, security, availability and usability."
+    },
+    {
+      "id": "ch10-10.3-05",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.3",
+      "stem": "A usability requirement asks how easy it is to remember how to use a system after not using it for a while. Which of Nielsen's five usability dimensions is that?",
+      "options": [
+        {
+          "text": "Memorability",
+          "correct": true,
+          "note": "Nielsen's dimensions are learnability, efficiency, memorability, satisfaction and errors."
+        },
+        {
+          "text": "Learnability, which concerns how easy the system is to learn from new",
+          "correct": false,
+          "note": "Learning and remembering are separate dimensions."
+        },
+        {
+          "text": "Efficiency, which concerns how quickly tasks are completed",
+          "correct": false,
+          "note": "Efficiency is about speed of use."
+        },
+        {
+          "text": "Satisfaction, which concerns whether it is pleasant to use",
+          "correct": false,
+          "note": "Satisfaction is about the experience rather than recall."
+        },
+        {
+          "text": "Error, which concerns how likely mistakes are",
+          "correct": false,
+          "note": "Error is about mistakes."
+        },
+        {
+          "text": "Accessibility, which concerns disability",
+          "correct": false,
+          "note": "Accessibility is a related but separate non-functional area."
+        }
+      ],
+      "explanation": "The five dimensions are easy to blur, and the exam asks about them directly. Memorability is specifically about returning to the system after a gap, which is why it can be tested differently from learnability."
+    },
+    {
+      "id": "ch10-10.3-06",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.3",
+      "stem": "Which four disability categories does the chapter give for accessibility requirements?",
+      "options": [
+        {
+          "text": "Cognitive, physical or motor, hearing, and visual",
+          "correct": true,
+          "note": "Those are the four aspects to consider."
+        },
+        {
+          "text": "Temporary, permanent, situational and progressive",
+          "correct": false,
+          "note": "These are accessibility situations rather than the chapter's categories."
+        },
+        {
+          "text": "Motor, sensory, mental and social",
+          "correct": false,
+          "note": "Only motor appears among the chapter's four."
+        },
+        {
+          "text": "Visual, auditory, speech and learning",
+          "correct": false,
+          "note": "Speech and learning are not among the four."
+        },
+        {
+          "text": "Physical, emotional, intellectual and social",
+          "correct": false,
+          "note": "None of these four appears in that form."
+        },
+        {
+          "text": "Congenital, acquired, age-related and injury-related",
+          "correct": false,
+          "note": "These describe causes rather than categories of disability."
+        }
+      ],
+      "explanation": "Accessibility requirements exist to enable access for people who might otherwise be excluded, and the chapter narrows it to those four. The remedies it gives are varied, including assistive technology, images and physical facilities such as ramps."
+    },
+    {
+      "id": "ch10-10.3-07",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.3",
+      "stem": "A stakeholder says a transaction 'must be done quickly'. What does the chapter require instead?",
+      "options": [
+        {
+          "text": "A precise, testable statement, optionally with a minimum time and a maximum acceptable time",
+          "correct": true,
+          "note": "The chapter rejects vague wording and shows the eight second minimum with a fifteen second maximum under load."
+        },
+        {
+          "text": "A qualitative statement, because performance varies with load",
+          "correct": false,
+          "note": "Variation is handled by stating both a normal and a peak figure."
+        },
+        {
+          "text": "A statement of the business benefit of speed",
+          "correct": false,
+          "note": "Benefit explains why, but does not make the requirement testable."
+        },
+        {
+          "text": "A technical design decision about server capacity",
+          "correct": false,
+          "note": "Design follows the requirement."
+        },
+        {
+          "text": "A note that speed will be confirmed during acceptance testing",
+          "correct": false,
+          "note": "Deferring the definition is the failure the chapter warns about."
+        },
+        {
+          "text": "A relative statement compared with the current system",
+          "correct": false,
+          "note": "Relative wording still cannot be tested."
+        }
+      ],
+      "explanation": "Performance is the category where vagueness is most damaging, because nobody can test 'quickly'. Stating a normal target and a degraded peak target is the pattern the chapter recommends."
+    },
+    {
+      "id": "ch10-10.4-01",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.4",
+      "stem": "Why does the chapter say requirements should be arranged in a hierarchy?",
+      "options": [
+        {
+          "text": "To trace requirements back to the business driver so they stay aligned with objectives and strategy",
+          "correct": true,
+          "note": "The hierarchy links functional and non-functional requirements back to general and technical ones."
+        },
+        {
+          "text": "To decide which requirements to build first",
+          "correct": false,
+          "note": "Prioritisation is a separate activity with its own techniques."
+        },
+        {
+          "text": "To allocate requirements to developers",
+          "correct": false,
+          "note": "Allocation is planning work, not the purpose of the hierarchy."
+        },
+        {
+          "text": "To reduce the number of requirements",
+          "correct": false,
+          "note": "The hierarchy does not remove any requirement."
+        },
+        {
+          "text": "To convert functional requirements into non-functional ones",
+          "correct": false,
+          "note": "The categories remain distinct."
+        },
+        {
+          "text": "To replace the need for validation",
+          "correct": false,
+          "note": "Validation is still required."
+        }
+      ],
+      "explanation": "The hierarchy is a traceability device. It shows why a requirement exists, which supports prioritisation, deciding when to deliver, judging whether a requirement can be dropped, and understanding the impact of a change request."
+    },
+    {
+      "id": "ch10-10.4-02",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.4",
+      "stem": "Which relationship between functional and non-functional requirements does the chapter describe?",
+      "options": [
+        {
+          "text": "Some functional requirements have related non-functional requirements, and some non-functional requirements apply to several functional requirements",
+          "correct": true,
+          "note": "The chapter states both directions."
+        },
+        {
+          "text": "Every functional requirement needs exactly one non-functional requirement",
+          "correct": false,
+          "note": "The relationship is not one to one."
+        },
+        {
+          "text": "Non-functional requirements never relate to functional ones",
+          "correct": false,
+          "note": "The hierarchy explicitly connects them."
+        },
+        {
+          "text": "Functional requirements are always derived from other functional requirements",
+          "correct": false,
+          "note": "Derivation runs from general and technical requirements."
+        },
+        {
+          "text": "Non-functional requirements sit above general requirements in the hierarchy",
+          "correct": false,
+          "note": "General and technical requirements are the broad ones at the top."
+        },
+        {
+          "text": "The two are alternatives chosen according to project type",
+          "correct": false,
+          "note": "Both are needed."
+        }
+      ],
+      "explanation": "Many to many is the practical shape, which is why a requirements catalogue records associated non-functional requirements per entry rather than assuming a pairing."
+    },
+    {
+      "id": "ch10-10.4-03",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.4",
+      "stem": "What does the chapter say requirements are driven by, if they are not to be merely ideas or opinions?",
+      "options": [
+        {
+          "text": "The organisation's values, strategy, objectives and performance measures",
+          "correct": true,
+          "note": "That is the basis the hierarchy traces up to."
+        },
+        {
+          "text": "The preferences of the most senior stakeholder",
+          "correct": false,
+          "note": "Opinion is exactly what the hierarchy is meant to expose."
+        },
+        {
+          "text": "The capabilities of the chosen technology platform",
+          "correct": false,
+          "note": "Technology constrains but does not justify a requirement."
+        },
+        {
+          "text": "The available project budget",
+          "correct": false,
+          "note": "Budget limits scope rather than defining need."
+        },
+        {
+          "text": "The number of stakeholders requesting the feature",
+          "correct": false,
+          "note": "Popularity is not the same as alignment."
+        },
+        {
+          "text": "The current system's functionality",
+          "correct": false,
+          "note": "Existing functionality is a starting point, not a driver."
+        }
+      ],
+      "explanation": "The chapter's test of a requirement is whether it supports a business objective; if it does not, it is questionable whether it is required at all. Tracing upward is how you find out."
+    },
+    {
+      "id": "ch10-10.5-01",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.5",
+      "stem": "A stakeholder says she cannot explain how she decides when a claim looks suspicious; she just knows. What kind of knowledge is this, and what does the chapter call it?",
+      "options": [
+        {
+          "text": "Tacit knowledge, summarised as knowing more than we can tell",
+          "correct": true,
+          "note": "The chapter uses Polanyi's maxim and describes this as the unknown knowns."
+        },
+        {
+          "text": "Explicit knowledge, because she can describe her work",
+          "correct": false,
+          "note": "Explicit knowledge is what a stakeholder can readily identify and articulate."
+        },
+        {
+          "text": "Taken-for-granted information, because she assumes the analyst knows it",
+          "correct": false,
+          "note": "That is a related but distinct problem about unmentioned detail."
+        },
+        {
+          "text": "Front story, because she is presenting her work favourably",
+          "correct": false,
+          "note": "Front story is about describing practice more positively than it is."
+        },
+        {
+          "text": "Conceptual knowledge, because no process exists yet",
+          "correct": false,
+          "note": "Conceptual difficulty arises in new areas with no existing process."
+        },
+        {
+          "text": "Intuitive knowledge, which falls outside elicitation",
+          "correct": false,
+          "note": "Intuitive judgement is a form of tacit knowledge that can be explored."
+        }
+      ],
+      "explanation": "The clue is the inability to articulate, not reluctance. Tacit knowledge is the category the whole elicitation technique set exists to address, which is why observation, protocol analysis and prototyping appear in the toolkit."
+    },
+    {
+      "id": "ch10-10.5-02",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.5",
+      "stem": "An analyst asks an experienced operator to perform a task in discrete steps, talking through each step aloud, and to repeat this two or three times. Which technique is this?",
+      "options": [
+        {
+          "text": "Protocol analysis, used to surface unconscious skill",
+          "correct": true,
+          "note": "The chapter describes protocol analysis in those terms and notes it is how skills are often taught."
+        },
+        {
+          "text": "Shadowing, used to observe work as it happens",
+          "correct": false,
+          "note": "Shadowing watches without the talk-aloud step and repetition."
+        },
+        {
+          "text": "Activity sampling, used to record what happens at intervals",
+          "correct": false,
+          "note": "Sampling is quantitative observation."
+        },
+        {
+          "text": "Document analysis, used to read existing records",
+          "correct": false,
+          "note": "No documents are involved."
+        },
+        {
+          "text": "Scenario analysis, used to walk through possible futures",
+          "correct": false,
+          "note": "Scenario analysis explores situations rather than step-by-step task performance."
+        },
+        {
+          "text": "Storytelling, used to capture experience",
+          "correct": false,
+          "note": "Storytelling collects narratives rather than decomposing a task."
+        }
+      ],
+      "explanation": "The distinguishing feature is the verbalised, repeated walk-through. Skill performed automatically is invisible even to the person doing it, so making them stop and narrate is what turns it into something documentable."
+    },
+    {
+      "id": "ch10-10.5-03",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.5",
+      "stem": "During interviews, business staff describe current practice as far smoother than it is, because the analyst is seen as representing management. What is this called, and what is the remedy?",
+      "options": [
+        {
+          "text": "A favourable front story, which can be overcome by building relationships through interviews, observation or shadowing",
+          "correct": true,
+          "note": "The chapter names front story and back story and gives those approaches."
+        },
+        {
+          "text": "A tacit assumption, which is resolved by a longer interview",
+          "correct": false,
+          "note": "Tacit assumptions are about unexamined beliefs, not a presentational slant."
+        },
+        {
+          "text": "Conceptual difficulty, which is resolved by a prototype",
+          "correct": false,
+          "note": "Conceptual difficulty arises in unfamiliar business areas."
+        },
+        {
+          "text": "Organisational culture, which is resolved by escalation to the sponsor",
+          "correct": false,
+          "note": "Culture describes norms rather than this specific behaviour."
+        },
+        {
+          "text": "The unknown knowns, which are resolved by a workshop",
+          "correct": false,
+          "note": "Unknown knowns are knowledge the stakeholder cannot articulate."
+        },
+        {
+          "text": "A requirements conflict, which is resolved by the product owner",
+          "correct": false,
+          "note": "No conflict between requirements is being described."
+        }
+      ],
+      "explanation": "Front story is explicit knowledge distorted by who the analyst appears to represent. The remedy is trust and first-hand evidence, which is why observation and shadowing are named alongside interviewing."
+    },
+    {
+      "id": "ch10-10.5-04",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.5",
+      "stem": "Which three approaches does the chapter give for uncovering tacit knowledge, moving it towards explicit knowledge?",
+      "options": [
+        {
+          "text": "Observe, recount and enact",
+          "correct": true,
+          "note": "Observation and shadowing for observe, storytelling and scenario analysis for recount, prototyping and role play for enact."
+        },
+        {
+          "text": "Interview, document and model",
+          "correct": false,
+          "note": "Interviewing and document analysis are explicit-knowledge techniques."
+        },
+        {
+          "text": "Capture, prioritise and validate",
+          "correct": false,
+          "note": "These are framework activities, not tacit-knowledge approaches."
+        },
+        {
+          "text": "Ask, listen and record",
+          "correct": false,
+          "note": "Too general, and all slant towards explicit knowledge."
+        },
+        {
+          "text": "Prototype, test and release",
+          "correct": false,
+          "note": "These are delivery activities."
+        },
+        {
+          "text": "Survey, sample and analyse",
+          "correct": false,
+          "note": "These are quantitative investigation techniques."
+        }
+      ],
+      "explanation": "The three approaches map to different routes into knowledge: watching it, hearing it told, and acting it out. The chapter pairs each with specific techniques, which is the part worth remembering."
+    },
+    {
+      "id": "ch10-10.5-05",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.5",
+      "stem": "Why does the chapter recommend using a workshop to start requirements elicitation?",
+      "options": [
+        {
+          "text": "Because it draws requirements out from participants using discovery and visualisation techniques, and can resolve conflicts and evaluate prototypes",
+          "correct": true,
+          "note": "The chapter lists those uses for a facilitated workshop."
+        },
+        {
+          "text": "Because it removes the need for individual interviews",
+          "correct": false,
+          "note": "Interviews remain useful for overview requirements from managers."
+        },
+        {
+          "text": "Because workshops produce a complete requirements specification",
+          "correct": false,
+          "note": "Documentation is a later, separate activity."
+        },
+        {
+          "text": "Because workshops replace document analysis",
+          "correct": false,
+          "note": "Existing documents are still analysed."
+        },
+        {
+          "text": "Because workshops are the only technique that works in Agile",
+          "correct": false,
+          "note": "Several techniques apply."
+        },
+        {
+          "text": "Because workshops avoid the need for validation",
+          "correct": false,
+          "note": "Validation is still required."
+        }
+      ],
+      "explanation": "A workshop is the natural place to begin because it combines several techniques and several perspectives at once. The chapter is specific about what the facilitator does inside it: visualise, model, analyse critical success factors, walk through scenarios and test prototypes."
+    },
+    {
+      "id": "ch10-10.6-01",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.6",
+      "stem": "A requirement reads: 'As a receptionist I want to record, amend or cancel a booking.' Which filter applies?",
+      "options": [
+        {
+          "text": "Unravelling multiple requirements, because the statement contains three atomic requirements with different priorities and acceptance criteria",
+          "correct": true,
+          "note": "That is the chapter's own example of a multiple requirement."
+        },
+        {
+          "text": "Removing conflicts, because the three actions compete",
+          "correct": false,
+          "note": "They do not contradict one another."
+        },
+        {
+          "text": "Checking for solutions, because the statement names a screen",
+          "correct": false,
+          "note": "No solution is prescribed."
+        },
+        {
+          "text": "Confirming relevance, because cancellation may not be needed",
+          "correct": false,
+          "note": "Relevance is a different filter."
+        },
+        {
+          "text": "Confirming quality of expression, because the wording is verbose",
+          "correct": false,
+          "note": "The problem is plurality, not verbosity."
+        },
+        {
+          "text": "Evaluating feasibility, because three features may be unaffordable",
+          "correct": false,
+          "note": "Cost is not the defect described."
+        }
+      ],
+      "explanation": "One statement covering three actions cannot carry one priority or one set of acceptance criteria. Splitting into atomic requirements is what makes prioritisation, testing and delivery possible."
+    },
+    {
+      "id": "ch10-10.6-02",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.6",
+      "stem": "In MoSCoW, a requirement is essential to the solution but may be deferred to the second increment. Which priority is that?",
+      "options": [
+        {
+          "text": "Should have",
+          "correct": true,
+          "note": "Should have requirements are mandatory for the solution but may be deferred in the short term."
+        },
+        {
+          "text": "Must have",
+          "correct": false,
+          "note": "Must have requirements cannot be deferred without making the current increment unacceptable."
+        },
+        {
+          "text": "Could have",
+          "correct": false,
+          "note": "Could have requirements are desirable and may be excluded on timescale or budget grounds."
+        },
+        {
+          "text": "Want to have, but won't have this time",
+          "correct": false,
+          "note": "Those are deferred beyond the current plan altogether."
+        },
+        {
+          "text": "Nice to have",
+          "correct": false,
+          "note": "That is a different scheme's label rather than a MoSCoW level."
+        },
+        {
+          "text": "Mandatory",
+          "correct": false,
+          "note": "Mandatory is a general label, not one of the four MoSCoW shades."
+        }
+      ],
+      "explanation": "The distinguishing feature of should have is deferrable while still mandatory overall. Must have cannot slip at all; could have can be dropped and still leave an acceptable solution."
+    },
+    {
+      "id": "ch10-10.6-03",
+      "chapter": 10,
+      "topic": 10,
+      "lo": "10.6",
+      "stem": "A car rental rule states that a person aged under 21 may not hire a car. Which category of business rule is that?",
+      "options": [
+        {
+          "text": "A constraint, which governs what may or may not be done",
+          "correct": true,
+          "note": "Constraints govern what is permitted, and the chapter gives under 21 car hire as its example."
+        },
+        {
+          "text": "Operational guidance, which governs how a decision is made",
+          "correct": false,
+          "note": "Operational guidance covers decisions, calculations and handling steps."
+        },
+        {
+          "text": "A functional requirement",
+          "correct": false,
+          "note": "The rule constrains behaviour rather than describing a feature."
+        },
+        {
+          "text": "A non-functional requirement",
+          "correct": false,
+          "note": "No level of service is being set."
+        },
+        {
+          "text": "A business policy standard from the general requirements",
+          "correct": false,
+          "note": "It may derive from policy, but as a rule it is a constraint."
+        },
+        {
+          "text": "A decision condition, which is a sub-category of operational guidance",
+          "correct": false,
+          "note": "Decision conditions are operational guidance, not constraints."
+        }
+      ],
+      "explanation": "The two business rule categories are constraints and operational guidance. Constraints set what is allowed; operational guidance sets how a transaction, decision or calculation is carried out."
     }
   ]
 }
